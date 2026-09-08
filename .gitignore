@@ -1,0 +1,58 @@
+# ============================================================================
+# Excluded per project policy: superseded/archived runs, backup files,
+# unnecessary legacy text docs, and large binary artifacts that exceed
+# GitHub's file-size limits or are separately licensed / externally fetched.
+# See TOOLS_INSTALL.txt for how to obtain everything excluded here.
+# ============================================================================
+
+# OS / editor clutter
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+.claude/
+
+# Backup files created during debugging (the live, current script is what's tracked)
+*.bak
+*.orig
+
+# Superseded pipeline outputs -- exactly one CURRENT file per folder is kept;
+# these directories hold prior, replaced runs, retained locally for audit only.
+**/_superseded/
+
+# Old, pre-rebuild documentation describing the defective 2026-08-22/28 run.
+# Superseded in practice by MANUSCRIPT_CHANGES_PHASE1_2026-08-31.txt,
+# RESULTS_PHASE_I_II_2026-08-31.txt, and Phase_I_II_Status_Report_2026-08-31.csv.
+/PAPER_UPDATES_NEEDED.txt
+/SIMPLE_CHANGES_SUMMARY.txt
+/SESSION_CONTEXT_2026-08-29.md
+/Phase_I_II_Methods_Status.csv
+/PHASE_I_II_FINDINGS.txt
+
+# Raw manual-gate staging leftovers, superseded by the organized, pipeline-
+# integrated copy at Step_Outputs/Phase1/Phase1D/Phase1De/Folds/.
+/folds_2026_08_30_13_24/
+
+# A stray APBS log artifact left in the project root by mistake.
+/io.mc
+
+# Large external dependency archive -- see TOOLS_INSTALL.txt to rebuild the
+# conda environments this project relies on instead.
+/MpoxHIV_External_Dependencies.zip
+
+# External tools with multi-GB model checkpoints (SEMA-3D, BigMHC) -- far
+# beyond what git/GitHub can hold. Fetch these separately per TOOLS_INSTALL.txt
+# / their own upstream repos (SEMAi, bigmhc).
+/external_tools/
+
+# FoldX is separately licensed academic software and is not redistributed
+# here. Obtain it directly from the FoldX Suite per TOOLS_INSTALL.txt.
+/FoldX5/
+
+# The fine-tuned ESM-2 antigenicity checkpoint (128 MB) exceeds GitHub's
+# 100 MB per-file limit. The training script that regenerates it,
+# Phase 1/STEP C/train_esm2_antigenicity.py, IS tracked.
+/Phase 1/STEP C/models/esm2_antigenicity_finetuned/model.safetensors
+
+# Empty placeholder directory
+/molecules/

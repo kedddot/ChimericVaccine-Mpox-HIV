@@ -1,0 +1,35 @@
+PHASE 2A -- ONE SEQUENCE, FOUR WEBSITES
+========================================
+This is much lighter than Phase 1's allergy screening: there is only ONE
+sequence this time (your whole finished vaccine, 570 letters), not 184.
+
+The sequence to paste is in Construct_PASTE.txt in this same folder --
+open it, copy the whole thing, no header line needed.
+
+Visit these four sites and paste the same sequence into each:
+
+  1. AllerTOP     https://www.ddg-pharmfac.net/AllerTOP
+     Read the result: does it say ALLERGEN or NON-ALLERGEN (probable)?
+
+  2. AllergenFP   https://ddg-pharmfac.net/AllergenFP
+     Same question: ALLERGEN or NON-ALLERGEN?
+
+  3. DeepSol      https://machinelearning-protein.qcri.org
+     Needs a free account. Choose model = "DeepSol S2".
+     Record the probability number it gives (something like 0.73).
+
+  4. CamSol       https://www-cohsoftware.ch.cam.ac.uk/index.php/camsolintrinsic
+     Use "Intrinsic" mode (NOT "Structural" -- there is no 3D shape yet
+     at this step). Record the number after "The protein variant intrinsic
+     solubility score is ___". It can be negative.
+
+Then open this file and fill in the four blanks:
+    manual_sequence_tool_results.json
+
+Replace each "null" with:
+    allertop_is_allergen               true   or   false
+    allergenfp_is_allergen             true   or   false
+    deepsol_probability                the number DeepSol gave (e.g. 0.73)
+    camsol_intrinsic_solubility_score  the number CamSol gave (e.g. 1.42 or -0.85)
+
+Save the file, then tell me -- I'll pick it up and finish the step.

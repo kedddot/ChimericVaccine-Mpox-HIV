@@ -1,0 +1,18 @@
+[{
+ "name": "MPOX_A35R",
+ "modelSeeds": [
+  "814998577"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MMTPENDEEQTSVFSATVYGDKIQGKNKRKRVIGLCIRISMVISLLSMITMSAFLIVRLNQCMSANKAAITDSAVAVAAASSTHRKVVSSTTQYDHKESCNGLYYQGSCYILHSDYKSFEDAKANCAAESSTLPNKSDVLTTWLIDYVEDTWGSDGNPITKTTSDYQDSDVSQEVRKYFCT",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 3
+}
+]

@@ -1,0 +1,8 @@
+{
+  "Vax_Final_4fce119e": {
+    "allertop_is_allergen": false,
+    "allergenfp_is_allergen": false,
+    "deepsol_probability": 0.48695695,
+    "camsol_intrinsic_solubility_score": 0.667919
+  }
+}

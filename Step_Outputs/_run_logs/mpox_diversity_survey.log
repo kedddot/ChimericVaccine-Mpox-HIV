@@ -1,0 +1,30 @@
+
+### Mpox_A35R (OPG161) -- fetching ALL 8832 records
+    500/8832  distinct so far 21
+    2500/8832  distinct so far 59
+    4500/8832  distinct so far 110
+    6500/8832  distinct so far 119
+    8500/8832  distinct so far 135
+  TOTAL fetched 8832 | clean+in-band 8692 | DISTINCT 23
+  most common sequence accounts for 8023/8692 (92.3%)
+  singletons (n=1): 9 of 23 distinct
+
+### Mpox_L1R (OPG095) -- fetching ALL 8895 records
+    500/8895  distinct so far 16
+    2500/8895  distinct so far 74
+    4500/8895  distinct so far 124
+    6500/8895  distinct so far 148
+    8500/8895  distinct so far 174
+  TOTAL fetched 8895 | clean+in-band 8664 | DISTINCT 21
+  most common sequence accounts for 8611/8664 (99.4%)
+  singletons (n=1): 11 of 21 distinct
+
+### Mpox_B5R (OPG190) -- fetching ALL 8796 records
+    500/8796  distinct so far 20
+    2500/8796  distinct so far 92
+    4500/8796  distinct so far 177
+    6500/8796  distinct so far 228
+    8500/8796  distinct so far 250
+  TOTAL fetched 8796 | clean+in-band 8552 | DISTINCT 52
+  most common sequence accounts for 8248/8552 (96.4%)
+  singletons (n=1): 22 of 52 distinct

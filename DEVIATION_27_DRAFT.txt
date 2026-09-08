@@ -1,0 +1,106 @@
+27. ALLERGENICITY -- PER-PEPTIDE PREDICTION DOES NOT WORK AT EPITOPE LENGTHS
+------------------------------------------------------------------------
+DRAFT for Methods_Deviations_RRL_Support.txt. Compiled 2026-08-31.
+
+CHANGED: Sec. I.E screens every candidate peptide for allergenicity using
+AllerTOP v2.0 and AllergenFP v1.0. Those two predictors are retained, but a
+third check is added ahead of them -- an FAO/WHO contiguous-identity screen
+against a curated allergen set -- and the DEFINITIVE allergenicity call is
+moved to the assembled construct at Sec. II.A, where the tools are valid.
+
+WHY. The candidates are 9-16 aa. Every predictor available was tested at those
+lengths and none can operate there:
+
+  AllergenFP v1.0   Cannot compute its ACC fingerprint below 16 aa. This was
+                    already deviation #6, recorded as our own observation. It
+                    means 127 of the 184 candidates that reached this stage
+                    (all MHC-I 9/10-mers and all MHC-II 15-mers) never receive
+                    a second predictor at all. Only the 57 B-cell 16-mers can.
+
+  AllerCatPro 2.0   Tested 2026-08-31 with a POSITIVE CONTROL. The same allergen
+                    (Bet v 1, from AllerCatPro's own sample set) was submitted
+                    whole and progressively truncated:
+                        160 aa -> strong evidence (100% identity)
+                         16 aa -> strong evidence (69.2%)
+                         15 aa -> strong evidence (61.5%)
+                         10 aa -> NO EVIDENCE
+                          9 aa -> NO EVIDENCE
+                    A human-derived 16-mer negative control correctly returned
+                    no evidence, so the run was discriminating. The tool reports
+                    "No significant hit (E-value threshold 0.001)" below ~15 aa:
+                    a short query carries too little information to reach BLAST
+                    significance. This is a STATISTICAL FLOOR, not a biological
+                    verdict.
+
+  AlgPred 2.0       Installable and batch-capable, so it was tested as a
+                    candidate replacement. On 1,600 labelled peptides (800 cut
+                    from reviewed allergens, 800 from the human proteome) it
+                    scored AUC 0.611 -- barely above the 0.5 of a coin flip --
+                    and at its default 0.3 threshold called 78.9% of HUMAN
+                    peptides allergenic. Rejected on merit, not adopted.
+
+CONSEQUENCE: a "non-allergen" call on a 9-mer from any of these tools means
+"could not be assessed", not "safe". Reporting it as safety evidence would
+repeat exactly the error deviation #1 corrected for raw ToxinPred scores, where
+the tool labelled human albumin, human GAPDH and this study's own adjuvant toxic.
+
+WHAT IS DONE INSTEAD -- three layers, each reported for what it can support:
+
+  1. FAO/WHO CONTIGUOUS-IDENTITY SCREEN (new, automated, local, all candidates)
+     Asks whether a peptide shares an identical contiguous stretch with a known
+     allergen. A factual lookup, not a prediction, so it has NO minimum length.
+     Reference: UniProtKB keyword KW-0020, reviewed only, 1,020 curated
+     allergens, 233,403 residues (allergen_db/).
+     WINDOW = 8 residues. Codex specifies >=6, but the 6-mer rule is documented
+     as over-sensitive (Silvanovich et al. 2006; Hileman et al. 2002) and that
+     was reproduced here: w=6 flags 6.1% of ordinary human peptides. At w=8 the
+     human false-positive rate is 0.4% while positive controls are still
+     detected 100% of the time at 9, 10, 15 and 16 aa.
+     MEASURED ON THIS STUDY'S CANDIDATES: 0.00% of 6,000 sampled peptides show
+     allergen homology at w=8, and 0 of the 184 that entered Sec. I.E
+     allergenicity screening (re-measured 2026-08-31 on the rebuilt pool, with
+     200/200 allergen-derived positive controls detected at 9/10/15/16 aa and
+     7/2,000 human-proteome fragments flagged = 0.35%).
+     THIS WORKS WHERE THE PREDICTORS DO NOT -- it detects a 9-aa Bet v 1
+     fragment that AllerCatPro cannot see.
+
+  2. AllerTOP v2.0 + AllergenFP v1.0 on the candidate pool (unchanged from
+     Sec. I.E). Retained because they are the cited method. Reported with the
+     length limitation stated, and with AllergenFP's coverage (57 of 184)
+     stated rather than implied.
+
+  3. THE DEFINITIVE CALL, at the assembled construct (Sec. II.A, already in the
+     pipeline). The construct is ~500 aa -- the size range these tools were
+     built and validated for -- and receives full AllerTOP + AllergenFP
+     consensus. This is where the allergenicity claim properly rests.
+
+BIOLOGICAL BASIS FOR MOVING THE WEIGHT TO THE CONSTRUCT: an allergic response
+requires IgE cross-linking, which needs a molecule large enough to present two
+epitopes simultaneously (Aalberse 2000, J Allergy Clin Immunol). A free 9-mer
+generally cannot do this. Asking whether an isolated 9-mer "is an allergen" is
+therefore not a well-posed question, which is the underlying reason all three
+tools fail at that length rather than a coincidence of implementation.
+
+BACKED BY:
+  [LOOK UP] Codex Alimentarius CAC/GL 45-2003; FAO/WHO (2001) -- the criterion
+  [LOOK UP] Silvanovich et al. (2006) Toxicol Sci -- short matches not
+            predictive; basis for preferring >=8 over the 6-mer rule
+  [LOOK UP] Hileman et al. (2002) Int Arch Allergy Immunol
+  [LOOK UP] Goodman et al. (2008) Nat Biotechnol
+  [LOOK UP] Aalberse (2000) JACI -- IgE cross-linking requires bivalency
+  [IN PAPER] Sharma et al. (2022) -- the evidence-over-score principle this
+            follows, already cited for deviation #1
+
+OURS, NOT FROM THE LITERATURE -- STATE AS SUCH:
+  - The AllerCatPro length floor (our controlled Bet v 1 experiment)
+  - The AlgPred AUC 0.611 measurement
+  - The choice of an 8-residue window for this study
+  - The 0.00% homology result on this study's candidates
+  - The FAO/WHO criteria were written for GM crop proteins; applying them to
+    vaccine epitopes is a considered choice, not established practice
+
+HONEST SUMMARY: this does not make the per-peptide allergenicity screen strong.
+It makes it honest. The screen now reports allergen HOMOLOGY, which it can
+measure at any length, instead of allergenicity PREDICTION, which no available
+tool can perform on a 9-mer. The safety claim rests on the construct-level
+assessment, where the methods are valid.

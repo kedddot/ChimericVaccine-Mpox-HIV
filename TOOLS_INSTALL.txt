@@ -1,0 +1,448 @@
+================================================================================
+MpoxHIV PIPELINE -- COMPLETE TOOL INSTALLATION
+Every external dependency of Phases I, II and III. macOS / Linux, conda-based.
+================================================================================
+
+The pipeline uses FOUR conda environments because the tools have mutually
+incompatible dependencies (Aggrescan3D is Python 2.7; MHCflurry pins numpy 2.x
+while OpenMM/pdbfixer need numpy 1.26). Do not try to merge them.
+
+Scripts locate every binary through an environment variable with a hardcoded
+default (see Section 6). If you install anywhere other than the paths below,
+export the matching variable instead of editing code.
+
+
+================================================================================
+0. STATE OF **THIS** MACHINE  -- REBUILT 2026-08-30
+================================================================================
+The external volume "Extended SSD" that Sections 0/8 previously described is
+GONE. Everything was rebuilt into default locations on the internal disk on
+2026-08-30 and verified by execution. There is no longer any SSD, any
+~/mpoxhiv_ssd symlink, or any space-in-path problem.
+
+  Project root : /Users/nek/Desktop/School/Research
+                 (renamed from "New Research" on 2026-08-30 -- the folder MUST
+                 be named exactly "Research", because ~20 scripts locate the
+                 project by walking up for a directory of that name, and the
+                 path must contain NO SPACES or conda entry-point shebangs
+                 break with "bad interpreter".)
+  Conda envs   : /opt/miniconda3/envs/{mhcpredict,phase2,a3d,apbs_env,sema_env}
+  Phenix       : ~/phenix-2.2-6143   (dispatchers in bin/, see Section 4)
+  mhcflurry    : ~/Library/Application Support/mhcflurry  -- the DEFAULT macOS
+                 location, so MHCFLURRY_DATA_DIR does NOT need to be set at all.
+                 The old warning about pointing it at the "4" release
+                 subdirectory only applied to the custom SSD path.
+
+Run the Section 9 verification block to confirm. Sections 1-8 remain the record
+of how to rebuild from scratch, and were CORRECTED on 2026-08-30 where a clean
+rebuild proved them wrong -- see the CORRECTED markers.
+
+================================================================================
+1. THE FIVE CONDA ENVIRONMENTS  -- 5 commands
+================================================================================
+Prerequisite: Miniconda/Anaconda installed at /opt/miniconda3 (or adjust paths).
+
+# --- ENV 1: mhcpredict -- Phase 1A, 1B, 1C, 1Da, 1Db, 1Dc, 1F --------------
+# CORRECTED 2026-08-30: biopython and transformers were MISSING from this line.
+# Section 7 assigns Phase 1A/1B/1C to this env, and 1A needs Bio.Entrez/SeqIO/
+# Align, 1B needs Bio.SeqUtils.ProtParam, and 1C needs transformers for the
+# ESM-2 antigenicity classifier. A clean rebuild from the old line fails at
+# Phase 1A with ModuleNotFoundError: No module named 'Bio'. biopython is pinned
+# to match the phase2 env so the two cannot drift.
+conda create -y -n mhcpredict -c conda-forge python=3.11 && \
+  /opt/miniconda3/envs/mhcpredict/bin/pip install \
+    mhcflurry==2.2.1 mhcnuggets==2.4.1 tensorflow numpy pandas torch \
+    "biopython==1.88" transformers && \
+  /opt/miniconda3/envs/mhcpredict/bin/mhcflurry-downloads fetch
+
+# --- ENV 2: phase2 -- the main workhorse env (most of Phases 1E, 2, 3) ------
+# Only blast and apbs come from conda here. Everything else is pip -- verified
+# against this env's own conda-meta/history, not assumed. Do NOT try to conda-
+# install openmm/pdbfixer/pdb2pqr; the working env has them from pip and the
+# conda builds pull a different numpy.
+conda create -y -n phase2 -c bioconda -c conda-forge python=3.11 blast apbs && \
+  /opt/miniconda3/envs/phase2/bin/pip install \
+    "numpy==1.26.4" openmm==8.6.0 pdbfixer==1.12.0 pdb2pqr \
+    biopython==1.88 freesasa==2.2.1 pydssp==0.9.1 pandas requests \
+    scikit-learn torch transformers datasets \
+    toxinpred2==1.1 hemopi2==1.3 psutil
+# CORRECTED 2026-08-30: psutil added. bigmhc/src/cli.py imports it, so Phase 1Dd
+# fails with ModuleNotFoundError without it.
+
+# --- ENV 3: a3d -- Aggrescan3D standalone, Python 2.7 ONLY (Phase 2C) -------
+# aggrescan3d is NOT on PyPI for py2.7 -- it comes from the lcbio conda channel.
+#
+# CORRECTED 2026-08-30: CONDA_SUBDIR=osx-64 is MANDATORY on Apple Silicon.
+# Python 2.7 reached end-of-life in January 2020, before Apple Silicon shipped,
+# so conda-forge has never built a py2.7 package for osx-arm64. Without the
+# prefix this fails with:
+#     PackagesNotFoundInChannelsError: python=2.7 ... Platform: osx-arm64
+# Forcing the osx-64 subdir resolves Intel builds, which macOS runs under
+# Rosetta 2. Verified by running `aggrescan --help`, not by the env existing.
+CONDA_SUBDIR=osx-64 conda create -y -n a3d -c conda-forge python=2.7 && \
+  CONDA_SUBDIR=osx-64 /opt/miniconda3/bin/conda install -y -n a3d \
+    -c lcbio -c bioconda -c conda-forge aggrescan3d
+
+# --- ENV 4: apbs_env -- APBS electrostatics (Phase 2C) ----------------------
+conda create -y -n apbs_env -c bioconda -c conda-forge apbs
+
+
+
+# --- ENV 5: sema_env -- SEMA-3D conformational B-cell prediction (1De) ------
+# NOTE python=3.11, NOT the 3.10 the upstream setup.sh asks for. On macOS 26+
+# the newest scipy available for 3.10 is 1.15.3, whose _propack extension fails
+# to dlopen ("__DATA/__thread_bss has a zero-fill section type"), which breaks
+# scikit-learn. 3.11 gets scipy 1.17+ and works.
+# The upstream environment.yml is linux-64/CUDA-pinned and cannot be used here;
+# torch runs on Apple MPS instead.
+conda create -y -p <ENVS>/sema_env -c conda-forge python=3.11 && \
+  <ENVS>/sema_env/bin/pip install torch "transformers==4.37.2" "tokenizers<0.16" \
+    "biopython==1.81" biotite pandas scikit-learn scipy tqdm fair-esm \
+    biopandas accelerate huggingface_hub "numpy<2"
+
+# foldseek -- REQUIRED by SEMA-3D to emit 3Di structural tokens.
+# The binary vendored at external_tools/SEMAi/saprot_utils/bin/foldseek is a
+# Linux x86-64 ELF and will not run on Apple silicon. Use Homebrew:
+brew install brewsci/bio/foldseek
+
+# SEMA source + model weights (~13 GB for the five SEMA-3D checkpoints,
+# plus ~2.6 GB for the SaProt-650M base model):
+cd external_tools && git clone --depth 1 https://github.com/AIRI-Institute/SEMAi.git
+# The weights host (bioinformatics-kardymon.obs.ru-moscow-1.hc.sbercloud.ru)
+# may fail to resolve on some networks while being perfectly reachable -- it is
+# a local-resolver problem, not a dead host. If so, resolve it explicitly:
+#   curl --resolve "$HOST:443:37.18.122.91" -C - -o models/sema_3d_$i.pth <url>
+# Transfers also stall silently; use --speed-limit/--speed-time plus -C - to
+# resume rather than restarting from zero.
+
+================================================================================
+2. LOCAL BLAST DATABASES  -- 2 commands
+================================================================================
+Both are built from UniProt REST downloads. Run from the project root.
+
+# --- Human Swiss-Prot, for the self-homology screen (Phase 1Ec) ------------
+# ~20,431 reviewed human sequences.
+mkdir -p human_swissprot_db && cd human_swissprot_db && \
+  curl -o human_swissprot.fasta \
+    'https://rest.uniprot.org/uniprotkb/stream?query=reviewed:true+AND+organism_id:9606&format=fasta' && \
+  /opt/miniconda3/envs/phase2/bin/makeblastdb -in human_swissprot.fasta \
+    -dbtype prot -out human_swissprot && cd ..
+
+# --- UniProt Tox-Prot, for the toxicity screen (Phase 1Ea, 2A) -------------
+mkdir -p toxprot_db && cd toxprot_db && \
+  curl -o toxprot.fasta \
+    'https://rest.uniprot.org/uniprotkb/stream?query=reviewed:true+AND+keyword:KW-0800&format=fasta' && \
+  /opt/miniconda3/envs/phase2/bin/makeblastdb -in toxprot.fasta \
+    -dbtype prot -out toxprot && cd ..
+
+
+================================================================================
+3. BigMHC -- IMMUNOGENICITY (Phase 1Dd)  -- 1 command
+================================================================================
+Cloned, not pip-installed. Runs under the phase2 env's python.
+
+mkdir -p external_tools && git clone https://github.com/KarchinLab/bigmhc.git \
+  external_tools/bigmhc
+
+*** DO NOT PRUNE external_tools/bigmhc/models/bat*/ ***
+CORRECTED 2026-08-30: there is NO directory named el/ and there never was. The
+real layout is that the 36 BASE layers sit DIRECTLY in models/bat<N>/ (files
+0_*.lyr .. 35_*.lyr) and models/bat<N>/im/ holds only the 4 retrained condenser
+layers (32..35) that override them. Only `-m=im` is used, but it loads the other
+32 layers from the base files alongside im/. Deleting those base files silently
+breaks BigMHC. This is ~2.4 GB and it is load-bearing.
+
+INVOCATION NOTE: predict.py requires `-d=cpu` on any machine without CUDA, and
+its input CSV needs the header `mhc,pep,tgt`. Phase1Dd_immunogenicity.py already
+passes both; a hand-run without them fails with "Torch CUDA is not available".
+
+
+================================================================================
+4. TOOLS REQUIRING REGISTRATION -- MANUAL DOWNLOAD, NO COMMAND POSSIBLE
+================================================================================
+Both are free for academic use but sit behind a licence form. Neither can be
+scripted.
+
+  PHENIX  (phenix.molprobity -- Phase 2C refinement, Phase 2D validation)
+    https://phenix-online.org/download/
+    Academic registration required. Installed here at ~/phenix-2.2-6143.
+    CORRECTED 2026-08-30: the dispatchers that matter are in bin/, NOT
+    phenix_bin/. Both directories exist, but molprobity.molprobity,
+    molprobity.cablam, phenix.geometry_minimization and phenix.pdbtools are all
+    in bin/. Add THAT to PATH:
+      export PATH="$HOME/phenix-2.2-6143/bin:$PATH"
+    Batch install (no prompts):
+      bash Phenix-2.2-6143-MacOSX-arm64.sh -b -p "$HOME/phenix-2.2-6143"
+    ~3.4 GB installer, ~14 GB installed. Verified by running
+    phenix.molprobity and molprobity.cablam, not by listing files.
+
+  FoldX 5  (Phase 2C folding energy)
+    https://foldxsuite.crg.eu/
+    Academic licence required. Extract into the project root as FoldX5/,
+    keeping rotabase.txt and molecules/ beside the binary -- FoldX will not
+    run without them. Installed here as:
+      FoldX5/foldx5.1_20261231
+
+
+================================================================================
+5. WEB-ONLY TOOLS -- NOTHING TO INSTALL
+================================================================================
+No API and no local package exists for any of these. Each is a manual
+browser submission; the pipeline emits a template and reads the result back.
+
+  AllerTOP v2.0     https://www.ddg-pharmfac.net/AllerTOP        (1Eb, 2A)
+  AllergenFP v1.0   https://ddg-pharmfac.net/AllergenFP          (1Eb, 2A)
+  DeepSol S2        https://machinelearning-protein.qcri.org     (2A, 2C)
+                    free QCAI account required; set model = 2
+  CamSol Intrinsic  .../index.php/camsolintrinsic                (2A)
+  CamSol Structural .../index.php/camsolstrucorr                 (2C)
+                    both at https://www-cohsoftware.ch.cam.ac.uk
+  AlphaFold Server  https://alphafoldserver.com                  (2B)
+                    AlphaFold3 needs a CUDA GPU and will not run on macOS.
+                    Download the WHOLE result folder -- Step 2B reads all 5
+                    ranked models plus every PAE matrix.
+  PSIPRED           https://bioinf.cs.ucl.ac.uk/psipred/         (2B)
+  NetSurfP-3.0      https://services.healthtech.dtu.dk/services/NetSurfP-3.0/
+                    (2B; substitutes RaptorX, which is down -- deviation #16)
+
+Used programmatically, no install, no key:
+  RCSB PDB REST     https://data.rcsb.org        (2B, 3A -- 6NIG, 8WTA)
+  NCBI Entrez       via Biopython                (1A)
+  IEDB Query API    https://query-api.iedb.org   (1H)
+  AFND              allelefrequencies.net        (1F -- values already in code)
+
+Documented but UNREACHABLE (hosted service only -- SEMA now runs locally):
+  SEMA 2.0 web      https://sema.airi.net        (superseded, see ENV 5)
+                    Behind a ServicePipe anti-bot WAF. The OpenAPI schema is
+                    served but every functional endpoint returns a JavaScript
+                    challenge. Not used any more: SEMA is open source and runs
+                    locally instead. See deviation #20.
+
+
+================================================================================
+6. ENVIRONMENT VARIABLE OVERRIDES
+================================================================================
+Every path below is the hardcoded default. Export the variable only if you
+installed somewhere else.
+
+  MHCFLURRY_PREDICT_BINARY  /opt/miniconda3/envs/mhcpredict/bin/mhcflurry-predict
+  MHCPREDICT_PYTHON         /opt/miniconda3/envs/mhcpredict/bin/python3
+  BIGMHC_PYTHON             /opt/miniconda3/envs/phase2/bin/python
+  BIGMHC_ROOT               <project>/external_tools/bigmhc
+  BLASTP_BINARY             /opt/miniconda3/envs/phase2/bin/blastp
+  TOXPROT_BLAST_DB          <project>/toxprot_db/toxprot
+  HUMAN_SWISSPROT_DB        <project>/human_swissprot_db/human_swissprot
+  TOXINPRED2_BINARY         /opt/miniconda3/envs/phase2/bin/toxinpred2
+  HEMOPI2_BINARY            /opt/miniconda3/envs/phase2/bin/hemopi2_classification
+  APBS_BINARY               /opt/miniconda3/envs/apbs_env/bin/apbs
+  FOLDX_BINARY              <project>/FoldX5/foldx5.1_20261231
+  MOLPROBITY_BINARY         phenix.molprobity        (expects it on PATH)
+  PHENIX_SECOND_PASS        0    set to 1 for a 2nd Phenix refinement pass
+
+Aggrescan3D is invoked directly as /opt/miniconda3/envs/a3d/bin/aggrescan
+with a generated config.ini -- it has no environment variable.
+
+
+================================================================================
+7. WHICH ENV RUNS WHICH SCRIPT
+================================================================================
+  Phase 1A, 1B, 1C, 1Da, 1Db, 1Dc   mhcpredict
+  Phase 1Dd, 1De, 1Ea, 1Eb, 1Ec     phase2
+  Phase 1F                          mhcpredict  (calls MHCflurry/MHCnuggets)
+  Phase 1G, 1H                      phase2
+  Phase 2A - 2D, Phase 3A           phase2
+  Aggrescan3D (inside 2C)           a3d         (spawned as a subprocess)
+  APBS (inside 2C)                  apbs_env    (spawned as a subprocess)
+
+Example:
+  /opt/miniconda3/envs/phase2/bin/python "Phase 2/STEP D/Phase2D_modelValidation.py"
+
+
+================================================================================
+8. FILES THE PIPELINE USES THAT LIVE **OUTSIDE** THE PROJECT FOLDER
+================================================================================
+REWRITTEN 2026-08-30. The previous version of this section described an
+"Extended SSD" layout that no longer exists; every [MOVED -> /Volumes/...] note
+in it was stale. Current, verified state:
+
+  ~/Library/Application Support/mhcflurry            425 MB   REQUIRED
+      MHCflurry's downloaded model weights, NOT bundled with the pip package.
+      Phase 1Da and 1F fail without them. This is the DEFAULT macOS location,
+      so no MHCFLURRY_DATA_DIR is needed. Recreate with:
+          mhcflurry-downloads fetch
+      or restore from MpoxHIV_External_Dependencies.zip
+      (bundle/portable_data/mhcflurry) to avoid re-downloading.
+
+  ~/phenix-2.2-6143                                   14 GB   REQUIRED
+      Registration-gated; see Section 4. Largest single dependency.
+
+  /opt/miniconda3/envs/mhcpredict                     ~4 GB   REQUIRED
+  /opt/miniconda3/envs/phase2                         ~4 GB   REQUIRED
+  /opt/miniconda3/envs/a3d        (osx-64/Rosetta)   236 MB   REQUIRED
+  /opt/miniconda3/envs/apbs_env                      391 MB   REQUIRED
+  /opt/miniconda3/envs/sema_env                       ~3 GB   REQUIRED (1De)
+
+  ~/.cache/huggingface/hub                           260 MB   OPTIONAL
+      facebook/esm2_t12_35M_UR50D. Needed only to RE-TRAIN the antigenicity
+      classifier; inference uses the fine-tuned copy inside the project.
+
+  DISK: a full rebuild needs roughly 24 GB beyond the project folder itself.
+
+IN-PROJECT AND EASY TO OVERLOOK -- do not prune these:
+  Phase 1/STEP C/models/esm2_antigenicity_finetuned/   134 MB
+      Phase 1C catches a load failure, prints a WARNING and CONTINUES on
+      Kolaskar-Tongaonkar alone. Its absence therefore DEGRADES A RESULT
+      SILENTLY rather than raising. Verify it loads, do not just check it
+      exists.
+  Phase 1/STEP C/data/benchmark_dataset.csv
+      The 774-sequence training set. train_esm2_antigenicity.py opens it as the
+      RELATIVE path "data/benchmark_dataset.csv", so that script only works with
+      Phase 1/STEP C as the working directory.
+  external_tools/bigmhc/                              2.4 GB  (see Section 3)
+  external_tools/SEMAi/models/*.pth                    13 GB  5 SEMA-3D ckpts
+  external_tools/SEMAi/hf_cache/                      2.4 GB  SaProt-650M base
+  human_swissprot_db/ and toxprot_db/                 BLAST indices + sources
+  FoldX5/                          binary + rotabase.txt + molecules/
+
+NOT dependencies, confirmed:
+  mhcnuggets ships its own model weights inside site-packages.
+
+================================================================================
+9. VERIFY THE INSTALL
+================================================================================
+/opt/miniconda3/envs/mhcpredict/bin/mhcflurry-predict --help >/dev/null && echo "OK mhcflurry" ; \
+/opt/miniconda3/envs/phase2/bin/python -c "import Bio,openmm,pdbfixer,freesasa,pydssp;print('OK phase2 libs')" ; \
+/opt/miniconda3/envs/phase2/bin/blastp -version | head -1 ; \
+/opt/miniconda3/envs/phase2/bin/toxinpred2 --help >/dev/null 2>&1 && echo "OK toxinpred2" ; \
+/opt/miniconda3/envs/a3d/bin/aggrescan --help >/dev/null 2>&1 && echo "OK aggrescan3d" ; \
+/opt/miniconda3/envs/apbs_env/bin/apbs --version 2>&1 | head -1 ; \
+phenix.molprobity --help >/dev/null 2>&1 && echo "OK phenix" || echo "MISSING phenix -- add phenix_bin to PATH" ; \
+test -x FoldX5/foldx5.1_20261231 && echo "OK FoldX5" || echo "MISSING FoldX5" ; \
+test -d external_tools/bigmhc/models && echo "OK bigmhc" || echo "MISSING bigmhc" ; \
+test -f human_swissprot_db/human_swissprot.psq && echo "OK human DB" || echo "MISSING human DB" ; \
+test -f toxprot_db/toxprot.psq && echo "OK toxprot DB" || echo "MISSING toxprot DB" ; \
+test -d ~/"Library/Application Support/mhcflurry" && echo "OK mhcflurry models" || echo "MISSING mhcflurry models -- run: mhcflurry-downloads fetch" ; \
+test -d "Phase 1/STEP C/models/esm2_antigenicity_finetuned" && echo "OK ESM-2 classifier" || echo "MISSING ESM-2 -- Phase 1C will silently fall back to Kolaskar-Tongaonkar only" ; \
+command -v foldseek >/dev/null && echo "OK foldseek" || echo "MISSING foldseek -- brew install brewsci/bio/foldseek" ; \
+test $(ls external_tools/SEMAi/models/sema_3d_*.pth 2>/dev/null | wc -l) -eq 5 && echo "OK SEMA-3D checkpoints (5)" || echo "MISSING SEMA-3D checkpoints" ; \
+/opt/miniconda3/envs/sema_env/bin/python -c "import torch,transformers,Bio;print('OK sema_env libs')" 2>/dev/null || echo "MISSING sema_env" ; \
+/opt/miniconda3/envs/phase2/bin/python -c "import psutil;print('OK psutil (BigMHC needs it)')" 2>/dev/null || echo "MISSING psutil"
+
+# ADDED 2026-08-30: the block above previously omitted foldseek, the SEMA-3D
+# checkpoints, sema_env and psutil, so it could report a fully green install on
+# a machine where Phase 1Dd and Phase 1De could not run at all.
+#
+# NOTE ON WHAT "VERIFY" MEANS HERE: several of these are `test -d` checks, which
+# only prove a path exists. The ones that matter were confirmed on 2026-08-30 by
+# actually RUNNING the tool -- BigMHC produced real scores, SEMA-3D returned 136
+# per-residue values on its bundled test structure, MHCflurry returned
+# percentile ranks, aggrescan and apbs printed usage, phenix.molprobity ran. A
+# green line here is necessary, not sufficient.
+================================================================================
+
+================================================================================
+MHCNUGGETS PATCH -- REQUIRED (added 2026-08-31)
+================================================================================
+SYMPTOM IF NOT APPLIED: Phase 1F runs, exits 0, prints [SUCCESS] and writes
+valid CSVs -- but EVERY MHC-II peptide gets zero binding alleles and 0.0%
+population coverage. The failure is per-allele, caught as a [WARNING], and the
+run continues. The resulting "MHC-II coverage = 0" looks like a plausible
+biological result. IT IS NOT. Verify after any mhcpredict env rebuild.
+
+CAUSE: mhcnuggets calls Adam(lr=0.001). Keras 3 removed the `lr` alias
+(renamed `learning_rate` years earlier, deprecated, then dropped). The
+mhcpredict env carries keras 3.15.1 / tensorflow 2.21.0, so every model
+compile raises:
+    ValueError: Argument(s) not recognized: {'lr': 0.001}
+
+FIX (pure rename, identical semantics -- NOT a behaviour change):
+    MN=/opt/miniconda3/envs/mhcpredict/lib/python3.11/site-packages/mhcnuggets/src
+    for f in predict.py evaluate.py evaluate_all.py train.py; do
+        cp "$MN/$f" "$MN/$f.orig"
+    done
+    sed -i '' 's/Adam(lr=/Adam(learning_rate=/g' \
+        "$MN"/predict.py "$MN"/evaluate.py "$MN"/evaluate_all.py "$MN"/train.py
+    # expect 10 replacements, 0 remaining occurrences of "Adam(lr="
+
+WHY NOT DOWNGRADE KERAS: mhcflurry 2.2.1 shares this env and works on the
+current stack. Downgrading to reach a keras that still accepts `lr` risks
+breaking the class-I half that already runs.
+
+VERIFY BY EXECUTION (not by checking the file changed):
+    /opt/miniconda3/envs/mhcpredict/bin/python3 -c "
+from mhcnuggets.src.predict import predict
+predict(class_='II', peptides_path='<a file with one 15-mer>',
+        mhc='HLA-DRB112:02', output='/tmp/t.csv', rank_output=True)"
+    Expect: 'Building model' ... 'Writing output files...' and BOTH /tmp/t.csv
+    and /tmp/t_ranks..csv (the double dot is an upstream mhcnuggets filename
+    bug, already handled by Phase1F's glob).
+
+ALSO NOTE: pass alleles to mhcnuggets WITHOUT the asterisk ("HLA-DRB112:02",
+not "HLA-DRB1*12:02"). With the asterisk every allele fails the exact-match
+lookup and silently falls back to the same default model -- previously
+confirmed by all output files being byte-identical. Phase1F already strips it.
+
+
+================================================================================
+TOXINPRED2 PATCHES -- REQUIRED, TWO SEPARATE BUGS (added 2026-08-31)
+================================================================================
+Apply BOTH to every conda env that installs toxinpred2 (toxtools_env is the
+one actually used; also apply to phase2's copy if it is ever reinstated --
+see the environment note below on why phase2's copy is currently unpatched
+upstream on purpose).
+
+---- PATCH 1: 'seqid' NameError on the empty-BLAST branch ----------------
+SYMPTOM: crashes with NameError: name 'seqid' is not defined, inside
+BLAST_processor(), whenever BLAST returns ZERO toxin hits -- which is the
+expected, normal case for this study's candidates. So this fires on every
+real run unless patched.
+CAUSE: the empty-BLAST branch of BLAST_processor() iterates a local variable
+named 'seqid' left over from main(), instead of its own parameter 'name1'.
+FIX:
+    F=/opt/miniconda3/envs/toxtools_env/lib/python3.11/site-packages/toxinpred2/python_scripts/toxinpred2.py
+    cp "$F" "$F.orig"      # if not already backed up
+    # in BLAST_processor(), inside the empty-hits branch:
+    #     for j in seqid:        -->   for j in name1:
+    sed -i '' 's/for j in seqid:/for j in name1:/' "$F"
+VERIFY: grep -n "for j in name1:" "$F"   should show 1 match, 0 remaining
+"for j in seqid:".
+
+---- PATCH 2: crashes on a batch of EXACTLY ONE sequence ------------------
+SYMPTOM: onnxruntime.capi.onnxruntime_pybind11_state.InvalidArgument:
+Invalid rank for input: float_input Got: 1 Expected: 2. Fires only when the
+input FASTA holds a single sequence (every earlier use in this project
+submitted 2+ sequences at once, so this was not caught until Phase 2A's
+construct-level check, which submits exactly one sequence -- the whole
+assembled vaccine).
+CAUSE: in prediction(), `data_test = np.loadtxt(file_name, delimiter=',')`
+returns a 1D array for a single-row feature CSV and a 2D array for 2+ rows;
+the ONNX model always requires rank 2.
+CONFIRMED by direct test: an identical single-sequence input, resubmitted
+alongside one padding sequence (n=2), succeeded immediately -- isolating the
+failure to n=1 specifically, not a general tool malfunction.
+FIX (a no-op when the array is already 2D):
+    F=/opt/miniconda3/envs/toxtools_env/lib/python3.11/site-packages/toxinpred2/python_scripts/toxinpred2.py
+    cp "$F" "$F.orig"      # if not already backed up
+    # in prediction(), immediately after the np.loadtxt line, change:
+    #     X_test = data_test
+    # to:
+    #     X_test = np.atleast_2d(data_test)
+    python3 -c "
+p = '$F'
+s = open(p).read()
+old = \"    data_test = np.loadtxt(file_name, delimiter=',')\n    X_test = data_test\"
+new = \"    data_test = np.loadtxt(file_name, delimiter=',')\n    X_test = np.atleast_2d(data_test)\"
+assert old in s, 'anchor not found -- check the file has not already been patched'
+open(p, 'w').write(s.replace(old, new, 1))
+"
+VERIFY: run toxinpred2 -m 2 on a FASTA holding exactly one sequence and
+confirm it completes without the InvalidArgument error.
+
+WHY PHASE2 ENV'S OWN toxinpred2 COPY IS DELIBERATELY LEFT UNPATCHED/UPSTREAM:
+that copy targets pandas 1.x internally (hybrid()'s df8.sum(axis=1) breaks
+under phase2's pandas 3.0.5), so phase2 cannot run toxinpred2 -m 2 at all
+regardless of these two patches -- toxtools_env exists specifically to give
+toxinpred2 a pandas 1.x home. Do not try to make toxinpred2 work inside
+phase2; recreate toxtools_env instead (see its spec above) and point
+TOXINPRED2_BINARY at it, as both Phase1Ea_toxicity.py and
+Phase2A_secondaryScreening.py already do.

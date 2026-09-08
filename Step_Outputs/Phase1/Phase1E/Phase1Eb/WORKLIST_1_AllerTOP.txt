@@ -1,0 +1,208 @@
+================================================================================
+WORKLIST 1 of 2  --  AllerTOP v2.1  --  ALL 184 PEPTIDES
+================================================================================
+TOOL : https://ddg-pharmfac.net/AllerTOP/
+JOB  : 184 peptides, 9 to 16 amino acids
+
+HOW TO FILL THIS IN
+  1. Open the tool in a normal browser tab.
+  2. Paste the peptide (the middle column) into the sequence box and submit.
+  3. Type the answer after the "=" on that line:
+         A  = allergen                (also accepts: ALLERGEN, Y, YES)
+         N  = non-allergen            (also accepts: NON-ALLERGEN, NO)
+  4. Save this file. Leave anything you have not done yet blank.
+  5. Run:  python Phase1Eb_manual_worklist.py --ingest
+
+YOU CAN STOP AND RESUME AT ANY POINT. Blank lines are simply "not done yet".
+Re-running --ingest merges whatever is filled in so far and tells you what is
+left. Nothing is lost by quitting halfway.
+
+DO NOT reorder, delete or retype the peptide column. Answers are matched to
+peptides BY SEQUENCE, so a mistyped sequence is reported as an error rather
+than silently attached to the wrong peptide -- but it still has to be fixed.
+================================================================================
+--- ANSWERS BELOW THIS LINE, ONE PER PEPTIDE ---
+  1  AALNIQTSVNTVVRDF    (16 aa, Pep_0)  = Is
+  2  AATETYSGLTPEQKAY    (16 aa, Pep_1)  = Is
+  3  AIKALMQLTTKATTQI    (16 aa, Pep_2)  = Not
+  4  ALMQLTTKA           ( 9 aa, Pep_3)  = Is
+  5  AMFTAALNIQTSVNTV    (16 aa, Pep_4)  = Is
+  6  ANASAQTKCDIEIGNF    (16 aa, Pep_5)  = Is
+  7  APGSPTNLEF          (10 aa, Pep_6)  = Not
+  8  ARVLAVERY           ( 9 aa, Pep_7)  = Is
+  9  ASAQTKCDIEIGNFYI    (16 aa, Pep_8)  = Is
+ 10  ATETYSGLTPEQKAYV    (16 aa, Pep_9)  = Is
+ 11  ATLEEMMTA           ( 9 aa, Pep_10)  = Not
+ 12  ATLEEMMTACQGVGGP    (16 aa, Pep_11)  = Not
+ 13  AVVYSTCTVPTMNNA     (15 aa, Pep_12)  = Is
+ 14  AYVPAMFTAALNIQTS    (16 aa, Pep_13)  = Is
+ 15  CDIPSLSNGLISGSTF    (16 aa, Pep_14)  = Is
+ 16  CQPLQLEHGSCQPVKE    (16 aa, Pep_15)  = Is
+ 17  CQQKCDIPSLSNGLIS    (16 aa, Pep_16)  = Not
+ 18  CTHGIKPVVSTQLLL     (15 aa, Pep_17)  = Not
+ 19  CTVPTMNNAKLTSTET    (16 aa, Pep_18)  = Is
+ 20  DGNPITKTTSDYQDS     (15 aa, Pep_19)  = Not
+ 21  DHKESCNGLYYQGSCY    (16 aa, Pep_20)  = Not
+ 22  DIPSLSNGLISGSTFS    (16 aa, Pep_21)  = Is
+ 23  DKIKLILANKENVHW     (15 aa, Pep_22)  = Is
+ 24  DKIQGKNKRKRVIGLC    (16 aa, Pep_23)  = Not
+ 25  DNWRSELYKYKVVQIE    (16 aa, Pep_24)  = Is
+ 26  EDTWGSDGNPITKTT     (15 aa, Pep_25)  = Not
+ 27  EDTWGSDGNPITKTTS    (16 aa, Pep_26)  = Not
+ 28  EEMMTACQGVGGPSHK    (16 aa, Pep_27)  = Is
+ 29  EHGSCQPVKEKYSFGE    (16 aa, Pep_28)  = Is
+ 30  EIESLEATY           ( 9 aa, Pep_29)  = Is
+ 31  EMMTACQGVGGPSHKA    (16 aa, Pep_30)  = Is
+ 32  EQEIESLEATYHIII     (15 aa, Pep_31)  = Not
+ 33  EQEIESLEATYHIIIM    (16 aa, Pep_32)  = Not
+ 34  EQKAYVPAM           ( 9 aa, Pep_33)  = Not
+ 35  EQKAYVPAMFTAALNI    (16 aa, Pep_34)  = Not
+ 36  ESCNGLYYQGSCYILH    (16 aa, Pep_35)  = Not
+ 37  ETYSGLTPEQKAYVPA    (16 aa, Pep_36)  = Not
+ 38  FDPIPIHYCTPAGYA     (15 aa, Pep_37)  = Is
+ 39  FGFLGAAGSTMGAAS     (15 aa, Pep_38)  = Is
+ 40  FLGAAGSTM           ( 9 aa, Pep_39)  = Not
+ 41  FNCRGEFFY           ( 9 aa, Pep_40)  = Is
+ 42  FNDKQKVTF           ( 9 aa, Pep_41)  = Is
+ 43  FSIGGVIHL           ( 9 aa, Pep_42)  = Not
+ 44  GAASITLTV           ( 9 aa, Pep_43)  = Not
+ 45  GATLEEMMTACQGVGG    (16 aa, Pep_44)  = Is
+ 46  GGKLDAWEKIRLRPG     (15 aa, Pep_45)  = Is
+ 47  GGKLDAWEKIRLRPGG    (16 aa, Pep_46)  = Not
+ 48  GGPSHKARVL          (10 aa, Pep_47)  = Not
+ 49  GIKPVVSTQLLLNGS     (15 aa, Pep_48)  = Is
+ 50  GIKQLQARVLAVERYL    (16 aa, Pep_49)  = Not
+ 51  GIVQQQSNLLRAIEA     (15 aa, Pep_50)  = Not
+ 52  GKLDAWEKIRLRPGG     (15 aa, Pep_51)  = Not
+ 53  GLISGSTFSIGGVIHL    (16 aa, Pep_52)  = Is
+ 54  GLNKIVRMY           ( 9 aa, Pep_53)  = Is
+ 55  GLTPEQKAY           ( 9 aa, Pep_54)  = Is
+ 56  GLYYQGSCY           ( 9 aa, Pep_55)  = Not
+ 57  GNPITKTTSDYQDSD     (15 aa, Pep_56)  = Not
+ 58  GPKEPFRDY           ( 9 aa, Pep_57)  = Not
+ 59  GPKEPFRDYV          (10 aa, Pep_58)  = Not
+ 60  GPKEPFRDYVDRFYK     (15 aa, Pep_59)  = Not
+ 61  GPSHKARVL           ( 9 aa, Pep_60)  = Not
+ 62  HFNCRGEFF           ( 9 aa, Pep_61)  = Is
+ 63  HGIKPVVSTQLLLNG     (15 aa, Pep_62)  = Is
+ 64  HGSCQPVKEKYSFGEY    (16 aa, Pep_63)  = Is
+ 65  HHFNCRGEF           ( 9 aa, Pep_64)  = Not
+ 66  HKESCNGLYYQGSCYI    (16 aa, Pep_65)  = Not
+ 67  HNVWATHACVPTDPN     (15 aa, Pep_66)  = Not
+ 68  HWTTYMDTF           ( 9 aa, Pep_67)  = Not
+ 69  IFGFLGAAGSTMGAA     (15 aa, Pep_68)  = Not
+ 70  IKPVVSTQL           ( 9 aa, Pep_69)  = Is
+ 71  IKPVVSTQLL          (10 aa, Pep_70)  = Is
+ 72  IKPVVSTQLLLNGSL     (15 aa, Pep_71)  = Not
+ 73  IPSCQQKCDIPSLSNG    (16 aa, Pep_72)  = Is
+ 74  IRISMVISL           ( 9 aa, Pep_73)  = Not
+ 75  ISLWDQSLKPCVKLTP    (16 aa, Pep_74)  = Is
+ 76  IVNRVRQGY           ( 9 aa, Pep_75)  = Is
+ 77  IVQQQSNLLRAIEAQ     (15 aa, Pep_76)  = Not
+ 78  IVQQQSNLLRAIEAQQ    (16 aa, Pep_77)  = Not
+ 79  IYKRWIILGLNKIVR     (15 aa, Pep_78)  = Is
+ 80  KCDIEIGNFY          (10 aa, Pep_79)  = Is
+ 81  KESCNGLYYQGSCYIL    (16 aa, Pep_80)  = Not
+ 82  KIKLILANKENVHWT     (15 aa, Pep_81)  = Not
+ 83  KIQGKNKRKRVIGLCI    (16 aa, Pep_82)  = Not
+ 84  KLDAWEKIRL          (10 aa, Pep_83)  = Not
+ 85  KLTPLCVTL           ( 9 aa, Pep_84)  = Is
+ 86  KNKRKRVIGLCIRIS     (15 aa, Pep_85)  = Not
+ 87  KNWMTETLLVQNANP     (15 aa, Pep_86)  = Is
+ 88  KPVVSTQLL           ( 9 aa, Pep_87)  = Not
+ 89  KPVVSTQLLL          (10 aa, Pep_88)  = Not
+ 90  KPVVSTQLLLNGSLA     (15 aa, Pep_89)  = Is
+ 91  KRKRVIGLCIRISMV     (15 aa, Pep_90)  = Not
+ 92  KRWIILGLNKIVRMY     (15 aa, Pep_91)  = Is
+ 93  LEATYHIII           ( 9 aa, Pep_92)  = Not
+ 94  LEEMMTACQGVGGPSH    (16 aa, Pep_93)  = Not
+ 95  LGLNKIVRM           ( 9 aa, Pep_94)  = Not
+ 96  LLSGIVQQQSNLLRA     (15 aa, Pep_95)  = Not
+ 97  LQLEHGSCQPVKEKY     (15 aa, Pep_96)  = Is
+ 98  LQLTVWGIKQLQARV     (15 aa, Pep_97)  = Is
+ 99  LQLTVWGIKQLQARVL    (16 aa, Pep_98)  = Not
+100  LRPGGKKKY           ( 9 aa, Pep_99)  = Is
+101  LSGIVQQQSNLLRAI     (15 aa, Pep_100)  = Not
+102  LSNGLISGSTFSIGG     (15 aa, Pep_101)  = Not
+103  LTVWGIKQLQARVLA     (15 aa, Pep_102)  = Not
+104  LTVWGIKQLQARVLAV    (16 aa, Pep_103)  = Not
+105  LWDQSLKPCVKLTPLC    (16 aa, Pep_104)  = Is
+106  LYYQGSCYI           ( 9 aa, Pep_105)  = Is
+107  LYYQGSCYIL          (10 aa, Pep_106)  = Not
+108  MMTACQGVGGPSHKAR    (16 aa, Pep_107)  = Is
+109  MTACQGVGGPSHKARV    (16 aa, Pep_108)  = Is
+110  MTETLLVQNANPDCK     (15 aa, Pep_109)  = Is
+111  NDKIKLILANKENVH     (15 aa, Pep_110)  = Not
+112  NGLYYQGSCY          (10 aa, Pep_111)  = Not
+113  NKRKRVIGL           ( 9 aa, Pep_112)  = Not
+114  NKRKRVIGLCIRISM     (15 aa, Pep_113)  = Not
+115  NPCKKMCTV           ( 9 aa, Pep_114)  = Not
+116  NWMTETLLVQNANPD     (15 aa, Pep_115)  = Is
+117  NWRSELYKYKVVQIEP    (16 aa, Pep_116)  = Is
+118  PAVVYSTCTVPTMNN     (15 aa, Pep_117)  = Is
+119  PEQKAYVPAMFTAAL     (15 aa, Pep_118)  = Not
+120  PFRDYVDRF           ( 9 aa, Pep_119)  = Is
+121  PLQLEHGSCQPVKEK     (15 aa, Pep_120)  = Is
+122  PTNLEFINTGSSKGN     (15 aa, Pep_121)  = Is
+123  QCTHGIKPVVSTQLL     (15 aa, Pep_122)  = Not
+124  QGPKEPFRDYVDRFY     (15 aa, Pep_123)  = Not
+125  QGPKEPFRDYVDRFYK    (16 aa, Pep_124)  = Not
+126  QLQARVLAV           ( 9 aa, Pep_125)  = Not
+127  QLTVWGIKQLQARVL     (15 aa, Pep_126)  = Is
+128  QLTVWGIKQLQARVLA    (16 aa, Pep_127)  = Not
+129  QPLQLEHGSCQPVKE     (15 aa, Pep_128)  = Is
+130  QPVKEKYSF           ( 9 aa, Pep_129)  = Not
+131  QSLKPCVKLTPLCVTL    (16 aa, Pep_130)  = Not
+132  QTSVFSATVY          (10 aa, Pep_131)  = Not
+133  QTSVFSATVYGDKIQ     (15 aa, Pep_132)  = Is
+134  QVAGTGVQF           ( 9 aa, Pep_133)  = Is
+135  QVAGTGVQFY          (10 aa, Pep_134)  = Is
+136  QYDHKESCNGLYYQGS    (16 aa, Pep_135)  = Not
+137  QYEQEIESL           ( 9 aa, Pep_136)  = Not
+138  QYEQEIESLEATYHI     (15 aa, Pep_137)  = Is
+139  RFALNPGLL           ( 9 aa, Pep_138)  = Not
+140  RLRPGGKKKY          (10 aa, Pep_139)  = Is
+141  RQGYSPLSF           ( 9 aa, Pep_140)  = Is
+142  RQLLSGIVQQQSNLL     (15 aa, Pep_141)  = Not
+143  RVRQGYSPL           ( 9 aa, Pep_142)  = Is
+144  SATVYGDKIQGKNKR     (15 aa, Pep_143)  = Is
+145  SEGATPQDL           ( 9 aa, Pep_144)  = Not
+146  SFDPIPIHY           ( 9 aa, Pep_145)  = Is
+147  SFDPIPIHYC          (10 aa, Pep_146)  = Is
+148  SIVNRVRQGY          (10 aa, Pep_147)  = Is
+149  SIVNRVRQGYSPLSFQ    (16 aa, Pep_148)  = Is
+150  SMVISLLSM           ( 9 aa, Pep_149)  = Not
+151  SNGLISGSTFSIGGV     (15 aa, Pep_150)  = Not
+152  SPRTLNAWV           ( 9 aa, Pep_151)  = Not
+153  SPTNLEFINTGSSKG     (15 aa, Pep_152)  = Is
+154  SSTTQYDHKESCNGL     (15 aa, Pep_153)  = Not
+155  SSTTQYDHKESCNGLY    (16 aa, Pep_154)  = Not
+156  STTQYDHKESCNGLYY    (16 aa, Pep_155)  = Not
+157  SVFSATVYGDKIQGK     (15 aa, Pep_156)  = Is
+158  TACQGVGGPSHKARVL    (16 aa, Pep_157)  = Is
+159  THGIKPVVSTQLLLN     (15 aa, Pep_158)  = Not
+160  TLEEMMTACQGVGGPS    (16 aa, Pep_159)  = Not
+161  TMGAASITL           ( 9 aa, Pep_160)  = Not
+162  TNDKIKLILANKENV     (15 aa, Pep_161)  = Not
+163  TPEQKAYVPAMFTAA     (15 aa, Pep_162)  = Not
+164  TSVFSATVY           ( 9 aa, Pep_163)  = Not
+165  TVWGIKQLQARVLAVE    (16 aa, Pep_164)  = Is
+166  TYHIIIMAL           ( 9 aa, Pep_165)  = Not
+167  TYSGLTPEQKAYVPA     (15 aa, Pep_166)  = Not
+168  VKNWMTETLLVQNAN     (15 aa, Pep_167)  = Is
+169  VLSAATETY           ( 9 aa, Pep_168)  = Not
+170  VPAMFTAAL           ( 9 aa, Pep_169)  = Not
+171  VPTMNNAKL           ( 9 aa, Pep_170)  = Is
+172  VQCTHGIKPVVSTQL     (15 aa, Pep_171)  = Not
+173  VQQQSNLLRAIEAQQH    (16 aa, Pep_172)  = Not
+174  VRQGYSPLSF          (10 aa, Pep_173)  = Is
+175  VWASRELERF          (10 aa, Pep_174)  = Is
+176  VWGIKQLQARVLAVER    (16 aa, Pep_175)  = Not
+177  VYSTCTVPTM          (10 aa, Pep_176)  = Not
+178  WDQSLKPCVKLTPLCV    (16 aa, Pep_177)  = Is
+179  WGIKQLQARVLAVERY    (16 aa, Pep_178)  = Is
+180  WMTETLLVQNANPDC     (15 aa, Pep_179)  = Is
+181  YEQEIESLEATYHII     (15 aa, Pep_180)  = Is
+182  YKRWIILGLNKIVRM     (15 aa, Pep_181)  = Not
+183  YSGLTPEQKAYVPAM     (15 aa, Pep_182)  = Is
+184  YYQGSCYIL           ( 9 aa, Pep_183)  = Is

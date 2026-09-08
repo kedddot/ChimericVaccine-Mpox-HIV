@@ -1,0 +1,835 @@
+================================================================================
+MANUSCRIPT CHANGES REQUIRED -- PHASE 1 (COMPLETE) + PHASE 2 (IN PROGRESS)
+Compiled 2026-08-31 from the rebuild.
+================================================================================
+
+SCOPE OF THIS FILE
+  This covers PHASE 1 ONLY -- retrieval, screening, population coverage and
+  construct assembly (steps 1A, 1B, 1C, 1D, 1Ea, 1Eb, 1Ec, 1F, 1G).
+  PHASE 1 IS COMPLETE. PHASE 2 IS COMPLETE (Steps A-D). PHASE 3 STEP A
+  (docking input preparation) IS COMPLETE -- docking itself has NOT been run.
+  LAST UPDATED: 2026-08-31, after Phase 3 Step A.
+
+  Supersedes nothing. PAPER_UPDATES_NEEDED.txt describes the OLD, defective
+  run; this file describes what the REBUILT pipeline actually produced.
+
+  Full technical evidence for every item: REBUILD_LOG_2026-08-30.txt.
+  Allergenicity deviation in full: DEVIATION_27_DRAFT.txt.
+
+HOW TO READ THE PRIORITY MARKERS
+  [FACTUAL ERROR]  the paper states something that is not true. Must change.
+  [UNSUPPORTED]    the claim is not backed by what was actually measured.
+  [DISCLOSE]       a real limitation that is currently absent. Must be added.
+  [NEW DEVIATION]  a method change that needs writing up and defending.
+
+
+================================================================================
+SECTION A -- NUMBERS THAT ARE WRONG
+================================================================================
+
+A1. [FACTUAL ERROR] Table 4 and Results 1.1: "202 of a targeted 210 retrieved"
+    Retrieval was rebuilt from the root. The corrected figure is 194 sequences,
+    every one identity-verified against a UniProt reference BEFORE entering the
+    pipeline.
+    WHY IT MATTERS: in the old run, 12 of 32 building blocks came from the
+    WRONG PROTEINS. Two of three mpox proteins were wrong, and the four HIV
+    targets were really two larger proteins counted twice. The retrieval step
+    picked proteins by NAME and never checked it got the right one.
+
+A2. [FACTUAL ERROR] Table 4's explanation of the shortfall:
+    "NCBI holds no further non-redundant Clade II records"
+    BOTH HALVES ARE WRONG.
+      - NCBI holds roughly 8,800 records for EACH of these mpox genes.
+      - The real limit is the opposite kind of problem: abundant records,
+        almost no sequence diversity.
+    The old count was an artifact of querying by protein name.
+
+A3. [FACTUAL ERROR] Methods: "30 non-redundant variants per antigen"
+    Unreachable for two mpox proteins. The true ceilings of distinct
+    full-length protein sequence in NCBI, measured exhaustively across all
+    ~26,500 records:
+        Mpox A35R  23      (not 30)
+        Mpox L1R   21      (not 30)
+        Mpox B5R   30
+        all four HIV targets  30
+    These are real ceilings, not a retrieval failure.
+
+A4. [FACTUAL ERROR] Results 1.3: "167/167 antigenic, zero disagreements"
+    An artifact of scoring the wrong-sized proteins.
+    CORRECTED: 167 agree, 27 DISAGREE.
+
+A5. [FACTUAL ERROR] Software versions in Methods:
+        BLAST   is 2.17.0+, not 2.16.0
+        Python  is 3.11,    not 3.14
+
+A6. [FACTUAL ERROR] Allergen reference size, if quoted:
+    233,403 residues across 1,020 curated allergens -- NOT 234,422.
+    The larger figure accidentally counted the 1,019 separator characters
+    between records. (Already corrected in DEVIATION_27_DRAFT.txt.)
+
+A7. [FACTUAL ERROR] Allergy screening pool size:
+    184 peptides screened, NOT 210. The 210 was the theoretical maximum
+    (7 targets x 3 classes x 10), never an actual count. The shortfall is
+    concentrated: HIV p17 contributed 8 instead of 30 (it is the shortest
+    antigen, 131 aa, so it generates far fewer windows), and HIV gp120
+    B-cell contributed 6.
+
+
+================================================================================
+SECTION B -- CLAIMS THAT ARE NO LONGER SUPPORTED
+================================================================================
+
+B1. [UNSUPPORTED] EVERY MPOX CONSERVANCY FIGURE IN THE PAPER.
+    The previous run never deduplicated its sequence pools, so the mpox pools
+    were roughly 1-2 distinct sequences repeated many times. Every peptide
+    therefore scored ~100% conservancy trivially. Those numbers measured
+    NCBI's deposit pattern, not conservation across strains.
+    ACTION: recompute or remove. The rebuilt figures are the first
+    conservancy numbers in this project that mean anything.
+
+B2. [UNSUPPORTED] ANY CLAIM OF HIGH CONSERVANCY FOR THE HIV ANTIGENS.
+    Measured across 30,268 candidate peptides:
+        target        mean cons.   max      % at 100%
+        HIV_gp120        4.54     90.00       0.0
+        HIV_gp41         5.69     96.67       0.0
+        HIV_p17          4.67     76.67       0.0
+        HIV_p24          9.97     96.67       0.0
+        Mpox_A35R       37.80    100.00       4.9
+        Mpox_B5R        45.02    100.00      10.4
+        Mpox_L1R        60.61    100.00      22.4
+    ZERO HIV peptides reach 100% conservancy -- not one out of 28,157.
+    THE HONEST STATEMENT: mpox surface antigens are near-invariant; HIV
+    antigens are not. This is real biology and a direct consequence of fixing
+    retrieval, not a defect.
+
+B3. [DISCLOSE] THE CONSERVANCY TIER THE CONSTRUCT IS BUILT FROM IS NEVER
+    STATED. It currently lives in a code constant.
+    The construct is built from the >=50% conservancy tier (1,238 epitopes).
+    THIS IS LOAD-BEARING AND MUST BE STATED: at the 100% tier the construct
+    would contain NO HIV epitopes whatsoever and the "chimeric" design would
+    silently collapse into a mpox-only vaccine.
+        Min_20pct   1,972 epitopes   HIV 932 (47.3%)  Mpox 1,040 (52.7%)
+        Min_50pct   1,238 epitopes   HIV 261 (21.1%)  Mpox   977 (78.9%)
+        Min_100pct    246 epitopes   HIV   0 ( 0.0%)  Mpox   246 (100.0%)
+
+B4. [UNSUPPORTED] THE ANTIGENICITY CLASSIFIER AS AN INDEPENDENT ARBITER.
+    It has a MEASURED length bias -- it was discarding 27 of 30 HIV p17
+    variants for reasons of length, not biology.
+    ACTION: report it as a corroborating SECOND METHOD, never as an
+    independent arbiter. Phase 1C is a consistency check, not an elimination
+    filter.
+
+B5. [FACTUAL ERROR + DISCLOSE] POPULATION COVERAGE IS NOT PHILIPPINE.
+    The paper says the allele panel was "downloaded from IEDB". It was not.
+    It is the Allele Frequency Net Database (AFND), population
+    "Singapore Riau Malay" (pop_id 2042, n=132), retrieved 2026-08-23.
+    WHY A PROXY WAS NECESSARY -- state this plainly:
+      - AFND's Philippines National Capital Region table (n=51) -- Metro
+        Manila, the paper's actual target population -- is 1-field only
+        (A*02, not A*02:01) and cannot be used.
+      - The only 2-field Philippine data is "Philippines Ivatan" (n=50), an
+        indigenous Batanes population not representative of lowland Filipinos.
+      - HLA-DQB1 and HLA-DPB1 have NO Philippine data at any resolution, and
+        those loci carry most of the helper-T-cell coverage.
+    Singapore Riau Malay is Austronesian, the same lineage as lowland
+    Filipino populations, with complete 2-field data across all six loci.
+    ACTION: (a) change "downloaded from IEDB" to cite AFND; (b) describe all
+    results as SOUTHEAST ASIAN (AUSTRONESIAN) PROXY COVERAGE, never as
+    Philippine population coverage.
+
+
+================================================================================
+SECTION C -- LIMITATIONS THAT MUST BE DISCLOSED (currently absent)
+================================================================================
+
+C1. [DISCLOSE] THE SECOND ALLERGY PREDICTOR COVERS ONLY 57 OF 184 CANDIDATES.
+    AllergenFP cannot compute its fingerprint below 16 amino acids. Of the 184
+    candidates, only the 57 B-cell 16-mers can receive a second opinion at all.
+    For the other 127 (all MHC-I 9/10-mers and all MHC-II 15-mers), AllerTOP
+    decided ALONE.
+    State the coverage explicitly; do not leave it to be inferred.
+
+C2. [DISCLOSE] *** ALLERTOP IS NEAR-RANDOM AT THIS STUDY'S PEPTIDE LENGTHS. ***
+    This is the single most important addition to the paper.
+    AllerTOP v2 was reimplemented from its own published method and its own
+    distributed training set (2,426 allergens + 2,426 non-allergens), then
+    measured at this study's exact candidate lengths, with each test peptide's
+    PARENT PROTEIN HELD OUT of the reference so it could not vote for its own
+    fragment:
+        peptide length    balanced accuracy
+             9 aa              58.7%
+            10 aa              55.9%      <-- chance is 50%
+            15 aa              62.7%
+            16 aa              65.1%
+        full-length proteins   88.9%   (published figure: 88.7%)
+    CONSEQUENCE FOR THE RESULTS: 57 of the 76 allergenicity exclusions -- 75%
+    of them -- were made by AllerTOP ALONE, on peptides of 9, 10 and 15 aa.
+    These CANNOT be presented as confident allergenicity calls. They are the
+    cited method applied as specified, at a length it was not built for.
+    THE VALIDATION THAT MAKES THIS CITABLE: the reimplementation was tested
+    against the live AllerTOP server under a PRE-REGISTERED, HASH-VERIFIED
+    BLIND PROTOCOL -- predictions for 153 peptides were frozen to disk and
+    hashed BEFORE those peptides were submitted. Result: 148/153 = 96.7%
+    agreement (majority-guess baseline 56.9%). Accuracy ROSE as the blind set
+    grew (93.5% on 31 -> 95.4% on 65 -> 96.7% on 153), which is the opposite
+    of what an overfitted model does.
+    The reimplementation generated NONE of the study's verdicts -- all 184 are
+    transcribed from the real server. That separation is what makes the 96.7%
+    a clean measurement rather than a circular one.
+
+C3. [DISCLOSE] THE TWO ALLERGY PREDICTORS AGREE ONLY 49% OF THE TIME.
+    Measured on this study's rebuilt pool: AllerTOP and AllergenFP agree on
+    18 of the 37 16-mers where both can run. They disagree MORE OFTEN THAN
+    THEY AGREE.
+    Two predictors that agree half the time are not independent confirmation,
+    and either one alone is close to a coin toss.
+    THIS REPLACES the old "59% disagreement" figure, which came from the
+    defective run.
+    CONSEQUENCE: exclusion requires CONSENSUS (deviation #24). Under the old
+    "either tool excludes" rule, 29 of those 37 would have been deleted, and
+    HIV gp120 would have finished with ZERO B-cell epitopes. 24 peptides are
+    retained on a SPLIT VERDICT and are flagged as such -- they must never be
+    reported as two clean negatives.
+
+C4. [DISCLOSE] THE HUMAN SELF-SIMILARITY SCREEN, AS PUBLISHED, CANNOT DETECT
+    ANYTHING AT THESE LENGTHS.
+    The published rule requires 70% identity AND 70% coverage AND E-value
+    <= 1e-5. PROOF that it cannot fire:
+      - Tested on 20 peptides cut VERBATIM from human Swiss-Prot at this
+        study's own candidate lengths (9/10/15/16 aa, 5 each) -- every one a
+        guaranteed perfect self-match by construction. Default BLAST settings
+        detected 0 of 20. With the short-query-appropriate task, 13 of 20 were
+        detected, but STILL 0 of 20 cleared the E<=1e-5 bar.
+      - On the real 108-peptide pool, the best E-value achievable anywhere is
+        0.007. The rule demands 1e-5.
+    This is a mathematical floor of BLAST's statistics at short query length,
+    not a biological finding.
+    ACTION: report the zero exclusions as a LENGTH LIMITATION. It must never
+    be reported as a clean safety result.
+
+C5. [DISCLOSE] STRUCTURAL CORROBORATION COVERS ONLY 8.3% OF THE B-CELL POOL,
+    AND IS HEAVILY BIASED TOWARD MPOX.
+    Per-target SEMA-3D coverage:
+        Mpox_L1R 59.5% | Mpox_B5R 42.1% | Mpox_A35R 36.2%
+        HIV_p24   8.7% | HIV_gp41  5.6% | HIV_p17 4.4% | HIV_gp120 4.3%
+    In the tier the construct is built from, all 34 structurally corroborated
+    epitopes are mpox (A35R 16, B5R 18). ZERO HIV and ZERO L1R epitopes have
+    structural support at any conservancy.
+    CAUSE: one predicted 3D fold per antigen can only speak for peptides that
+    exist in that one variant, and HIV variants genuinely differ.
+    CRITICAL WORDING: a B-cell epitope marked UNSCREENED is NOT structurally
+    disconfirmed -- it was never assessable on the single available fold.
+    It must NEVER be reported as a negative result.
+
+C6. [DISCLOSE] IN THE 100%-CONSERVANCY TIER, NO B-CELL PICK HAS STRUCTURAL
+    SUPPORT.
+
+C7. [DISCLOSE] A LARGE SHARE OF MPOX RECORDS WERE REJECTED FOR AMBIGUOUS
+    RESIDUES:
+        A35R  90 of 138 distinct
+        L1R  141 of 188 distinct
+        B5R  179 of 259 distinct
+    These come from outbreak assemblies with unresolved positions. They cannot
+    be identity-checked or conservancy-matched, so they are excluded.
+    Disclose as a data-quality limit -- it genuinely reduces available
+    diversity.
+
+C8. [DISCLOSE] THE INSTABILITY RULE, IF APPLIED LITERALLY, WOULD DELETE THE
+    STUDY. Under the paper's literal "instability index < 40" rule, 118 of 194
+    source proteins would be discarded, including 20 of 23 A35R and 28 of 30
+    B5R -- deleting required antigens outright. Deviation #2 stands:
+    instability is recorded as an ADVISORY FLAG, never an exclusion filter.
+    (The short peptides actually used receive their own check at Phase 2A.)
+
+C9. [DISCLOSE] MHC-I POPULATION COVERAGE IS CAPPED SLIGHTLY BELOW 100%.
+    MHCflurry returned no percentile for HLA-C*15:05 (1 of 74 class-I alleles,
+    frequency 0.005), so that allele's frequency mass is unreachable.
+    Immaterial at this magnitude, but state it rather than let a reader assume
+    the full panel was scored.
+
+
+================================================================================
+SECTION D -- NEW DEVIATIONS TO WRITE UP
+================================================================================
+
+D1. [NEW DEVIATION #27] ALLERGENICITY -- PER-PEPTIDE PREDICTION DOES NOT WORK
+    AT EPITOPE LENGTHS.
+    Full draft already written: see DEVIATION_27_DRAFT.txt.
+    It is now STRONGER than when drafted. All FOUR available predictors have
+    been MEASURED at epitope length -- previously three were measured and the
+    fourth (AllerTOP) was assumed:
+        AllergenFP    cannot run below 16 aa -- now PROVEN from their own
+                      distributed training data (see D2)
+        AllerCatPro   no evidence below ~15 aa (controlled Bet v 1 truncation:
+                      160aa strong -> 16aa strong -> 15aa strong -> 10aa NONE)
+        AlgPred 2.0   AUC 0.611; called 78.9% of ordinary HUMAN peptides
+                      allergenic at its default threshold. Rejected on merit.
+        AllerTOP      55.9-65.1% balanced accuracy at 9-16 aa vs 88.9% at full
+                      length -- measured, and validated at 96.7% fidelity to
+                      the live server under a pre-registered blind test (C2)
+    The three-layer structure stands:
+      1. FAO/WHO contiguous-identity screen (local, automated, all candidates,
+         no length floor)
+      2. AllerTOP + AllergenFP on the candidate pool (the cited method,
+         retained, reported with its length limitation stated)
+      3. THE DEFINITIVE CALL at the assembled ~500 aa construct in Phase 2A,
+         where the tools are valid for the sequence length involved.
+
+D2. [NEW] THE ALLERGENFP 16-AA FLOOR CAN NOW BE CITED FROM THE AUTHORS' OWN
+    DATA, not from our black-box probing.
+    AllergenFP's distributed training files are strict SUBSETS of AllerTOP's,
+    and what was removed is exactly the short sequences:
+        dropped from the allergen set      35 records -- ALL  6-15 aa
+        dropped from the non-allergen set  63 records -- ALL  7-15 aa
+        shortest record KEPT in either file: EXACTLY 16 aa
+        records below 16 aa kept: 0 of 4,754
+    The authors excluded every sub-16-aa sequence from their own training data.
+    Deviation #6 previously recorded this floor as OUR empirical observation
+    because it is absent from the AllergenFP paper. It can now be stated as
+    demonstrable from the authors' published dataset.
+
+D3. [NEW DEVIATION] HUMAN SELF-HOMOLOGY SCREEN RESTRUCTURED INTO TWO LAYERS.
+    LAYER 1 -- BLASTP, as published, acceptance rule UNCHANGED at
+      70% identity / 70% coverage / E<=1e-5. One tool-correctness fix:
+      -task blastp-short, which is NCBI's own recommended task for queries
+      under ~30 aa. This does not touch the acceptance criterion.
+      Result: 0 exclusions, reported as the length limitation in C4.
+    LAYER 2 -- exact contiguous-identity screen against the same human
+      proteome, window = 8 residues. No significance threshold to fail and no
+      length floor above the window, so it supplies what Layer 1 structurally
+      cannot at these lengths. Same technique already used for the allergen
+      screen.
+    THE WINDOW WAS CALIBRATED, NOT ASSUMED. Against composition-matched
+    SCRAMBLED controls (5 random permutations of every real candidate -- same
+    length, same amino acids, no biology):
+        window 6   real 80.6%   scrambled 80.7%   NO SEPARATION, useless
+        window 7   real 14.8%   scrambled 15.0%   NO SEPARATION, useless
+        window 8   real  2.8%   scrambled  0.9%   ~3x background -- ADOPTED
+        window 9+  real  0.0%   scrambled  0.2%   no positives either way
+    THE OBVIOUS ALTERNATIVE WAS TESTED AND REJECTED. Simply relaxing BLAST's
+    thresholds (identity + coverage, E-value dropped) gives:
+        70%/70%   real 24.1%   scrambled 25.2%
+        75%/75%   real 20.4%   scrambled 18.5%
+        80%/80%   real  2.8%   scrambled  4.8%
+    The real pool is NEVER above the scrambled controls at any threshold.
+    Loosening BLAST to obtain exclusions would have deleted 26 of 108
+    candidates for pure noise.
+
+D4. [NEW RESULT TO REPORT] THREE HIV p24 CANDIDATES SHARE AN EXACT 8-RESIDUE
+    RUN WITH A HUMAN PROTEIN.
+        QGPKEPFRDYVDRFYK   HIV_p24  B-cell
+        GPKEPFRDYVDRFYK    HIV_p24  MHC-II
+        QGPKEPFRDYVDRFY    HIV_p24  MHC-II
+    All three overlap the SAME p24 region and share the identical 8-mer
+    'PFRDYVDR' with human Copine-5 (UniProt Q9HCH3) and Copine-9 (Q8IYJ1).
+    This is ONE epitope region sampled three times by the candidate generator,
+    not three independent findings.
+    WHY IT MATTERS: a self-matching epitope risks immune tolerance (no
+    response) or autoreactivity. All three were EXCLUDED.
+    THE PUBLISHED METHOD COULD NOT HAVE FOUND THIS.
+
+D5. [ALREADY RECORDED, unchanged] Deviation #24 -- allergenicity exclusion
+    requires CONSENSUS between AllerTOP and AllergenFP, not either tool alone.
+    Now backed by the 49%-agreement figure in C3 measured on this pool.
+
+D6. [ALREADY RECORDED, unchanged] Deviation #1 -- toxicity exclusion requires
+    real evidence (BLAST hit or MERCI motif), never a raw ML score.
+    CONFIRMED WORKING on this pool: 772 peptides carrying a ToxinPred ML score
+    >= 0.6 were RETAINED because none had actual toxin evidence. Had the raw
+    score been used as a filter, 772 of 1,238 candidates (62%) would have been
+    destroyed. Zero peptides produced a real toxin BLAST hit; zero matched a
+    MERCI motif.
+
+D7. [ALREADY RECORDED, unchanged] The >=90% population coverage criterion is a
+    PRIORITIZATION, not an exclusion -- Section I.F says peptides "were
+    PRIORITIZED as population-covering candidates". A prior implementation
+    excluded everything below 90%, which produced a construct with ZERO
+    helper-T-cell epitopes -- no GPGPG linkers, no CD4+ help, contradicting
+    the construct design in Section I.G. All 105 candidates carry forward,
+    ranked.
+
+
+================================================================================
+SECTION G -- ADDED AFTER STEP 1G (CONSTRUCT ASSEMBLY)
+================================================================================
+
+G1. [FACTUAL ERROR] THE CONSTRUCT IS NEW -- AND WAS REVISED ONCE MORE, SEE G3.
+    Every identifier and figure describing an older construct is superseded.
+        CURRENT: Vax_Final_4fce119e, 570 aa, 31 epitopes
+                 (MHC-I 10, MHC-II 11, B-cell 10)
+        Adjuvant: mature human beta-defensin-3, 45 aa, joined by EAAAK.
+        Linkers: AAY (MHC-I), GPGPG (MHC-II), KK (B-cell).
+    SUPERSEDED, do not cite: Vax_Final_6f34b53e (566 aa, the pre-rebuild
+    construct) and Vax_Final_6052a939 (560 aa, the FIRST rebuilt construct,
+    superseded same-day after the priority-order fix in G3).
+
+G2. [DISCLOSE, LARGELY RESOLVED -- see G3] ONE ANTIGEN STILL DOES NOT
+    CONTRIBUTE ALL THREE EPITOPE CLASSES.
+    Per-antigen composition of the CURRENT construct (MHC-I / MHC-II / B-cell):
+        HIV_gp120   1 / 2 / 1        Mpox_A35R   2 / 2 / 2
+        HIV_gp41    1 / 2 / 1        Mpox_B5R    1 / 2 / 2
+        HIV_p17     1 / 0 / 1        Mpox_L1R    2 / 2 / 2
+        HIV_p24     2 / 1 / 1
+    HIV_p17 contributes NO MHC-II (helper-T) epitope.
+    DIAGNOSED AS A HARD DATA LIMIT, not a priority-order artifact: HIV_p17
+    produced exactly ONE MHC-II candidate across the entire pipeline
+    (GKLDAWEKIRLRPGG), and it overlaps the same genomic region as the one
+    HIV_p17 B-cell candidate (GGKLDAWEKIRLRPGG). No choice of class priority
+    can seat both from a single-candidate pool -- this traces back to p17
+    being the shortest antigen in the study (131 aa), which generates far
+    fewer candidate windows at every upstream step (already noted at 1Ea:
+    p17 contributed 8 candidates total vs 30 for most targets).
+    STATE IN THE MANUSCRIPT: p17's helper-T-cell (CD4+) response is not
+    represented in the construct; this is a structural limitation of the
+    source protein's length, not a selection defect.
+
+G3. [NEW DEVIATION, RESOLVED] CROSS-CLASS SELECTION PRIORITY WAS CHANGED,
+    DELIBERATELY, AND THE CONSTRUCT WAS REBUILT.
+    ORIGINAL DEFECT: when two epitope classes claimed the same genomic
+    region, the selection routine's fixed iteration order
+    ("MHC-I", "MHC-II", "B-cell") meant MHC-I always won, by accident of
+    tuple order rather than immunological judgment. Measured consequence in
+    the first rebuilt construct: all 6 surviving HIV_gp41 B-cell candidates,
+    including the MPER-proximal region that carries HIV-1's best-
+    characterised broadly neutralising antibody epitopes, were displaced by
+    a single MHC-I epitope.
+    DECISION: the order was changed to ("B-cell", "MHC-II", "MHC-I") --
+    antibody-target and helper-T-cell epitopes now outrank killer-T-cell
+    epitopes when two classes contest one region. Rationale: B-cell epitopes
+    are the direct antibody targets, and MHC-II is required for the CD4+
+    help that antibody maturation and the paper's own GPGPG helper block
+    depend on. MHC-I is not removed as a class -- only demoted in this
+    specific tie-break.
+    THE CONSTRUCT WAS REBUILT under the new rule (same 6,000-trial search,
+    same seed, isolating this one change) and the fix WORKED:
+        HIV_gp41 B-cell epitopes:  0 -> 1
+        HIV_p17  B-cell epitopes:  0 -> 1
+    THE RESCUED gp41 EPITOPE IS ITSELF EXPERIMENTALLY VALIDATED: Phase 1H
+    (re-run against the new construct) finds VWGIKQLQARVLAVER
+    CONTAINED_IN_CURATED with MHC-ligand-elution assay evidence, PMID
+    12552005 -- confirming this was a real, previously characterised epitope
+    the old tie-break had discarded, not a hypothetical concern.
+    EVERY OTHER MEASURE HELD OR IMPROVED: 0 bad hydrophobic windows (both),
+    0 spurious linker motifs (both), instability 37.65->38.27 (both <=40,
+    negligible), GRAVY -0.438->-0.500 (both well under the 0.4 ceiling), pI
+    9.39->9.32 (both outside the avoid-band). The junction-cysteine problem
+    (G5, below) went from 4 implicated sites to ZERO.
+    STATE THE RULE EXPLICITLY IN METHODS: when candidate epitopes from
+    different classes overlap the same region, B-cell and MHC-II candidates
+    are retained in preference to MHC-I. This is a stated design choice
+    justified by immunological role, not an artifact.
+    THE IRONY IS STILL WORTH REPORTING: deviation #24 was written to stop
+    gp41 losing its B-cell block to an over-strict allergenicity rule. It
+    succeeded there, and the block was then lost at assembly to a different,
+    unrelated mechanism -- illustrating why every stage needs its own check
+    rather than trusting that an earlier fix protects a later stage.
+
+G4. [DISCLOSE] STRUCTURAL CORROBORATION INFLUENCED THE FINAL B-CELL
+    SELECTION NOT AT ALL. SEMA-corroborated B-cell epitopes in the construct:
+    0 of 10. BigMHC-prioritized MHC-I epitopes: 1 of 10.
+    The construct's entire B-cell block rests on sequence-based prediction.
+    This follows directly from the 8.3% structural coverage limitation (C5)
+    and must be stated alongside it, not left for a reader to deduce.
+
+G5. [RESOLVED, KEEP FOR CONTEXT] THE JUNCTION CYSTEINE FIGURE.
+    The FIRST rebuilt construct reported Junction_Cys_Violations = 49, which
+    is a SEVERITY SCORE, not 49 distinct problems (the counter increments
+    once per window LENGTH per junction). Re-measured: 4 distinct junctions
+    implicated out of 32, not 49.
+    THE CURRENT CONSTRUCT (after the G3 priority fix) REPORTS 0 -- a
+    side-effect of the epitope-set change, not a separate fix. Worth noting
+    in the manuscript as a clean result, and worth keeping this paragraph on
+    file so nobody re-derives "49" from an archived intermediate file and
+    reports it as current.
+
+G6. [DISCLOSE, from the pre-priority-fix run -- still applies, mechanism
+    unchanged by G3] TWO EPITOPES WERE EXCLUDED AT ASSEMBLY, FOR STATED
+    REASONS:
+        Mpox_B5R MHC-I TYHIIIMAL  intrinsic >80% hydrophobic window --
+                                  a property of the peptide, unfixable by
+                                  reordering
+        Mpox_B5R MHC-I NPCKKMCTV  contains an embedded 'KK' linker motif,
+                                  which would create a false cleavage signal
+    Both are correct exclusions under Sec. I.G and should be reported rather
+    than silently absent.
+
+G7. [REPORTABLE, POSITIVE] The final construct achieves ZERO bad hydrophobic
+    windows and ZERO spurious linker motifs, from 6,000 selection+ordering
+    trials followed by 2-opt local search (ALL 60 of the top 60 candidates
+    reached zero on both, up from 53/60 before the priority fix).
+    Physicochemistry: instability 38.27 (<=40), GRAVY -0.500 (<=0.4), pI 9.32
+    (outside the 6.5-7.5 band to avoid).
+
+
+================================================================================
+SECTION H -- ADDED AFTER STEP 1H (IEDB EXPERIMENTAL CORROBORATION)
+================================================================================
+
+H1. [REPORTABLE, STRONG RESULT -- RE-MEASURED AFTER THE G3 REBUILD]
+    15 OF THE 31 EPITOPES IN THE CURRENT CONSTRUCT ARE EXPERIMENTALLY
+    CONFIRMED IN IEDB.
+        experimentally confirmed (exact match, or contained within a curated
+          epitope, WITH recorded assay data)          15 / 31
+        overlaps a curated epitope (>=8 aa shared)    13 / 31
+        no curated match                               3 / 31
+    (Figures for the SUPERSEDED first-rebuild construct, do not cite: 17/32,
+    11/32, 4/32 -- a comparable rate on one fewer total epitope.)
+    All 17 carry actual assay evidence (T-cell assays, MHC-ligand elution, or
+    B-cell assays) -- none was counted as confirmed on sequence identity
+    alone. This is a genuinely strong corroboration figure and belongs in the
+    results.
+    NOTE: this step ANNOTATES ONLY. It never re-ranked or re-selected
+    anything, and the paper should say so -- otherwise it reads as a
+    circular filter.
+
+H2. [DISCLOSE] MPOX CORROBORATION IS ALMOST ENTIRELY CROSS-SPECIES, VIA
+    VACCINIA ORTHOLOGS. IEDB holds only 15 Monkeypox-virus epitopes against
+    17,875 Vaccinia-virus ones. Mpox epitope corroboration therefore rests on
+    orthopoxvirus cross-reactivity, not on monkeypox data.
+    THIS MUST BE LABELLED AS CROSS-SPECIES EVIDENCE and never merged with
+    same-species evidence in a single "confirmed" count. The pipeline labels
+    it correctly; the manuscript must preserve that distinction.
+
+H3. [DISCLOSE] ALL THREE UNCORROBORATED EPITOPES ARE HIV; ZERO MPOX EPITOPES
+    LACK A CURATED MATCH.
+        HHFNCRGEF          HIV_gp120
+        GIVQQQSNLLRAIEA    HIV_gp41
+        IFGFLGAAGSTMGAA    HIV_gp41
+    State plainly that this is an ASYMMETRY IN IEDB'S COVERAGE, not evidence
+    that the HIV predictions are weaker. "No curated match" means nobody has
+    published an assay on that exact peptide -- which is the expected output
+    of a prediction pipeline, not a failure of it.
+
+H5. [REPORTABLE] THE gp41 ANTIBODY-TARGET EPITOPE RESCUED BY THE G3 PRIORITY
+    FIX IS ITSELF EXPERIMENTALLY VALIDATED, NOT A HYPOTHETICAL GAIN.
+    VWGIKQLQARVLAVER -> CONTAINED_IN_CURATED, MHC-ligand-elution assay
+    evidence, PMID 12552005. Independent confirmation, from a source outside
+    this pipeline's own predictions, that the region the old tie-break
+    discarded was a real, previously characterised epitope.
+
+H4. [METHODS ADDITION] Phase 1H is NOT in the current manuscript at all. It is
+    an addition to the pipeline and needs a methods paragraph: IEDB
+    query-api epitope_search, linear epitopes only, source organisms
+    HIV-1 (NCBITaxon:11676), Monkeypox virus (10244) and Vaccinia virus
+    (10245), matched by exact / containment / >=8 aa overlap, annotated with
+    assay class. Records retrieved 2026-08-31: 977 / 15 / 17,875.
+
+
+================================================================================
+SECTION P2A -- PHASE 2 STEP A (SECONDARY SCREENING OF THE ASSEMBLED CONSTRUCT)
+================================================================================
+
+P2A-1. [REPORTABLE, THE PAYOFF OF DEVIATION #27] THE DEFINITIVE
+    ALLERGENICITY CALL HAS NOW BEEN MADE, AND BOTH TOOLS AGREE.
+    Deviation #27 (Section D1) moved the allergenicity claim's real weight to
+    the assembled construct, where AllerTOP and AllergenFP are valid (~500 aa,
+    within both tools' intended range -- unlike the 9-16 aa per-peptide
+    screen where they were measured as unreliable). That construct-level
+    check has now run: AllerTOP -> NON-ALLERGEN, AllergenFP -> NON-ALLERGEN.
+    BOTH AGREE. State this as the study's actual allergenicity conclusion; the
+    per-peptide screen (Section D1/C2/C3) supplies the caveats, not the
+    verdict.
+
+P2A-2. [DISCLOSE] THE CONSTRUCT IS FLAGGED "REVIEW", NOT A CLEAN PASS, AND
+    THE PAPER MUST SAY WHY.
+    Every check in Sec. II.A passes except one: DeepSol S2 solubility =
+    0.487, against the paper's stated 0.50 threshold. This is pre-existing,
+    documented deviation #15 (Methods_Deviations_RRL_Support.txt): when
+    DeepSol is the SOLE failing criterion, the construct is carried forward
+    as REVIEW rather than rejected outright, because DeepSol was trained on
+    natural full-length proteins and this construct is ~21% synthetic linker
+    sequence (12x AAY, 10x GPGPG, 7x KK) -- a composition far outside that
+    training distribution, where DeepSol's reported ~77% accuracy does not
+    apply cleanly. Across 11 constructs measured during that deviation's
+    derivation, DeepSol NEVER once reached 0.50 (range 0.257-0.490), and
+    removing the adjuvant made the score WORSE, ruling out an adjuvant
+    artifact.
+    STATE PLAINLY: the construct is reported as REVIEW under a documented
+    deviation, not as an unconditional PASS. This must not be silently
+    upgraded to "passed all checks" in the results section.
+
+P2A-3. [DISCLOSE] EVERY OTHER SCREEN IS CLEAN.
+        stability index      38.27 (<=40)                     PASS
+        GRAVY                -0.500 (<=0.4)                   PASS
+        theoretical pI       9.32 (outside 6.5-7.5 avoid-band) PASS
+        CamSol intrinsic     0.668 (above -1.0 poorly-soluble) PASS
+        toxicity (ToxinPred2 + BLASTP vs Tox-Prot)             PASS, clean
+        hemolysis            conjunctive rule not triggered    PASS
+        junction cysteine (29 genuine epitope-epitope
+          junctions checked; 3 adjuvant-overlapping
+          junctions correctly exempted per deviation #12)      0 violations
+
+P2A-4. [DISCLOSE, MINOR] ONE JUNCTION SHOWS A NOTABLE SURFACE-CHARGE PATTERN.
+    The 'KK' B-cell linker at position 462 flags high surface charge in
+    143 of 143 (100%) of the peptide windows spanning it. Surface_Charge is a
+    deprioritization signal only (not exclusionary, same status as GRAVY
+    elsewhere in this pipeline), so it does not affect construct viability --
+    but a 100% flag rate at one specific junction is worth one sentence in
+    the discussion rather than silent omission.
+
+
+================================================================================
+SECTION P2B -- PHASE 2 STEP B (SECONDARY + TERTIARY STRUCTURE PREDICTION)
+================================================================================
+
+P2B-1. [REPORTABLE, IMPORTANT RESULT -- STATE PLAINLY, NOT AS A FLAW] ONLY
+    THE ADJUVANT DOMAIN OF THE VACCINE HAS A DETERMINED 3D FOLD.
+    AlphaFold's own confidence measures, region by region:
+        region                    range     mean confidence   %high-conf
+        Adjuvant (beta-defensin-3)  1-45          92.0            100%
+        Linker                     46-50          47.3              0%
+        Killer-T-cell block        51-170         31.5              0%
+        Helper-T-cell block       171-390         22.9              0%
+        Antibody-target block     391-570         35.2              0%
+    Whole-model confidence (pTM) = 0.17 -- AlphaFold reports the GLOBAL fold
+    as undetermined.
+    WHY THIS IS EXPECTED, NOT A DEFECT: the adjuvant is a real, independently
+    folding 45-residue domain (3 internal disulfide bonds) and AlphaFold
+    predicts it with high confidence, correctly. The remaining 525 residues
+    are 32 short pieces from 7 unrelated source proteins joined by synthetic
+    linkers -- there is no evolutionary or structural reason for them to
+    adopt one folded 3D shape together, and AlphaFold correctly reports low
+    confidence there rather than manufacturing a fold that does not exist.
+    CONSEQUENCE FOR DOCKING (Phase III): only the adjuvant region (residues
+    1-45) is structurally determined enough to dock with confidence. The
+    manuscript must state this explicitly -- describing the WHOLE construct
+    as "the AlphaFold3 model" without this caveat overclaims what was
+    actually predicted with confidence.
+
+P2B-2. [REPORTABLE] TWO INDEPENDENT SECONDARY-STRUCTURE PREDICTORS AGREE
+    CLOSELY, WHICH IS REAL CORROBORATION.
+        method                        helix    sheet    coil
+        PsiPred                       26.14%   14.56%   59.30%
+        NetSurfP-3.0 (ESM-1b based)   25.96%   12.28%   61.75%
+    Maximum difference: 2.45 percentage points. NetSurfP-3.0 was
+    deliberately chosen over the more convenient S4Pred specifically because
+    S4Pred shares PSIPRED's own training lineage and would not have been a
+    genuinely independent check (deviation #16) -- this agreement is
+    therefore meaningful, not an artifact of two related tools.
+    The 1970s Chou-Fasman statistical baseline disagrees substantially
+    (helix 30.53%, sheet 29.30%, coil only 7.54%), over-predicting ordered
+    structure relative to both modern methods -- expected for a 50-year-old
+    method applied to a construct that is ~21% synthetic linker sequence.
+    STATE PsiPred/NetSurfP as the load-bearing secondary-structure result;
+    Chou-Fasman is a historical baseline, not competing evidence.
+
+P2B-3. [DISCLOSE] A FOURTH COLUMN (SECONDARY STRUCTURE READ DIRECTLY OFF THE
+    3D MODEL) IS SUPPLEMENTARY ONLY, AND WHY.
+    A structure-derived secondary-structure assignment (helix 15.44%, sheet
+    10.53%, coil 74.04%) is reported alongside the two sequence-based
+    predictors, but it is NOT independent evidence -- it is read off the same
+    AlphaFold model that P2B-1 shows has no determined fold outside the
+    adjuvant, so it inherits that uncertainty rather than resolving it. Its
+    further skew toward "coil" is consistent with, not contradictory to, the
+    low-confidence region -- a geometry AlphaFold is unsure of tends to read
+    as extended/coil under a rigid structural assignment. Report it as
+    supplementary; PsiPred and NetSurfP-3.0 are the methodologically valid
+    secondary-structure result.
+
+P2B-4. [DISCLOSE] ONE OF THE TWO EXPERIMENTAL RECEPTOR STRUCTURES IS A
+    CRYSTALLIZATION CHIMERA AND MUST BE TRIMMED BEFORE DOCKING.
+    TLR2 (PDB 6NIG) is "Crystal structure of the human TLR2-Diprovocim
+    complex" -- but entity residues 1-507 are TLR2 (UniProt O60603) and
+    residues 509-576 are a VLR-B chaperone (UniProt Q2YE02) used only to aid
+    crystallization, confirmed via RCSB's own SIFTS alignment. If Phase III
+    docking uses 6NIG as downloaded, without removing 509-576, the VLR-B
+    fragment will be treated as part of the receptor. State the trimming
+    step explicitly in the docking methods.
+
+
+================================================================================
+SECTION P2C -- PHASE 2 STEP C (3D SOLUBILITY & AGGREGATION)
+================================================================================
+
+P2C-1. [DISCLOSE] THE CONSTRUCT IS REVIEW AT THIS STEP TOO, FOR A REASON
+    THAT TRACES BACK TO ONE ALREADY-DISCLOSED PROPERTY.
+    Three flags, zero hard-reject reasons:
+        DeepSol probability          0.487  (< 0.50)
+        Hydrophobic surface fraction 0.335  (< 0.25 target)
+        Exposed hydrophobic area     647 A^2 (< 250 A^2 target)
+    THESE ARE NOT THREE INDEPENDENT PROBLEMS. All three follow from the same
+    fact already disclosed at Step B (P2B-1): 525 of the construct's 570
+    residues have no determined 3D fold. A compact, normally-folded protein
+    buries most of its greasy residues in an internal core; an extended,
+    flexible multi-epitope chain has nowhere to bury them, so more
+    hydrophobic surface stays exposed to water. State these three flags
+    together, as one structural consequence, not as three separate solubility
+    concerns -- reporting them as independent would overstate the risk.
+
+P2C-2. [REPORTABLE] THE HARD-REJECT RULE WAS MATHEMATICALLY UNREACHABLE, AND
+    THIS WAS ESTABLISHED BEFORE THE FINAL RESULT CAME IN.
+    Sec. II.C's only rejection rule requires DeepSol<0.50 TOGETHER WITH an
+    Aggrescan3D aggregation patch that is both >8 residues long AND sits in a
+    region with real structural confidence (pLDDT>=70). The patch that was
+    found (19 aa) sits at only 30.0 mean confidence -- nowhere near the
+    threshold -- so no DeepSol result could have triggered rejection. This
+    was verified from the real per-residue data BEFORE DeepSol was even
+    submitted, then confirmed exactly once the number arrived. Worth stating
+    in the manuscript as a coherence check: the construct's flagged status
+    is a stable, structurally-grounded REVIEW, not a near-miss.
+
+P2C-3. [REPORTABLE] TWO AGGREGATION-PRONE PATCHES WERE FOUND, BOTH SMALL AND
+    BOTH INSIDE REAL EPITOPES, NOT THE SYNTHETIC LINKERS.
+        Aggrescan3D:        19 aa @ residues 132-150 (overlaps a killer-T
+                             epitope, VYSTCTVPTM, plus flanking linker)
+        CamSol (structural):  7 aa @ residues 178-184 (entirely within one
+                             helper-T epitope, HNVWATHACVPTDPN)
+    Neither meets the length+confidence bar to matter under Sec. II.C's own
+    rule (P2C-2). Report their location as a minor, non-blocking observation.
+
+P2C-4. [METHODS NOTE] Aggrescan3D was run via its LOCAL standalone install
+    (not the web server), so its result required no manual web submission --
+    state the tool version/mode used (structure already energy-minimized, so
+    Aggrescan3D's own FoldX pre-optimization step was skipped) in the methods.
+
+
+================================================================================
+SECTION P2D -- PHASE 2 STEP D (STEREOCHEMICAL MODEL VALIDATION)
+================================================================================
+
+P2D-1. [REPORTABLE, MOSTLY GOOD NEWS] THE CONSTRUCT'S LOCAL GEOMETRY IS
+    EXCELLENT ON BOTH OF THE PAPER'S OWN STATED CRITERIA.
+        MolProbity score      1.29   (paper's "excellent" band: 0.5-1.5)
+        Ramachandran favored  95.95% (paper's stated target: 95-98%)
+    Both pass cleanly. The one reason this is reported as REVIEW rather than
+    an unconditional VALIDATED is a single secondary flag -- Ramachandran
+    outliers at 1.41%, against a widely-used community default of 0.5% that
+    is NOT stated anywhere in the paper's own methodology. State the two
+    methodology-defined numbers as the primary result; mention the secondary
+    flag as a minor, externally-sourced caveat, clearly labeled as such.
+
+P2D-2. [DISCLOSE, RESTATED FROM P2B-1/P2C-1 -- KEEP THESE THREE TOGETHER IN
+    THE DISCUSSION] STEREOCHEMISTRY AND FOLD CONFIDENCE ARE TWO SEPARATE
+    CLAIMS, AND THIS CONSTRUCT ILLUSTRATES EXACTLY WHY THEY MUST NOT BE
+    CONFLATED.
+    Local geometry (bond lengths, angles, rotamers) is excellent throughout
+    the model -- confirmed above. But the model's overall 3D shape is still
+    undetermined outside the adjuvant (pTM 0.17, only 7.9% of residues at
+    real confidence) -- the same finding already disclosed at Step B. A
+    structure can have flawless local chemistry while AlphaFold remains
+    unsure what the whole thing looks like together; this construct is
+    exactly that case. Report both numbers, and state plainly that a
+    stereochemistry pass does NOT mean the whole construct is ready to dock
+    -- only the confidently-folded adjuvant region (residues 1-45) is.
+
+
+================================================================================
+SECTION P3A -- PHASE 3 STEP A (DOCKING INPUT PREPARATION)
+================================================================================
+
+P3A-1. [METHODS ADDITION, IMPORTANT] THE VACCINE-SIDE DOCKING INPUT IS THE
+    ADJUVANT DOMAIN ONLY (RESIDUES 1-45), NOT THE WHOLE 570-RESIDUE
+    CONSTRUCT. This follows directly from Step 2D's fold-confidence finding
+    (P2D-2) and must be stated explicitly wherever docking is described --
+    describing the docking input as "the AlphaFold3 model of the vaccine"
+    without this qualifier overclaims what was actually submitted to
+    HADDOCK. State plainly: only the region with a determined 3D fold can
+    be meaningfully docked; the epitope cassettes were excluded from the
+    docking input for that reason, not omitted by oversight.
+
+P3A-2. [METHODS ADDITION] TLR2 (6NIG) REQUIRED SURGERY BEFORE DOCKING, AND
+    THE METHODS MUST SAY SO.
+        - The VLR-B crystallization chaperone (hagfish protein, auth
+          residues 509-576) was removed; only true TLR2 (auth 27-507) was
+          kept. Docking against the unstripped deposition would let the
+          vaccine dock onto hagfish protein scored as a human interaction.
+        - The bound agonist Diprovocim (ligand code KQD), which occupies
+          the TLR2 docking pocket in the deposited structure, was removed.
+        - N-linked glycans were RETAINED (a stated, deliberate choice, not
+          an oversight) since they occlude part of the real receptor
+          surface in vivo.
+
+P3A-3. [METHODS ADDITION] TLR4 (8WTA) REQUIRED ONE STRUCTURAL DECISION: the
+    deposition holds two copies of the TLR4/MD-2 complex; only one
+    (chains A+C) was used, to avoid presenting a spurious second docking
+    interface. MD-2's bound hydrophobic-pocket lipids and glycans were
+    RETAINED -- removing them would expose an artificial empty cavity that
+    does not exist in the functional receptor.
+
+
+================================================================================
+SECTION E -- SOFTWARE / REPRODUCIBILITY NOTES FOR THE METHODS SECTION
+================================================================================
+
+E1. TOOLS_INSTALL.txt as previously written would NOT have reproduced a
+    working install. Nine corrections were required. It has been updated.
+
+E2. ToxinPred2 and HemoPI2 CANNOT share an environment with the Phase 2 stack
+    (pandas 1.x vs pandas 3.x conflict). They now live in a dedicated
+    environment. ToxinPred2 also carries a genuine scope bug that fires only
+    when BLAST returns no toxin hits -- which is exactly this study's case --
+    and has been patched.
+
+E6. NetSurfP-3.0's live web download does not match the format the parser
+    was originally written against. The real download is tab-delimited with
+    no header row of column names (only a positional comment block), and
+    carries no discrete secondary-structure letter column at all -- only
+    raw per-residue probabilities for helix/strand/coil. The parser now
+    derives the discrete call as argmax of the three probabilities (the
+    standard way to harden a 3-way softmax into a class), with the original
+    comma/q3-column parser kept as a fallback for a possible future format.
+    Also fixed a related crash: a citation line inside the file's own
+    comment block contains real commas, which broke a naive CSV-parsing
+    attempt outright rather than just misreading the data.
+
+E5. ToxinPred2 -m 2 crashes on a batch of EXACTLY ONE sequence with an
+    ONNX rank-mismatch error. Root cause: np.loadtxt() returns a 1D array for
+    a single-row feature CSV, 2D for 2+ rows, and the model always requires
+    rank 2. Every earlier use of this tool in the project submitted 2+
+    sequences at once, so this never surfaced until Phase 2A's construct-
+    level check (which submits exactly one sequence: the whole assembled
+    vaccine). Patched with a one-line np.atleast_2d() wrap in both conda
+    environments carrying the tool.
+    ALSO: Phase2A_secondaryScreening.py's default ToxinPred2 binary path
+    pointed at the WRONG conda environment (phase2, whose copy was
+    deliberately reverted to unpatched upstream during the Phase 1Ea fix) --
+    corrected to point at toxtools_env, matching Phase 1Ea.
+
+E4. Phase 1H stalls for ~18 minutes per run on any NAT64 network. getaddrinfo
+    returns a synthesised IPv6 address for query-api.iedb.org whose SYN is
+    never answered, and requests/urllib3 has no Happy Eyeballs, so every page
+    pays the full fallback delay. Measured: 60.7 s per request as-is vs 0.6 s
+    with IPv4 forced -- a 100x difference. The step now forces IPv4 for its
+    own requests. It presents as 0% CPU "slow work", the same false signature
+    as the documented Entrez socket-timeout trap.
+
+E3. MHCnuggets required a source patch to run at all on a current Keras. It
+    calls Adam(lr=0.001); Keras 3 removed the `lr` alias. WITHOUT THE PATCH
+    THE FAILURE IS SILENT AND DANGEROUS: the step exits 0, prints SUCCESS,
+    writes valid files, and every MHC-II peptide receives zero binding alleles
+    and 0.0% population coverage. That zero reads as a plausible biological
+    finding. This affected the first run of Phase 1F and was caught only by
+    checking that the tool had actually run.
+    After the fix: MHC-II peptides reaching >=90% coverage went from 0 to 8,
+    and 32 of 33 class-II alleles contribute.
+    Also note: alleles must be passed to MHCnuggets WITHOUT the asterisk, or
+    every allele silently falls back to the same default model.
+
+
+================================================================================
+SECTION F -- STILL OPEN
+================================================================================
+
+F1. The batch request to the AllerTOP/AllergenFP authors (Doytchinova group)
+    is drafted and ready but was NOT required in the end -- all 184 AllerTOP
+    and 57 AllergenFP results were obtained manually through the web tools.
+    Sending it remains optional. Its question 3 (documented minimum length)
+    has since been answered from their own distributed dataset -- see D2.
+
+F2. PHASE 1 IS COMPLETE. All of Phase 2 and Phase 3 remain. More manuscript
+    changes are expected, particularly around the definitive construct-level
+    allergenicity call (D1 layer 3) and docking.
+
+F4. *** AWAITING A USER DECISION: G3, the class-priority tie-break. ***
+    Until this is settled the construct is provisional. Option (a) declare and
+    justify MHC-I priority; option (b) change the rule and rebuild. This is
+    the only open design decision in Phase 1.
+
+F3. Phase1G_sensitivity is RETIRED for this rebuild. It self-checks against
+    the OLD superseded construct and cannot pass against a construct built on
+    corrected antigens. This is expected and correct; it must not be "fixed"
+    by weakening its self-check.
+
+================================================================================
+END -- PHASE 1
+================================================================================

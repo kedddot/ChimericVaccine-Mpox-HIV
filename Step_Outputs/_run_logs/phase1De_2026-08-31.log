@@ -1,0 +1,26 @@
+
+==========================================================================================
+              PHASE 1De: SEMA-3D CONFORMATIONAL B-CELL CORROBORATION (LOCAL)              
+==========================================================================================
+[INFO] SEMA-3D device: mps | epitope score cut: 1.386294 (= ln 4, >=3 expected antibody contacts)
+[INFO] Mpox_L1R: cached SEMA-3D result (250 residues).
+[INFO] Mpox_B5R: cached SEMA-3D result (317 residues).
+[INFO] Mpox_A35R: cached SEMA-3D result (181 residues).
+[INFO] HIV_gp120: cached SEMA-3D result (470 residues).
+[INFO] HIV_gp41: cached SEMA-3D result (352 residues).
+[INFO] HIV_p24: cached SEMA-3D result (231 residues).
+[INFO] HIV_p17: cached SEMA-3D result (131 residues).
+       reference 250 aa | structure 250 aa | coverage 100.0%
+       reference 317 aa | structure 317 aa | coverage 100.0%
+       reference 181 aa | structure 181 aa | coverage 100.0%
+       reference 470 aa | structure 470 aa | coverage 100.0%
+       reference 352 aa | structure 352 aa | coverage 100.0%
+       reference 231 aa | structure 231 aa | coverage 100.0%
+       reference 131 aa | structure 131 aa | coverage 100.0%
+
+[INFO] B-cell SEMA-3D corroboration -- corroborated: 90 | not corroborated: 1117 | unscreened: 13389
+[INFO] Enriched table   : /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1D/Phase1De/Sensitivity/Phase1De_SEMA3D_20260831_0440.csv
+[INFO] Per-residue maps : /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1D/Phase1De/Sensitivity/Phase1De_SEMA3D_perResidue_20260831_0440.json
+[INFO] SENSITIVITY OUTPUT -- the Phase 1G production pool was NOT modified. Run Phase1G_sensitivity.py to see whether this would change the construct.
+==========================================================================================
+

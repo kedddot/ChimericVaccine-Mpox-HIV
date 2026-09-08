@@ -1,0 +1,43 @@
+device: mps | ensemble size: 5 | pLDDT mask < 70.0
+  Mpox_L1R: ref 250 aa | fold_mpox_l1r_model_0_converted.pdb chain A | 81 residues masked below pLDDT 70.0
+  Mpox_B5R: ref 317 aa | fold_mpox_b5r_model_0_converted.pdb chain A | 102 residues masked below pLDDT 70.0
+  Mpox_A35R: ref 181 aa | fold_mpox_a35r_model_0_converted.pdb chain A | 76 residues masked below pLDDT 70.0
+  HIV_gp120: ref 470 aa | fold_hiv_gp120_model_0_converted.pdb chain A | 57 residues masked below pLDDT 70.0
+  HIV_gp41: ref 352 aa | fold_hiv_gp41_model_0_converted.pdb chain A | 211 residues masked below pLDDT 70.0
+  HIV_p24: ref 231 aa | fold_hiv_p24_model_0_converted.pdb chain A | 11 residues masked below pLDDT 70.0
+  HIV_p17: ref 131 aa | fold_hiv_p17_model_0_converted.pdb chain A | 24 residues masked below pLDDT 70.0
+/opt/miniconda3/envs/sema_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+       [foldseek] Mpox_L1R: 250 residues, 81 masked (pLDDT < 70)
+       [foldseek] Mpox_B5R: 317 residues, 102 masked (pLDDT < 70)
+       [foldseek] Mpox_A35R: 181 residues, 76 masked (pLDDT < 70)
+       [foldseek] HIV_gp120: 470 residues, 57 masked (pLDDT < 70)
+       [foldseek] HIV_gp41: 352 residues, 211 masked (pLDDT < 70)
+       [foldseek] HIV_p24: 231 residues, 11 masked (pLDDT < 70)
+       [foldseek] HIV_p17: 131 residues, 24 masked (pLDDT < 70)
+       [ensemble] checkpoint 1/5 ...
+Some weights of EsmForMaskedLM were not initialized from the model checkpoint at westlake-repl/SaProt_650M_PDB and are newly initialized: ['esm.contact_head.regression.bias', 'esm.contact_head.regression.weight', 'esm.embeddings.position_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+       [ensemble] checkpoint 2/5 ...
+/opt/miniconda3/envs/sema_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of EsmForMaskedLM were not initialized from the model checkpoint at westlake-repl/SaProt_650M_PDB and are newly initialized: ['esm.contact_head.regression.bias', 'esm.contact_head.regression.weight', 'esm.embeddings.position_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+       [ensemble] checkpoint 3/5 ...
+Some weights of EsmForMaskedLM were not initialized from the model checkpoint at westlake-repl/SaProt_650M_PDB and are newly initialized: ['esm.contact_head.regression.bias', 'esm.contact_head.regression.weight', 'esm.embeddings.position_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+       [ensemble] checkpoint 4/5 ...
+Some weights of EsmForMaskedLM were not initialized from the model checkpoint at westlake-repl/SaProt_650M_PDB and are newly initialized: ['esm.contact_head.regression.bias', 'esm.contact_head.regression.weight', 'esm.embeddings.position_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+       [ensemble] checkpoint 5/5 ...
+Some weights of EsmForMaskedLM were not initialized from the model checkpoint at westlake-repl/SaProt_650M_PDB and are newly initialized: ['esm.contact_head.regression.bias', 'esm.contact_head.regression.weight', 'esm.embeddings.position_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+inference done in 37s
+  Mpox_L1R     250 residues | min -0.085 max +1.583 mean +0.548 | above ln(4): 3
+  Mpox_B5R     317 residues | min -0.149 max +1.919 mean +0.687 | above ln(4): 17
+  Mpox_A35R    181 residues | min -0.051 max +1.761 mean +0.740 | above ln(4): 24
+  HIV_gp120    470 residues | min -0.189 max +2.490 mean +0.481 | above ln(4): 38
+  HIV_gp41     352 residues | min -0.120 max +1.802 mean +0.474 | above ln(4): 14
+  HIV_p24      231 residues | min -0.046 max +2.249 mean +0.658 | above ln(4): 19
+  HIV_p17      131 residues | min -0.088 max +2.027 mean +0.892 | above ln(4): 25

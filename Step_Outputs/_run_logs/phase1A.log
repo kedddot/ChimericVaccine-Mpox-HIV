@@ -1,0 +1,172 @@
+
+========================================================================================
+                PHASE 1A: SEQUENCE RETRIEVAL WITH ANTIGEN IDENTITY GATE                 
+========================================================================================
+[INFO] Start                : 2026-08-30 20:27:12
+[INFO] Output               : /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1A
+[INFO] Variants per target  : 30 (diversity-selected)
+[INFO] Candidates gated     : up to 250 per source query
+----------------------------------------------------------------------------------------
+[PROCESS] Purged 0 prior FASTA files.
+
+[STEP 1/4] Fetching UniProt reference panel...
+    A0A7H0DN26     212 aa
+    A0A7H0DND2     181 aa
+    A0A7H0DNF1     561 aa
+    M1LBP0         250 aa
+    P04578         856 aa
+    P04591         500 aa
+    P0DTN2         317 aa
+
+[STEP 2/4] Mpox_A35R
+    query : OPG161[Gene Name] AND "Monkeypox virus"[Organism]
+    NCBI holds 8832 records; fetching ALL of them (cached for re-runs)
+      500/8832 fetched
+      2500/8832 fetched
+      4500/8832 fetched
+      6500/8832 fetched
+      8500/8832 fetched
+    cached 8832 records -> Mpox_A35R_all.fasta
+    fetched 8832 records; applying identity gate...
+    8832 records collapse to 138 distinct sequences; gating the distinct set
+      gated 25/138 distinct  accepted so far 7
+      gated 50/138 distinct  accepted so far 13
+      gated 75/138 distinct  accepted so far 18
+      gated 100/138 distinct  accepted so far 18
+      gated 125/138 distinct  accepted so far 23
+    ACCEPTED 23 / 138 distinct (rejected 115)
+        rejected   90  NONSTANDARD_RESIDUES
+        rejected   25  LENGTH_OUT_OF_BAND
+    distinct sequences 23 of 8692 accepted; diversity-selected 23 (over-selected for /gene check)
+    annotating 23 selected records (GenBank) for /gene verification and clade tagging...
+      efetch[gb] 1-23 of 23
+    /gene check: 23 kept, 0 rejected on gene mismatch
+
+[STEP 2/4] Mpox_L1R
+    query : OPG095[Gene Name] AND "Monkeypox virus"[Organism]
+    NCBI holds 8895 records; fetching ALL of them (cached for re-runs)
+      500/8895 fetched
+      2500/8895 fetched
+      4500/8895 fetched
+      6500/8895 fetched
+      8500/8895 fetched
+    cached 8895 records -> Mpox_L1R_all.fasta
+    fetched 8895 records; applying identity gate...
+    8895 records collapse to 188 distinct sequences; gating the distinct set
+      gated 25/188 distinct  accepted so far 4
+      gated 50/188 distinct  accepted so far 6
+      gated 75/188 distinct  accepted so far 13
+      gated 100/188 distinct  accepted so far 14
+      gated 125/188 distinct  accepted so far 15
+      gated 150/188 distinct  accepted so far 19
+      gated 175/188 distinct  accepted so far 19
+    ACCEPTED 21 / 188 distinct (rejected 167)
+        rejected  141  NONSTANDARD_RESIDUES
+        rejected   26  LENGTH_OUT_OF_BAND
+    distinct sequences 21 of 8664 accepted; diversity-selected 21 (over-selected for /gene check)
+    annotating 21 selected records (GenBank) for /gene verification and clade tagging...
+      efetch[gb] 1-21 of 21
+    /gene check: 21 kept, 0 rejected on gene mismatch
+
+[STEP 2/4] Mpox_B5R
+    query : OPG190[Gene Name] AND "Monkeypox virus"[Organism]
+    NCBI holds 8796 records; fetching ALL of them (cached for re-runs)
+      500/8796 fetched
+      2500/8796 fetched
+      4500/8796 fetched
+      6500/8796 fetched
+      8500/8796 fetched
+    cached 8796 records -> Mpox_B5R_all.fasta
+    fetched 8796 records; applying identity gate...
+    8796 records collapse to 259 distinct sequences; gating the distinct set
+      gated 25/259 distinct  accepted so far 9
+      gated 50/259 distinct  accepted so far 17
+      gated 75/259 distinct  accepted so far 24
+      gated 100/259 distinct  accepted so far 31
+      gated 125/259 distinct  accepted so far 36
+      gated 150/259 distinct  accepted so far 37
+      gated 175/259 distinct  accepted so far 37
+      gated 200/259 distinct  accepted so far 40
+      gated 225/259 distinct  accepted so far 44
+      gated 250/259 distinct  accepted so far 49
+    ACCEPTED 52 / 259 distinct (rejected 207)
+        rejected  179  NONSTANDARD_RESIDUES
+        rejected   28  LENGTH_OUT_OF_BAND
+    distinct sequences 52 of 8552 accepted; diversity-selected 42 (over-selected for /gene check)
+    annotating 42 selected records (GenBank) for /gene verification and clade tagging...
+      efetch[gb] 1-42 of 42
+    /gene check: 30 kept, 0 rejected on gene mismatch
+
+[STEP 2/4] HIV_Env
+    query : gp120 AND "HIV-1"[Organism] AND CRF01_AE
+    NCBI holds 12023 records; downloading 250 stride-sampled across the full result set
+      efetch[fasta] 1-50 of 250
+      efetch[fasta] 51-100 of 250
+      efetch[fasta] 101-150 of 250
+      efetch[fasta] 151-200 of 250
+      efetch[fasta] 201-250 of 250
+    fetched 250 records; applying identity gate...
+    250 records collapse to 248 distinct sequences; gating the distinct set
+      gated 25/248 distinct  accepted so far 20
+      gated 50/248 distinct  accepted so far 33
+      gated 75/248 distinct  accepted so far 54
+      gated 100/248 distinct  accepted so far 62
+      gated 125/248 distinct  accepted so far 80
+      gated 150/248 distinct  accepted so far 98
+      gated 175/248 distinct  accepted so far 104
+      gated 200/248 distinct  accepted so far 116
+      gated 225/248 distinct  accepted so far 140
+    ACCEPTED 154 / 248 distinct (rejected 94)
+        rejected   59  LENGTH_OUT_OF_BAND
+        rejected   35  NONSTANDARD_RESIDUES
+[STEP 3/4] HIV_Env: slicing to mature subunits (alignment + landmark)
+    HIV_gp120    distinct subunit sequences:  153   records with issues: 0
+    HIV_gp41     distinct subunit sequences:  154   records with issues: 0
+
+[STEP 2/4] HIV_Gag
+    query : p24 AND "HIV-1"[Organism] AND CRF01_AE
+    NCBI holds 6636 records; downloading 250 stride-sampled across the full result set
+      efetch[fasta] 1-50 of 250
+      efetch[fasta] 51-100 of 250
+      efetch[fasta] 101-150 of 250
+      efetch[fasta] 151-200 of 250
+      efetch[fasta] 201-250 of 250
+    fetched 250 records; applying identity gate...
+    250 records collapse to 247 distinct sequences; gating the distinct set
+      gated 25/247 distinct  accepted so far 14
+      gated 50/247 distinct  accepted so far 22
+      gated 75/247 distinct  accepted so far 43
+      gated 100/247 distinct  accepted so far 43
+      gated 125/247 distinct  accepted so far 54
+      gated 150/247 distinct  accepted so far 75
+      gated 175/247 distinct  accepted so far 89
+      gated 200/247 distinct  accepted so far 93
+      gated 225/247 distinct  accepted so far 109
+    ACCEPTED 129 / 247 distinct (rejected 118)
+        rejected   83  LENGTH_OUT_OF_BAND
+        rejected   35  NONSTANDARD_RESIDUES
+[STEP 3/4] HIV_Gag: slicing to mature subunits (alignment + landmark)
+    HIV_p17      distinct subunit sequences:  124   records with issues: 4
+           4  HIV_p17:LENGTH_OUT_OF_BAND
+    HIV_p24      distinct subunit sequences:  118   records with issues: 0
+
+[STEP 4/4] Writing audit files...
+    identity gate audit : /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1A/Phase1A_IdentityGate.csv  (1200 rows)
+    clade audit         : /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1A/Phase1A_Clade_Audit.csv  (4/74 clade-confirmed)
+
+========================================================================================
+                                   RETRIEVAL COMPLETE                                   
+========================================================================================
+    Mpox_A35R     23 variants written
+    Mpox_L1R      21 variants written
+    Mpox_B5R      30 variants written
+    HIV_gp120     30 variants written
+    HIV_gp41      30 variants written
+    HIV_p17       30 variants written
+    HIV_p24       30 variants written
+
+[SUCCESS] 194 sequences written across 7 targets in 10m:47s
+[INFO] Every sequence above passed an identity check against a UniProt
+       reference BEFORE being written. See Phase1A_IdentityGate.csv.
+========================================================================================
+

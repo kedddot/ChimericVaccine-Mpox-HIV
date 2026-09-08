@@ -1,0 +1,1201 @@
+Source,Accession,Length,N_Records_With_This_Sequence,Gene_Qualifier,Gene_Check,Best_Match,Best_Identity_Pct,Intended_Ref,Intended_Identity_Pct,Panel_Scores,Accepted,Reason,Description
+Mpox_A35R,YGB80085.1,181,8023,,ABSENT,A0A7H0DND2,100.0,A0A7H0DND2,100.0,A0A7H0DND2:100.0%,True,ACCEPTED,YGB80085.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YFT67491.1,181,596,,ABSENT,A0A7H0DND2,98.9,A0A7H0DND2,98.9,A0A7H0DND2:98.9%,True,ACCEPTED,YFT67491.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YFI67686.1,181,3,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,YFI67686.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YDZ51190.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDZ51190.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YDD27029.1,151,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(151 not in 170-195),"YDD27029.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,YDB04004.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB04004.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YDB03826.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB03826.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YDB03647.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB03647.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YDB03291.1,181,7,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,YDB03291.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YCL55906.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCL55906.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YCG63072.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCG63072.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YCG62894.1,181,5,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,YCG62894.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YCB47361.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCB47361.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YBX72280.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YBX72280.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YBX69776.1,178,1,,ABSENT,A0A7H0DND2,100.0,A0A7H0DND2,100.0,A0A7H0DND2:100.0%,True,ACCEPTED,"YBX69776.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,YBX68705.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YBX68705.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YAV94551.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YAV94551.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHH52254.2,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH52254.2 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHH51897.2,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH51897.2 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,YAV94446.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YAV94446.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XCW00080.2,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XCW00080.2 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHY97218.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHY97218.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHH50466.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH50466.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEO29617.1,181,4,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,XEO29617.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XDC02883.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDC02883.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XCI56474.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XCI56474.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XBU14309.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBU14309.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XYA10284.1,175,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XYA10284.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XYA25057.1,181,1,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,XYA25057.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XWU06591.1,120,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XWU06591.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XUD97195.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XUD97195.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XTP39562.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XTP39562.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XPA18444.1,181,27,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,XPA18444.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XOL55170.1,181,1,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,XOL55170.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XNX19922.1,181,3,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,XNX19922.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WLD03160.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WLD03160.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XCI57720.1,181,2,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,XCI57720.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEQ85405.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEQ85405.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XIF87304.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XIF87304.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XIF04465.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XIF04465.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX61452.1,181,1,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,XEX61452.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX61287.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX61287.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX58961.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX58961.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX58791.1,170,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX58791.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XEX58114.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX58114.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX57773.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX57773.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX56583.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX56583.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX54392.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX54392.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX42643.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX42643.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX41650.1,169,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX41650.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XEX41482.1,131,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX41482.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XEX38983.1,172,1,,ABSENT,A0A7H0DND2,98.84,A0A7H0DND2,98.84,A0A7H0DND2:98.8%,True,ACCEPTED,"XEX38983.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XEX37476.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX37476.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX37310.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX37310.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX34609.1,170,2,,ABSENT,A0A7H0DND2,98.82,A0A7H0DND2,98.82,A0A7H0DND2:98.8%,True,ACCEPTED,"XEX34609.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XEX31249.1,181,4,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,XEX31249.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX24427.1,181,1,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,XEX24427.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEX15034.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX15034.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XEW95008.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEW95008.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XDU07365.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU07365.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHB11777.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHB11777.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XHB11635.1,52,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(52 not in 170-195),"XHB11635.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XGO94279.1,113,6,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(113 not in 170-195),"XGO94279.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XGO93594.1,112,5,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(112 not in 170-195),"XGO93594.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XGO86425.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGO86425.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,XGO86081.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGO86081.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WZB47381.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB47381.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WZB46876.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46876.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WZB46541.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46541.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WZB46032.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46032.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WZB44667.1,146,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB44667.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WZB43812.1,173,1,,ABSENT,A0A7H0DND2,98.84,A0A7H0DND2,98.84,A0A7H0DND2:98.8%,True,ACCEPTED,"WZB43812.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,XDC01816.1,36,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(36 not in 170-195),"XDC01816.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WQY95514.1,173,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WQY95514.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WQY95378.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WQY95378.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WXU47286.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXU47286.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WXH63990.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH63990.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WXH63458.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WXH63458.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WXH60275.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH60275.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WWQ34862.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WWQ34862.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WVX55144.1,74,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVX55144.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVX53733.1,171,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVX53733.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVX53391.1,3,15,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(3 not in 170-195),"WVX53391.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVP99649.1,110,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(110 not in 170-195),"WVP99649.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVP99473.1,19,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(19 not in 170-195),"WVP99473.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM35566.1,45,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(45 not in 170-195),"WVM35566.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM35278.1,24,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(24 not in 170-195),"WVM35278.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM35178.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 170-195),"WVM35178.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM35075.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 170-195),"WVM35075.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34948.1,50,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(50 not in 170-195),"WVM34948.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34881.1,101,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34881.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34695.1,38,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(38 not in 170-195),"WVM34695.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34508.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 170-195),"WVM34508.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34299.1,102,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(102 not in 170-195),"WVM34299.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34158.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 170-195),"WVM34158.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM34087.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 170-195),"WVM34087.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVM33961.1,32,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(32 not in 170-195),"WVM33961.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WVH08686.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08686.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WVH08453.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08453.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WVH08166.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08166.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WVH07810.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07810.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WRV00961.1,29,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(29 not in 170-195),"WRV00961.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WRV00865.1,178,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WRV00865.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WRV00722.1,145,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(145 not in 170-195),"WRV00722.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WRV00579.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WRV00579.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WPD90593.1,181,1,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,WPD90593.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UWT52790.1,154,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(154 not in 170-195),"UWT52790.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WMY82684.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMY82684.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WMY82522.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMY82522.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WMP37256.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMP37256.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WLY70921.1,181,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WLY70921.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WKW66578.1,2,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(2 not in 170-195),"WKW66578.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WIV42315.1,10,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(10 not in 170-195),"WIV42315.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,NP_536572.1,181,1,,ABSENT,A0A7H0DND2,98.34,A0A7H0DND2,98.34,A0A7H0DND2:98.3%,True,ACCEPTED,NP_536572.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WDR55323.1,181,3,,ABSENT,A0A7H0DND2,98.9,A0A7H0DND2,98.9,A0A7H0DND2:98.9%,True,ACCEPTED,WDR55323.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WCC71736.1,150,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WCC71736.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WCC65682.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC65682.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,WBE14870.1,146,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(146 not in 170-195),"WBE14870.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,WBA27507.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WBA27507.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,UXY84798.1,181,2,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,UXY84798.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UYD47691.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYD47691.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UYD20965.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYD20965.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL95582.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL95582.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL69934.1,181,2,,ABSENT,A0A7H0DND2,99.45,A0A7H0DND2,99.45,A0A7H0DND2:99.4%,True,ACCEPTED,UXL69934.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL69399.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL69399.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL68686.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL68686.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL68152.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL68152.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL67082.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL67082.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UXL62083.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL62083.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UWO61967.1,123,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UWO61967.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,UWO61789.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO61789.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UWO44925.1,180,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UWO44925.1 EEV glycoprotein (1), partial [Monkeypox virus]"
+Mpox_A35R,UWO44212.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO44212.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UWJ10044.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWJ10044.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UVI80922.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVI80922.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UVE14875.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVE14875.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UUV50170.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV50170.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_A35R,UTZ20018.1,181,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UTZ20018.1 EEV glycoprotein (1) [Monkeypox virus]
+Mpox_L1R,YGB80020.1,250,8611,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:26.4%,True,ACCEPTED,YGB80020.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYR86883.1,235,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XYR86883.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XYH50751.1,250,5,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,XYH50751.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YDD26964.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDD26964.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YDB03761.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB03761.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YCL56378.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCL56378.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YCL55841.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCL55841.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YCG63007.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCG63007.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YCB47296.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCB47296.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YBX70963.1,243,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"YBX70963.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,YBX69711.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YBX69711.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,YBX68640.1,173,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(173 not in 240-262),"YBX68640.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,YBR47341.1,194,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"YBR47341.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XMF67163.2,205,29,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(205 not in 240-262),"XMF67163.2 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,YAV94386.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"YAV94386.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XDC02464.2,235,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XDC02464.2 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XMF67341.1,230,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(230 not in 240-262),"XMF67341.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XHY97154.1,249,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XHY97154.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XHH52190.1,238,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(238 not in 240-262),"XHH52190.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XHH51653.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH51653.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XHC56541.1,249,1,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:26.4%,True,ACCEPTED,"XHC56541.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XCV99840.1,235,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(235 not in 240-262),"XCV99840.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XCI56412.1,249,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XCI56412.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XBU14245.1,246,1,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:26.4%,True,ACCEPTED,"XBU14245.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XYA11620.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYA11620.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYA10566.1,250,10,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:25.9%,True,ACCEPTED,XYA10566.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYY21319.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYY21319.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYY20781.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYY20781.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYY20751.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYY20751.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYY20542.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYY20542.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XYY21824.1,237,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(237 not in 240-262),"XYY21824.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XYA26423.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYA26423.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XWU06526.1,245,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XWU06526.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XUD98000.1,250,13,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XUD98000.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XTP39676.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XTP39676.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XTP39497.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XTP39497.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XSF39763.1,250,1,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,XSF39763.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XQE60181.1,250,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XQE60181.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WLD03096.1,216,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WLD03096.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEQ85163.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEQ85163.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XIF04400.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XIF04400.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX63882.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX63882.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX58728.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX58728.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX57709.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX57709.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX56520.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX56520.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX56355.1,248,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX56355.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX56014.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX56014.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX55337.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX55337.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX54328.1,233,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(233 not in 240-262),"XEX54328.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX45268.1,250,6,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,XEX45268.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX44256.1,222,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(222 not in 240-262),"XEX44256.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX44092.1,239,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX44092.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX43928.1,250,4,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,XEX43928.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX42579.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX42579.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX41585.1,208,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(208 not in 240-262),"XEX41585.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX41419.1,241,1,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:26.4%,True,ACCEPTED,"XEX41419.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX38919.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX38919.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX34546.1,219,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX34546.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX32694.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX32694.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX28850.1,223,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(223 not in 240-262),"XEX28850.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX26330.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX26330.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX24364.1,246,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX24364.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX19828.1,250,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX19828.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX18485.1,244,1,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:27.4%,True,ACCEPTED,"XEX18485.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX17319.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX17319.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX15305.1,250,3,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,XEX15305.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX14969.1,248,1,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,"XEX14969.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX12292.1,244,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX12292.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX08262.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX08262.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX05742.1,240,1,,ABSENT,M1LBP0,99.17,M1LBP0,99.17,M1LBP0:99.2%; A0A7H0DN26:26.4%,True,ACCEPTED,"XEX05742.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XEX04896.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX04896.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX02876.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX02876.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEX01528.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX01528.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XEW94944.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEW94944.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WCS91417.1,250,4,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,WCS91417.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XDU08014.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU08014.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XDU07301.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU07301.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XDU06407.1,243,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XDU06407.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XHB11715.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHB11715.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XGW69892.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGW69892.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB46814.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46814.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB45968.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB45968.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB45798.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB45798.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB44602.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB44602.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB43755.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB43755.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WZB43417.1,231,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(231 not in 240-262),"WZB43417.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WZB41880.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB41880.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XDC01756.1,233,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(233 not in 240-262),"XDC01756.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,XBH40731.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBH40731.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,XBH25791.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBH25791.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WQY95328.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WQY95328.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WXH63398.1,211,3,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(211 not in 240-262),"WXH63398.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WXH62334.1,226,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WXH62334.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WWQ34803.1,235,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WWQ34803.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVX54907.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVX54907.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WVP99598.1,201,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(201 not in 240-262),"WVP99598.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM35808.1,189,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM35808.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM35505.1,106,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(106 not in 240-262),"WVM35505.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM35340.1,32,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(32 not in 240-262),"WVM35340.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM35062.1,42,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(42 not in 240-262),"WVM35062.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM35008.1,28,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM35008.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM34924.1,51,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(51 not in 240-262),"WVM34924.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM34870.1,50,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34870.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM34635.1,67,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(67 not in 240-262),"WVM34635.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM34363.1,75,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34363.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM34248.1,39,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34248.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVM33628.1,46,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(46 not in 240-262),"WVM33628.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVH08629.1,248,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVH08629.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVH08351.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08351.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WVH08263.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08263.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WVH08125.1,240,1,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:26.4%,True,ACCEPTED,"WVH08125.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WVH07904.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07904.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WVH07766.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07766.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WRV00551.2,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WRV00551.2 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WRO04900.2,182,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(182 not in 240-262),"WRO04900.2 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WRV00749.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WRV00749.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WOW88407.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WOW88407.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWT52729.1,173,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UWT52729.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WMY82623.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMY82623.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMY82462.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMY82462.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMP38353.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMP38353.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMP38016.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMP38016.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMP37221.1,202,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WMP37221.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WMP36744.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMP36744.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMB89274.1,250,6,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,WMB89274.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WMB82628.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMB82628.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WLQ18448.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WLQ18448.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WKW68748.1,229,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(229 not in 240-262),"WKW68748.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WKW67545.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKW67545.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WKW66214.1,248,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WKW66214.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WIV42251.1,212,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(212 not in 240-262),"WIV42251.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WHP57247.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WHP57247.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WHP54173.1,245,2,,ABSENT,M1LBP0,100.0,M1LBP0,100.0,M1LBP0:100.0%; A0A7H0DN26:25.5%,True,ACCEPTED,"WHP54173.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WHE10889.1,138,3,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(138 not in 240-262),"WHE10889.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WHE10558.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WHE10558.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WFD73365.1,173,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WFD73365.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WDY77164.1,250,1,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,WDY77164.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WDR64122.1,250,2,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.4%,True,ACCEPTED,WDR64122.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WDR53315.1,209,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(209 not in 240-262),"WDR53315.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,WCS73203.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCS73203.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WCC65619.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC65619.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WBT03184.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBT03184.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WBE14638.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBE14638.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WBA26942.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBA26942.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WBA25375.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBA25375.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,WBA25026.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBA25026.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UZV24232.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZV24232.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UZV21766.1,237,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UZV21766.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UZT61622.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT61622.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UZT58844.1,244,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UZT58844.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UXL58988.2,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL58988.2 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL59522.1,105,16,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(105 not in 240-262),"UXL59522.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UXL58809.1,250,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL58809.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL57750.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL57750.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL57399.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL57399.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL56691.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL56691.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL55644.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL55644.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL53148.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL53148.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL52267.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL52267.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL51029.1,105,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UXL51029.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UXL50322.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL50322.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL49790.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL49790.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UYX46836.1,104,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UYX46836.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UYW97397.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYW97397.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UYB84215.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYB84215.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL95521.1,247,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UXL95521.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UXL70226.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL70226.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL68087.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL68087.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UXL57042.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL57042.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWO44862.1,249,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UWO44862.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UWO44147.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO44147.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWO34314.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UWO34314.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UWO33778.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO33778.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWO33062.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO33062.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWJ11765.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWJ11765.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UWJ11586.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWJ11586.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UVF75988.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVF75988.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UVF74379.1,227,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UVF74379.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UVF73842.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UVF73842.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_L1R,UVF73663.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVF73663.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UUV51179.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV51179.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UUV50463.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV50463.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UUV50105.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV50105.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UUW22440.1,250,1,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.9%,True,ACCEPTED,UUW22440.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UTZ19953.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UTZ19953.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UTZ20132.1,250,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UTZ20132.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UTZ19597.1,250,1,,ABSENT,M1LBP0,99.6,M1LBP0,99.6,M1LBP0:99.6%; A0A7H0DN26:26.9%,True,ACCEPTED,UTZ19597.1 IMV membrane protein L1R [Monkeypox virus]
+Mpox_L1R,UTZ19240.1,201,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UTZ19240.1 IMV membrane protein L1R, partial [Monkeypox virus]"
+Mpox_B5R,YGB80106.1,317,9,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:24.9%,True,ACCEPTED,YGB80106.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YFT67509.1,317,8248,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.2%,True,ACCEPTED,YFT67509.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYR87323.1,317,135,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,XYR87323.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YDS69278.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,YDS69278.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YDH68289.1,317,1,,ABSENT,P0DTN2,99.37,P0DTN2,99.37,P0DTN2:99.4%; A0A7H0DNF1:24.9%,True,ACCEPTED,YDH68289.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YDB03847.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB03847.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YDB03668.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YDB03668.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYW47977.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,XYW47977.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YCL56464.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCL56464.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YCG60768.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCG60768.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,BFV54706.1,317,4,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,BFV54706.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YCB47382.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YCB47382.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YBX71049.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YBX71049.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YBX66761.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:26.2%,True,ACCEPTED,YBX66761.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHH51918.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH51918.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDC02904.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDC02904.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDC02548.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDC02548.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XCW00101.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XCW00101.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,YAV94349.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YAV94349.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBU14330.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBU14330.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XMF67248.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XMF67248.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XIF86968.1,317,5,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XIF86968.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHY97239.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHY97239.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHH52275.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH52275.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHH51739.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHH51739.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHC58414.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHC58414.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDC02371.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XDC02371.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEQ85602.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEQ85602.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYA08527.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYA08527.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYA04115.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XYA04115.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYA03408.1,317,39,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,XYA03408.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYY21910.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XYY21910.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XYA27940.1,317,5,,ABSENT,P0DTN2,99.37,P0DTN2,99.37,P0DTN2:99.4%; A0A7H0DNF1:25.9%,True,ACCEPTED,XYA27940.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XWU06612.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XWU06612.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XUD98086.1,317,3,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XUD98086.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XTP46100.1,317,4,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XTP46100.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XRX01685.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XRX01685.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XQE60430.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XQE60430.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XPA17768.1,317,4,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XPA17768.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XNX19765.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XNX19765.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XNJ73428.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XNJ73428.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WLD03181.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WLD03181.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XKU46019.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XKU46019.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XKB58740.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,XKB58740.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XIJ79113.1,317,3,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XIJ79113.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XIJ78068.1,317,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XIJ78068.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XIF87325.1,300,3,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.7%,True,ACCEPTED,"XIF87325.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX61470.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX61470.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX60132.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX60132.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX59314.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX59314.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX58811.1,300,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX58811.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX58474.1,310,1,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:24.8%,True,ACCEPTED,"XEX58474.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX58133.1,302,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX58133.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX57962.1,311,2,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.1%,True,ACCEPTED,"XEX57962.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX57792.1,290,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(290 not in 300-332),"XEX57792.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX56604.1,297,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(297 not in 300-332),"XEX56604.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX56438.1,302,4,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.5%,True,ACCEPTED,"XEX56438.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX56267.1,315,1,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.1%,True,ACCEPTED,"XEX56267.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX54742.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX54742.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX53921.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX53921.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX49068.1,317,9,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:24.9%,True,ACCEPTED,XEX49068.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX46365.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX46365.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX43843.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:24.3%,True,ACCEPTED,XEX43843.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX42662.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX42662.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX42499.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX42499.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX42164.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX42164.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX41669.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX41669.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX41501.1,285,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX41501.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX40676.1,314,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX40676.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX40006.1,312,3,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.0%,True,ACCEPTED,"XEX40006.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX39166.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX39166.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX37495.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX37495.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX37329.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX37329.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX36321.1,317,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX36321.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX35306.1,317,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX35306.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX34630.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX34630.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX31267.1,317,9,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:26.2%,True,ACCEPTED,XEX31267.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX26415.1,281,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX26415.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX25592.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX25592.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX24446.1,310,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX24446.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX17900.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX17900.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX15053.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX15053.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX12709.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX12709.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX12378.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX12378.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX11211.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XEX11211.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX08346.1,297,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XEX08346.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XEX05825.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX05825.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEX02960.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XEX02960.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XEW96723.1,316,2,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.3%,True,ACCEPTED,"XEW96723.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WDP53175.1,317,3,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,WDP53175.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDP32808.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:24.6%,True,ACCEPTED,WDP32808.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDP22795.1,281,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(281 not in 300-332),"WDP22795.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WDO69904.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,WDO69904.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDO34344.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,WDO34344.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDU12928.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU12928.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDU08098.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU08098.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDU07385.1,214,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XDU07385.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XDU04181.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU04181.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDU04007.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU04007.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDU03833.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDU03833.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XHB11789.1,62,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XHB11789.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XHB11647.1,62,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(62 not in 300-332),"XHB11647.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XHB11161.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XHB11161.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XGY66724.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGY66724.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XGO90543.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGO90543.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XGO86785.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,XGO86785.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XGO86099.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XGO86099.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WZB49101.1,300,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB49101.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WZB46895.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46895.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WZB46389.1,300,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB46389.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WZB46052.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB46052.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WZB44686.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB44686.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WZB43832.1,280,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB43832.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WZB43499.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WZB43499.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WZB42990.1,311,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB42990.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WZB41965.1,310,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WZB41965.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,XFD06132.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XFD06132.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XDC01835.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XDC01835.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH42952.1,317,8,,ABSENT,P0DTN2,99.37,P0DTN2,99.37,P0DTN2:99.4%; A0A7H0DNF1:26.5%,True,ACCEPTED,XBH42952.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH42603.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBH42603.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH42219.1,317,2,,ABSENT,P0DTN2,94.64,P0DTN2,94.64,P0DTN2:94.6%; A0A7H0DNF1:25.6%,True,ACCEPTED,XBH42219.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH42043.1,317,1,,ABSENT,P0DTN2,99.37,P0DTN2,99.37,P0DTN2:99.4%; A0A7H0DNF1:26.5%,True,ACCEPTED,XBH42043.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH40814.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),XBH40814.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH37476.1,317,1,,ABSENT,P0DTN2,94.32,P0DTN2,94.32,P0DTN2:94.3%; A0A7H0DNF1:25.6%,True,ACCEPTED,XBH37476.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH37124.1,317,7,,ABSENT,P0DTN2,99.37,P0DTN2,99.37,P0DTN2:99.4%; A0A7H0DNF1:25.6%,True,ACCEPTED,XBH37124.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,XBH25855.1,194,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XBH25855.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WQY95532.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WQY95532.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WQY95395.1,296,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WQY95395.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WXH63479.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH63479.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WXH62771.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH62771.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WXH62415.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH62415.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WXH61358.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WXH61358.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WWQ34883.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WWQ34883.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVX53583.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVX53583.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVP99666.1,12,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(12 not in 300-332),"WVP99666.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVP99481.1,110,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVP99481.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVP99396.1,50,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVP99396.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVP99395.1,50,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVP99395.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVP99296.1,41,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(41 not in 300-332),"WVP99296.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM35731.1,41,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(41 not in 300-332),"WVM35731.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM35730.1,21,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(21 not in 300-332),"WVM35730.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM35583.1,58,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM35583.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM35386.1,13,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM35386.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM35038.1,39,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(39 not in 300-332),"WVM35038.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34953.1,41,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(41 not in 300-332),"WVM34953.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34839.1,20,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(20 not in 300-332),"WVM34839.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34838.1,20,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(20 not in 300-332),"WVM34838.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34714.1,30,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(30 not in 300-332),"WVM34714.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34316.1,140,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34316.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM34101.1,114,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM34101.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33995.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 300-332),"WVM33995.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33988.1,49,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(49 not in 300-332),"WVM33988.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33963.1,41,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(41 not in 300-332),"WVM33963.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33928.1,3,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(3 not in 300-332),"WVM33928.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33927.1,47,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(47 not in 300-332),"WVM33927.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVM33666.1,120,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVM33666.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVH08702.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08702.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WRO04986.3,256,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WRO04986.3 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVH08463.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08463.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH08393.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08393.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH08311.1,310,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WVH08311.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WVH08177.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08177.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH08072.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH08072.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH07986.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07986.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH07675.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07675.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WVH07590.1,317,3,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WVH07590.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WRO01446.2,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WRO01446.2 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WRO00384.2,287,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WRO00384.2 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WOW88655.1,254,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WOW88655.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WOW76563.1,3,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(3 not in 300-332),"WOW76563.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UWT52808.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWT52808.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WNV51784.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WNV51784.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WMY82704.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMY82704.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WMY82542.1,313,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WMY82542.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WMP38269.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WMP38269.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WMM98922.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,WMM98922.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WMB94153.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:24.9%,True,ACCEPTED,WMB94153.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCC70692.1,317,5,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC70692.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF42659.1,317,6,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF42659.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF42310.1,54,8,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(54 not in 300-332),"WKF42310.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WKF41803.1,317,2,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF41803.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF41283.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF41283.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF40942.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF40942.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF40766.1,317,4,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF40766.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF40423.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF40423.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF39723.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF39723.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF34030.1,296,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(296 not in 300-332),"WKF34030.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WKF32084.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF32084.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF30520.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF30520.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF29302.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF29302.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF28069.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF28069.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKF27894.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKF27894.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKW67627.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKW67627.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKW66598.1,207,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WKW66598.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WKW65623.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKW65623.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WKW65285.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WKW65285.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WIV42336.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WIV42336.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WFD73614.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,WFD73614.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR55518.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WDR55518.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR55168.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WDR55168.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR51134.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WDR51134.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR58878.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,WDR58878.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR57831.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WDR57831.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WDR56405.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WDR56405.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCS73289.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCS73289.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCC72112.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC72112.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCC71757.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC71757.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCC70868.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC70868.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WCC65703.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WCC65703.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WBE16288.1,313,4,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:24.9%,True,ACCEPTED,"WBE16288.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WBE15409.1,30,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(30 not in 300-332),"WBE15409.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WBA79092.1,91,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WBA79092.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WBA27528.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBA27528.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WBA27018.1,29,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(29 not in 300-332),"WBA27018.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,WBA25106.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WBA25106.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL78092.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,UXL78092.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WAB35181.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),WAB35181.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,WAB35006.1,283,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(283 not in 300-332),"WAB35006.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UZV25358.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZV25358.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZV24832.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZV24832.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZV22018.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZV22018.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZV18503.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZV18503.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZV11444.1,317,2,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,UZV11444.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZT87919.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT87919.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZT62584.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT62584.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZT59254.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT59254.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZT59089.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT59089.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZT58759.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UZT58759.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UZL87464.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.9%,True,ACCEPTED,UZL87464.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UYX46904.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYX46904.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UYE99462.1,262,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(262 not in 300-332),"UYE99462.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UYB84291.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UYB84291.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXY97504.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXY97504.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXY95572.1,282,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(282 not in 300-332),"UXY95572.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UXY95230.1,123,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(123 not in 300-332),"UXY95230.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UXK58039.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXK58039.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXK57172.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXK57172.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXP56267.1,317,9,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,UXP56267.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXP41439.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:26.2%,True,ACCEPTED,UXP41439.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL95780.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL95780.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL95603.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL95603.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL67103.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UXL67103.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL64782.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.2%,True,ACCEPTED,UXL64782.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UXL62104.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(B),UXL62104.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UWO61988.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO61988.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UWV16116.1,232,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(232 not in 300-332),"UWV16116.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UWO44946.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO44946.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UWO33148.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWO33148.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UWK07436.1,316,2,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.9%,True,ACCEPTED,UWK07436.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UWJ11851.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UWJ11851.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UVF76074.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVF76074.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UVF74465.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVF74465.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UVF73928.1,302,1,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.5%,True,ACCEPTED,"UVF73928.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UVE15252.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UVE15252.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UVE13823.1,316,2,,ABSENT,P0DTN2,100.0,P0DTN2,100.0,P0DTN2:100.0%; A0A7H0DNF1:25.3%,True,ACCEPTED,"UVE13823.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UUV60572.1,316,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UUV60572.1 EEV type-I membrane glycoprotein, partial [Monkeypox virus]"
+Mpox_B5R,UUV55739.1,317,1,,ABSENT,P0DTN2,99.68,P0DTN2,99.68,P0DTN2:99.7%; A0A7H0DNF1:25.6%,True,ACCEPTED,UUV55739.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UUV53233.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV53233.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+Mpox_B5R,UUV50191.1,317,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UUV50191.1 EEV type-I membrane glycoprotein [Monkeypox virus]
+HIV_Env,YFN08112.1,860,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YFN08112.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,YFN07601.1,847,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),YFN07601.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,YAA49963.1,859,1,,ABSENT,P04578,71.14,P04578,71.14,P04578:71.1%,True,ACCEPTED,YAA49963.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,XPO03727.1,860,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,XPO03727.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,XKC16435.1,856,1,,ABSENT,P04578,71.03,P04578,71.03,P04578:71.0%,True,ACCEPTED,XKC16435.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,WMD30114.1,877,1,,ABSENT,P04578,71.14,P04578,71.14,P04578:71.1%,True,ACCEPTED,WMD30114.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,WDE33582.1,859,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BJX),WDE33582.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,WMD30135.1,848,1,,ABSENT,P04578,72.52,P04578,72.52,P04578:72.5%,True,ACCEPTED,WMD30135.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,WDY92947.1,862,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,WDY92947.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,WDY92899.1,874,1,,ABSENT,P04578,72.55,P04578,72.55,P04578:72.5%,True,ACCEPTED,WDY92899.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,URX38537.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 820-900),"URX38537.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UMQ73518.1,877,1,,ABSENT,P04578,71.14,P04578,71.14,P04578:71.1%,True,ACCEPTED,UMQ73518.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ71839.1,869,1,,ABSENT,P04578,72.55,P04578,72.55,P04578:72.5%,True,ACCEPTED,UMQ71839.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ69965.1,859,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,UMQ69965.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ74147.1,856,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,UMQ74147.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ73355.1,860,1,,ABSENT,P04578,71.96,P04578,71.96,P04578:72.0%,True,ACCEPTED,UMQ73355.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ73151.1,847,1,,ABSENT,P04578,73.08,P04578,73.08,P04578:73.1%,True,ACCEPTED,UMQ73151.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ72950.1,847,1,,ABSENT,P04578,73.79,P04578,73.79,P04578:73.8%,True,ACCEPTED,UMQ72950.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ72752.1,849,1,,ABSENT,P04578,73.85,P04578,73.85,P04578:73.9%,True,ACCEPTED,UMQ72752.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ72542.1,870,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,UMQ72542.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ72343.1,884,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,UMQ72343.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ72145.1,862,1,,ABSENT,P04578,71.14,P04578,71.14,P04578:71.1%,True,ACCEPTED,UMQ72145.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ71858.1,852,1,,ABSENT,P04578,72.42,P04578,72.42,P04578:72.4%,True,ACCEPTED,UMQ71858.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ71610.1,865,1,,ABSENT,P04578,73.83,P04578,73.83,P04578:73.8%,True,ACCEPTED,UMQ71610.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ71371.1,856,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,UMQ71371.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ71037.1,846,1,,ABSENT,P04578,72.58,P04578,72.58,P04578:72.6%,True,ACCEPTED,UMQ71037.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ70433.1,860,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,UMQ70433.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ70227.1,848,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UMQ70227.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ70029.1,863,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,UMQ70029.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,UMQ69626.1,849,1,,ABSENT,P04578,73.38,P04578,73.38,P04578:73.4%,True,ACCEPTED,UMQ69626.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AWY93766.1,504,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(504 not in 820-900),"AWY93766.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93718.1,504,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(504 not in 820-900),"AWY93718.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93505.1,503,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(503 not in 820-900),"AWY93505.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93456.1,497,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(497 not in 820-900),"AWY93456.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93408.1,505,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(505 not in 820-900),"AWY93408.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93360.1,507,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(507 not in 820-900),"AWY93360.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93312.1,514,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(514 not in 820-900),"AWY93312.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93264.1,511,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(511 not in 820-900),"AWY93264.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93216.1,501,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(501 not in 820-900),"AWY93216.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93168.1,499,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(499 not in 820-900),"AWY93168.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AWY93120.1,499,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(499 not in 820-900),"AWY93120.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW88425.1,862,1,,ABSENT,P04578,73.13,P04578,73.13,P04578:73.1%,True,ACCEPTED,"UBW88425.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW88254.1,875,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,"UBW88254.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW88050.1,848,1,,ABSENT,P04578,71.82,P04578,71.82,P04578:71.8%,True,ACCEPTED,"UBW88050.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW87851.1,861,1,,ABSENT,P04578,71.26,P04578,71.26,P04578:71.3%,True,ACCEPTED,"UBW87851.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW87652.1,872,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,"UBW87652.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW87448.1,858,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,"UBW87448.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW87235.1,861,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,"UBW87235.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW87031.1,848,1,,ABSENT,P04578,72.41,P04578,72.41,P04578:72.4%,True,ACCEPTED,"UBW87031.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW86827.1,856,1,,ABSENT,P04578,74.18,P04578,74.18,P04578:74.2%,True,ACCEPTED,"UBW86827.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW86608.1,861,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,"UBW86608.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW86407.1,856,1,,ABSENT,P04578,71.73,P04578,71.73,P04578:71.7%,True,ACCEPTED,"UBW86407.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW86213.1,861,1,,ABSENT,P04578,74.77,P04578,74.77,P04578:74.8%,True,ACCEPTED,"UBW86213.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW86006.1,858,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,"UBW86006.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW85812.1,857,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,"UBW85812.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW85602.1,858,1,,ABSENT,P04578,72.08,P04578,72.08,P04578:72.1%,True,ACCEPTED,"UBW85602.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW85402.1,855,1,,ABSENT,P04578,70.88,P04578,70.88,P04578:70.9%,True,ACCEPTED,"UBW85402.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW85202.1,858,1,,ABSENT,P04578,70.91,P04578,70.91,P04578:70.9%,True,ACCEPTED,"UBW85202.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW85007.1,855,1,,ABSENT,P04578,73.57,P04578,73.57,P04578:73.6%,True,ACCEPTED,"UBW85007.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW84812.1,860,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,"UBW84812.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW84599.1,859,1,,ABSENT,P04578,71.5,P04578,71.5,P04578:71.5%,True,ACCEPTED,"UBW84599.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW84401.1,852,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UBW84401.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW84200.1,846,1,,ABSENT,P04578,73.17,P04578,73.17,P04578:73.2%,True,ACCEPTED,"UBW84200.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW84003.1,871,1,,ABSENT,P04578,73.36,P04578,73.36,P04578:73.4%,True,ACCEPTED,"UBW84003.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW83837.1,841,1,,ABSENT,P04578,73.13,P04578,73.13,P04578:73.1%,True,ACCEPTED,"UBW83837.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW83642.1,860,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,"UBW83642.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW83425.1,858,1,,ABSENT,P04578,70.56,P04578,70.56,P04578:70.6%,True,ACCEPTED,"UBW83425.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW83233.1,854,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UBW83233.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW83035.1,856,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,"UBW83035.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW82834.1,853,1,,ABSENT,P04578,71.04,P04578,71.04,P04578:71.0%,True,ACCEPTED,"UBW82834.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW82632.1,844,1,,ABSENT,P04578,73.1,P04578,73.1,P04578:73.1%,True,ACCEPTED,"UBW82632.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,UBW82422.1,878,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,"UBW82422.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QLC28856.1,853,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QLC28856.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QRX75318.1,864,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QRX75318.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QRC49169.1,852,1,,ABSENT,P04578,76.06,P04578,76.06,P04578:76.1%,True,ACCEPTED,QRC49169.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QRC48754.1,859,1,,ABSENT,P04578,73.36,P04578,73.36,P04578:73.4%,True,ACCEPTED,QRC48754.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QRC48370.1,854,1,,ABSENT,P04578,72.48,P04578,72.48,P04578:72.5%,True,ACCEPTED,QRC48370.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QKI36193.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 820-900),"QKI36193.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QKI36388.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 820-900),"QKI36388.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AVA00059.1,850,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AVA00059.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ABV72722.1,119,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BX),"ABV72722.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89854.1,344,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(344 not in 820-900),"ABS89854.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89806.1,341,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(341 not in 820-900),"ABS89806.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89758.1,336,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(336 not in 820-900),"ABS89758.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89710.1,337,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(337 not in 820-900),"ABS89710.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89662.1,344,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(344 not in 820-900),"ABS89662.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89614.1,336,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(336 not in 820-900),"ABS89614.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABS89565.1,334,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(334 not in 820-900),"ABS89565.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AGA14302.1,195,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BJX),"AGA14302.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QIX07163.1,848,1,,ABSENT,P04578,73.82,P04578,73.82,P04578:73.8%,True,ACCEPTED,QIX07163.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIX06691.1,867,1,,ABSENT,P04578,71.38,P04578,71.38,P04578:71.4%,True,ACCEPTED,QIX06691.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIX06234.1,858,1,,ABSENT,P04578,71.26,P04578,71.26,P04578:71.3%,True,ACCEPTED,QIX06234.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIX05989.1,868,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,QIX05989.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIX05748.1,867,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QIX05748.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIX05460.1,865,1,,ABSENT,P04578,70.79,P04578,70.79,P04578:70.8%,True,ACCEPTED,QIX05460.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QBQ20211.1,198,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(198 not in 820-900),"QBQ20211.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ20114.1,198,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(198 not in 820-900),"QBQ20114.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ20018.1,209,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(209 not in 820-900),"QBQ20018.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ19917.1,202,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(202 not in 820-900),"QBQ19917.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ19820.1,198,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"QBQ19820.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ19722.1,200,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(200 not in 820-900),"QBQ19722.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QBQ19623.1,200,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(200 not in 820-900),"QBQ19623.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,QID00814.1,854,1,,ABSENT,P04578,71.9,P04578,71.9,P04578:71.9%,True,ACCEPTED,QID00814.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QID00408.1,869,1,,ABSENT,P04578,74.42,P04578,74.42,P04578:74.4%,True,ACCEPTED,QID00408.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIC99757.1,857,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QIC99757.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIC94433.1,852,1,,ABSENT,P04578,72.77,P04578,72.77,P04578:72.8%,True,ACCEPTED,QIC94433.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIC93831.1,858,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QIC93831.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIC93331.1,857,1,,ABSENT,P04578,71.85,P04578,71.85,P04578:71.8%,True,ACCEPTED,QIC93331.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QIC93012.1,861,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QIC93012.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QAB37996.1,866,2,,ABSENT,P04578,73.13,P04578,73.13,P04578:73.1%,True,ACCEPTED,QAB37996.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QAB37601.1,853,1,,ABSENT,P04578,71.51,P04578,71.51,P04578:71.5%,True,ACCEPTED,QAB37601.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QAB37192.1,853,1,,ABSENT,P04578,73.39,P04578,73.39,P04578:73.4%,True,ACCEPTED,QAB37192.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QAB36253.1,862,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QAB36253.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QAB35720.1,841,1,,ABSENT,P04578,74.32,P04578,74.32,P04578:74.3%,True,ACCEPTED,QAB35720.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV15582.1,851,1,,ABSENT,P04578,75.21,P04578,75.21,P04578:75.2%,True,ACCEPTED,QGV15582.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV14965.1,842,1,,ABSENT,P04578,73.28,P04578,73.28,P04578:73.3%,True,ACCEPTED,QGV14965.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV14697.1,843,1,,ABSENT,P04578,73.19,P04578,73.19,P04578:73.2%,True,ACCEPTED,QGV14697.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV14480.1,847,1,,ABSENT,P04578,72.85,P04578,72.85,P04578:72.8%,True,ACCEPTED,QGV14480.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV14251.1,848,1,,ABSENT,P04578,74.17,P04578,74.17,P04578:74.2%,True,ACCEPTED,QGV14251.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV14045.1,848,1,,ABSENT,P04578,73.23,P04578,73.23,P04578:73.2%,True,ACCEPTED,QGV14045.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QGV13852.1,844,1,,ABSENT,P04578,73.82,P04578,73.82,P04578:73.8%,True,ACCEPTED,QGV13852.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,QEJ75858.1,856,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,QEJ75858.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AXP14231.1,855,1,,ABSENT,P04578,72.98,P04578,72.98,P04578:73.0%,True,ACCEPTED,AXP14231.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AXP13356.1,856,1,,ABSENT,P04578,70.91,P04578,70.91,P04578:70.9%,True,ACCEPTED,AXP13356.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AYM47111.1,857,1,,ABSENT,P04578,73.71,P04578,73.71,P04578:73.7%,True,ACCEPTED,AYM47111.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ATW67456.1,853,1,,ABSENT,P04578,72.92,P04578,72.92,P04578:72.9%,True,ACCEPTED,ATW67456.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ATW67223.1,864,1,,ABSENT,P04578,71.14,P04578,71.14,P04578:71.1%,True,ACCEPTED,ATW67223.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ASR81752.1,854,1,,ABSENT,P04578,73.3,P04578,73.3,P04578:73.3%,True,ACCEPTED,ASR81752.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AVP73563.1,853,1,,ABSENT,P04578,71.28,P04578,71.28,P04578:71.3%,True,ACCEPTED,AVP73563.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ASM60187.1,847,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ASM60187.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ASM59694.1,864,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,ASM59694.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ASM59229.1,861,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ASM59229.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63332.1,850,1,,ABSENT,P04578,71.53,P04578,71.53,P04578:71.5%,True,ACCEPTED,AMQ63332.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63282.1,856,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AMQ63282.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63232.1,853,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AMQ63232.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63183.1,861,1,,ABSENT,P04578,71.26,P04578,71.26,P04578:71.3%,True,ACCEPTED,AMQ63183.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63134.1,858,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AMQ63134.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AMQ63086.1,853,1,,ABSENT,P04578,71.28,P04578,71.28,P04578:71.3%,True,ACCEPTED,AMQ63086.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU34181.1,858,1,,ABSENT,P04578,71.96,P04578,71.96,P04578:72.0%,True,ACCEPTED,AFU34181.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU33719.1,851,1,,ABSENT,P04578,72.15,P04578,72.15,P04578:72.2%,True,ACCEPTED,AFU33719.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU33227.1,878,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU33227.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU32842.1,861,1,,ABSENT,P04578,72.08,P04578,72.08,P04578:72.1%,True,ACCEPTED,AFU32842.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU32421.1,866,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,AFU32421.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU31901.1,864,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,AFU31901.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU31404.1,872,1,,ABSENT,P04578,72.2,P04578,72.2,P04578:72.2%,True,ACCEPTED,AFU31404.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU30941.1,338,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU30941.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU30573.1,858,1,,ABSENT,P04578,72.08,P04578,72.08,P04578:72.1%,True,ACCEPTED,AFU30573.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU30194.1,863,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,AFU30194.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU29819.1,858,1,,ABSENT,P04578,72.78,P04578,72.78,P04578:72.8%,True,ACCEPTED,AFU29819.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU29443.1,850,1,,ABSENT,P04578,71.88,P04578,71.88,P04578:71.9%,True,ACCEPTED,AFU29443.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU29052.1,863,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(B),AFU29052.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU28687.1,291,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(291 not in 820-900),AFU28687.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU28074.1,880,1,,ABSENT,P04578,72.9,P04578,72.9,P04578:72.9%,True,ACCEPTED,AFU28074.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU27699.1,867,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,AFU27699.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU27265.1,873,1,,ABSENT,P04578,71.26,P04578,71.26,P04578:71.3%,True,ACCEPTED,AFU27265.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU26813.1,862,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU26813.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU26278.1,852,1,,ABSENT,P04578,71.36,P04578,71.36,P04578:71.4%,True,ACCEPTED,AFU26278.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFU25859.1,861,1,,ABSENT,P04578,73.13,P04578,73.13,P04578:73.1%,True,ACCEPTED,AFU25859.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AOZ17781.1,173,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AOZ17781.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AOY12931.1,267,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(267 not in 820-900),"AOY12931.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AOY12883.1,270,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(270 not in 820-900),"AOY12883.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AOY12835.1,267,2,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(267 not in 820-900),"AOY12835.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AOY12787.1,267,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(267 not in 820-900),"AOY12787.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AOY12690.1,260,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(260 not in 820-900),"AOY12690.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ACF40276.1,342,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(342 not in 820-900),"ACF40276.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ACF40228.1,353,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(353 not in 820-900),"ACF40228.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAY83781.1,108,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BX),"AAY83781.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAY83732.1,108,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AAY83732.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAY83681.1,107,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AAY83681.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAW57676.1,861,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BX),AAW57676.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AEQ65968.1,115,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(115 not in 820-900),"AEQ65968.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEQ65513.1,115,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(115 not in 820-900),"AEQ65513.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEQ65141.1,115,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(115 not in 820-900),"AEQ65141.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEQ64918.1,114,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(114 not in 820-900),"AEQ64918.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ADT64639.1,119,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"ADT64639.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ADT64591.1,118,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(118 not in 820-900),"ADT64591.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ADT64543.1,120,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(120 not in 820-900),"ADT64543.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ADJ00348.1,846,1,,ABSENT,P04578,72.46,P04578,72.46,P04578:72.5%,True,ACCEPTED,ADJ00348.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ACN74965.1,850,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ACN74965.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ABQ97489.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 820-900),"ABQ97489.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABQ97441.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 820-900),"ABQ97441.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABQ97393.1,199,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(199 not in 820-900),"ABQ97393.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABQ97345.1,204,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(204 not in 820-900),"ABQ97345.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABQ97296.1,207,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(207 not in 820-900),"ABQ97296.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABQ97248.1,198,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(198 not in 820-900),"ABQ97248.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ABI15754.1,855,1,,ABSENT,P04578,72.4,P04578,72.4,P04578:72.4%,True,ACCEPTED,ABI15754.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIA79223.1,121,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(121 not in 820-900),"AIA79223.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AJT59633.1,256,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(256 not in 820-900),"AJT59633.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AJT59585.1,226,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(226 not in 820-900),"AJT59585.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AIS44266.1,847,1,,ABSENT,P04578,72.73,P04578,72.73,P04578:72.7%,True,ACCEPTED,AIS44266.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIS43912.1,863,1,,ABSENT,P04578,73.13,P04578,73.13,P04578:73.1%,True,ACCEPTED,AIS43912.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIS43434.1,858,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,AIS43434.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIS42781.1,856,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,AIS42781.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIS42158.1,862,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,AIS42158.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIS41568.1,845,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,AIS41568.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW37992.1,843,1,,ABSENT,P04578,73.78,P04578,73.78,P04578:73.8%,True,ACCEPTED,AJW37992.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW37797.1,848,1,,ABSENT,P04578,73.23,P04578,73.23,P04578:73.2%,True,ACCEPTED,AJW37797.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW37602.1,854,1,,ABSENT,P04578,72.37,P04578,72.37,P04578:72.4%,True,ACCEPTED,AJW37602.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW37338.1,848,1,,ABSENT,P04578,72.17,P04578,72.17,P04578:72.2%,True,ACCEPTED,AJW37338.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW37080.1,857,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,AJW37080.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW36888.1,858,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,AJW36888.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW36631.1,861,1,,ABSENT,P04578,71.85,P04578,71.85,P04578:71.8%,True,ACCEPTED,AJW36631.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW36432.1,864,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,AJW36432.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW36240.1,869,1,,ABSENT,P04578,72.66,P04578,72.66,P04578:72.7%,True,ACCEPTED,AJW36240.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW35856.1,853,1,,ABSENT,P04578,72.22,P04578,72.22,P04578:72.2%,True,ACCEPTED,AJW35856.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW35660.1,878,1,,ABSENT,P04578,74.65,P04578,74.65,P04578:74.6%,True,ACCEPTED,AJW35660.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW35468.1,868,1,,ABSENT,P04578,72.78,P04578,72.78,P04578:72.8%,True,ACCEPTED,AJW35468.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW35273.1,868,1,,ABSENT,P04578,72.55,P04578,72.55,P04578:72.5%,True,ACCEPTED,AJW35273.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW35075.1,857,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,AJW35075.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW34880.1,852,1,,ABSENT,P04578,72.65,P04578,72.65,P04578:72.7%,True,ACCEPTED,AJW34880.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW34730.1,860,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,AJW34730.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW34535.1,858,1,,ABSENT,P04578,71.85,P04578,71.85,P04578:71.8%,True,ACCEPTED,AJW34535.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW34337.1,865,1,,ABSENT,P04578,73.36,P04578,73.36,P04578:73.4%,True,ACCEPTED,AJW34337.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW34145.1,855,1,,ABSENT,P04578,73.92,P04578,73.92,P04578:73.9%,True,ACCEPTED,AJW34145.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW33794.1,848,1,,ABSENT,P04578,73.7,P04578,73.7,P04578:73.7%,True,ACCEPTED,AJW33794.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW33494.1,854,1,,ABSENT,P04578,72.72,P04578,72.72,P04578:72.7%,True,ACCEPTED,AJW33494.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW33242.1,876,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,AJW33242.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW33044.1,858,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,AJW33044.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW32852.1,872,1,,ABSENT,P04578,72.08,P04578,72.08,P04578:72.1%,True,ACCEPTED,AJW32852.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW32660.1,856,1,,ABSENT,P04578,72.66,P04578,72.66,P04578:72.7%,True,ACCEPTED,AJW32660.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AJW32423.1,854,1,,ABSENT,P04578,74.12,P04578,74.12,P04578:74.1%,True,ACCEPTED,AJW32423.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AIF71602.1,367,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(367 not in 820-900),"AIF71602.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AHN16434.1,851,1,,ABSENT,P04578,73.8,P04578,73.8,P04578:73.8%,True,ACCEPTED,AHN16434.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AHC29793.1,860,1,,ABSENT,P04578,71.61,P04578,71.61,P04578:71.6%,True,ACCEPTED,AHC29793.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ADW94041.1,204,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(204 not in 820-900),"ADW94041.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,ADW93993.1,200,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(200 not in 820-900),"ADW93993.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AFQ61415.1,860,1,,ABSENT,P04578,70.79,P04578,70.79,P04578:70.8%,True,ACCEPTED,AFQ61415.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFR42744.1,865,1,,ABSENT,P04578,71.5,P04578,71.5,P04578:71.5%,True,ACCEPTED,AFR42744.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AFV34432.1,859,1,,ABSENT,P04578,78.74,P04578,78.74,P04578:78.7%,True,ACCEPTED,AFV34432.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,BAM37420.1,860,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),BAM37420.1 env protein [Human immunodeficiency virus 1]
+HIV_Env,AEZ35790.1,397,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(397 not in 820-900),"AEZ35790.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEZ35742.1,371,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(371 not in 820-900),"AEZ35742.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEZ35694.1,376,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(376 not in 820-900),"AEZ35694.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AEZ35646.1,365,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(365 not in 820-900),"AEZ35646.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAP43824.1,115,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(115 not in 820-900),"AAP43824.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Env,AAQ98502.1,857,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,AAQ98502.1 env protein [Human immunodeficiency virus 1]
+HIV_Env,ADU05254.1,871,1,,ABSENT,P04578,73.01,P04578,73.01,P04578:73.0%,True,ACCEPTED,ADU05254.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ADU05076.1,846,1,,ABSENT,P04578,73.88,P04578,73.88,P04578:73.9%,True,ACCEPTED,ADU05076.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ADU04884.1,855,1,,ABSENT,P04578,71.58,P04578,71.58,P04578:71.6%,True,ACCEPTED,ADU04884.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AET80881.1,849,1,,ABSENT,P04578,72.79,P04578,72.79,P04578:72.8%,True,ACCEPTED,AET80881.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AET80833.1,865,1,,ABSENT,P04578,73.25,P04578,73.25,P04578:73.2%,True,ACCEPTED,AET80833.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,AET80785.1,856,1,,ABSENT,P04578,71.96,P04578,71.96,P04578:72.0%,True,ACCEPTED,AET80785.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ACI28331.1,863,1,,ABSENT,P04578,71.73,P04578,71.73,P04578:71.7%,True,ACCEPTED,ACI28331.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ADD83171.1,844,1,,ABSENT,P04578,73.34,P04578,73.34,P04578:73.3%,True,ACCEPTED,ADD83171.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,ADD25749.1,866,1,,ABSENT,P04578,72.43,P04578,72.43,P04578:72.4%,True,ACCEPTED,ADD25749.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Env,CAP07889.1,195,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BX),"CAP07889.1 gp120 protein, partial [HIV-1 CRF01_AE]"
+HIV_Env,BAF32262.1,863,1,,ABSENT,P04578,72.31,P04578,72.31,P04578:72.3%,True,ACCEPTED,BAF32262.1 Env [Human immunodeficiency virus 1]
+HIV_Env,BAB21646.1,110,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(110 not in 820-900),"BAB21646.1 envelope glycoprotein gp120, partial [Human immunodeficiency virus 1]"
+HIV_gp120,AXP14231.1,470,,,N/A,sliced from HIV_Env,,,,subunit span 32-501 on parent,True,SUBUNIT_SLICE,AXP14231.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AFV34432.1,476,,,N/A,sliced from HIV_Env,,,,subunit span 32-507 on parent,True,SUBUNIT_SLICE,AFV34432.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,QRC49169.1,474,,,N/A,sliced from HIV_Env,,,,subunit span 31-504 on parent,True,SUBUNIT_SLICE,QRC49169.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,QGV15582.1,475,,,N/A,sliced from HIV_Env,,,,subunit span 32-506 on parent,True,SUBUNIT_SLICE,QGV15582.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,XKC16435.1,473,,,N/A,sliced from HIV_Env,,,,subunit span 32-504 on parent,True,SUBUNIT_SLICE,XKC16435.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,WMD30114.1,493,,,N/A,sliced from HIV_Env,,,,subunit span 32-524 on parent,True,SUBUNIT_SLICE,WMD30114.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,XPO03727.1,480,,,N/A,sliced from HIV_Env,,,,subunit span 32-511 on parent,True,SUBUNIT_SLICE,XPO03727.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AFU27265.1,490,,,N/A,sliced from HIV_Env,,,,subunit span 32-521 on parent,True,SUBUNIT_SLICE,AFU27265.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UMQ71371.1,473,,,N/A,sliced from HIV_Env,,,,subunit span 32-504 on parent,True,SUBUNIT_SLICE,UMQ71371.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,QIX05989.1,491,,,N/A,sliced from HIV_Env,,,,subunit span 32-522 on parent,True,SUBUNIT_SLICE,QIX05989.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UBW87652.1,489,,,N/A,sliced from HIV_Env,,,,subunit span 32-520 on parent,True,SUBUNIT_SLICE,"UBW87652.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,QIX05460.1,481,,,N/A,sliced from HIV_Env,,,,subunit span 32-512 on parent,True,SUBUNIT_SLICE,QIX05460.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AFU31404.1,488,,,N/A,sliced from HIV_Env,,,,subunit span 32-519 on parent,True,SUBUNIT_SLICE,AFU31404.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UBW85602.1,475,,,N/A,sliced from HIV_Env,,,,subunit span 32-506 on parent,True,SUBUNIT_SLICE,"UBW85602.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,QIX06234.1,475,,,N/A,sliced from HIV_Env,,,,subunit span 32-506 on parent,True,SUBUNIT_SLICE,QIX06234.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AFU29819.1,474,,,N/A,sliced from HIV_Env,,,,subunit span 32-505 on parent,True,SUBUNIT_SLICE,AFU29819.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UMQ72542.1,487,,,N/A,sliced from HIV_Env,,,,subunit span 32-518 on parent,True,SUBUNIT_SLICE,UMQ72542.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AMQ63183.1,478,,,N/A,sliced from HIV_Env,,,,subunit span 32-509 on parent,True,SUBUNIT_SLICE,AMQ63183.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AHN16434.1,474,,,N/A,sliced from HIV_Env,,,,subunit span 32-505 on parent,True,SUBUNIT_SLICE,AHN16434.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UBW83035.1,473,,,N/A,sliced from HIV_Env,,,,subunit span 32-504 on parent,True,SUBUNIT_SLICE,"UBW83035.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,UBW87851.1,478,,,N/A,sliced from HIV_Env,,,,subunit span 32-509 on parent,True,SUBUNIT_SLICE,"UBW87851.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,AFR42744.1,482,,,N/A,sliced from HIV_Env,,,,subunit span 32-513 on parent,True,SUBUNIT_SLICE,AFR42744.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,AMQ63332.1,467,,,N/A,sliced from HIV_Env,,,,subunit span 32-498 on parent,True,SUBUNIT_SLICE,AMQ63332.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,QAB37601.1,477,,,N/A,sliced from HIV_Env,,,,subunit span 32-508 on parent,True,SUBUNIT_SLICE,QAB37601.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UMQ71839.1,486,,,N/A,sliced from HIV_Env,,,,subunit span 32-517 on parent,True,SUBUNIT_SLICE,UMQ71839.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,ADU04884.1,472,,,N/A,sliced from HIV_Env,,,,subunit span 32-503 on parent,True,SUBUNIT_SLICE,ADU04884.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UBW82422.1,495,,,N/A,sliced from HIV_Env,,,,subunit span 32-526 on parent,True,SUBUNIT_SLICE,"UBW82422.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,ATW67223.1,481,,,N/A,sliced from HIV_Env,,,,subunit span 32-512 on parent,True,SUBUNIT_SLICE,ATW67223.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp120,UBW85812.1,474,,,N/A,sliced from HIV_Env,,,,subunit span 32-505 on parent,True,SUBUNIT_SLICE,"UBW85812.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp120,QAB37192.1,470,,,N/A,sliced from HIV_Env,,,,subunit span 32-501 on parent,True,SUBUNIT_SLICE,QAB37192.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QAB37996.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 515-866 on parent,True,SUBUNIT_SLICE,QAB37996.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QGV15582.1,345,,,N/A,sliced from HIV_Env,,,,subunit span 507-851 on parent,True,SUBUNIT_SLICE,QGV15582.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QRC49169.1,348,,,N/A,sliced from HIV_Env,,,,subunit span 505-852 on parent,True,SUBUNIT_SLICE,QRC49169.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,AFV34432.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 508-859 on parent,True,SUBUNIT_SLICE,AFV34432.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,XKC16435.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 505-856 on parent,True,SUBUNIT_SLICE,XKC16435.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QIX06234.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 507-858 on parent,True,SUBUNIT_SLICE,QIX06234.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QIC93331.1,345,,,N/A,sliced from HIV_Env,,,,subunit span 513-857 on parent,True,SUBUNIT_SLICE,QIC93331.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW86827.1,345,,,N/A,sliced from HIV_Env,,,,subunit span 512-856 on parent,True,SUBUNIT_SLICE,"UBW86827.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,UBW83425.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 507-858 on parent,True,SUBUNIT_SLICE,"UBW83425.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,AFU27265.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 522-873 on parent,True,SUBUNIT_SLICE,AFU27265.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW82422.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 527-878 on parent,True,SUBUNIT_SLICE,"UBW82422.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,XPO03727.1,349,,,N/A,sliced from HIV_Env,,,,subunit span 512-860 on parent,True,SUBUNIT_SLICE,XPO03727.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UMQ72343.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 533-884 on parent,True,SUBUNIT_SLICE,UMQ72343.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW82834.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 502-853 on parent,True,SUBUNIT_SLICE,"UBW82834.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,AFU31404.1,353,,,N/A,sliced from HIV_Env,,,,subunit span 520-872 on parent,True,SUBUNIT_SLICE,AFU31404.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW87031.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 497-848 on parent,True,SUBUNIT_SLICE,"UBW87031.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,UMQ70433.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 509-860 on parent,True,SUBUNIT_SLICE,UMQ70433.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,WMD30114.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 525-876 on parent,True,SUBUNIT_SLICE,WMD30114.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UMQ71839.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 518-869 on parent,True,SUBUNIT_SLICE,UMQ71839.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW88050.1,345,,,N/A,sliced from HIV_Env,,,,subunit span 504-848 on parent,True,SUBUNIT_SLICE,"UBW88050.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,AVP73563.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 502-853 on parent,True,SUBUNIT_SLICE,AVP73563.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,AFU32842.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 510-861 on parent,True,SUBUNIT_SLICE,AFU32842.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QIX05989.1,346,,,N/A,sliced from HIV_Env,,,,subunit span 523-868 on parent,True,SUBUNIT_SLICE,QIX05989.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,AYM47111.1,348,,,N/A,sliced from HIV_Env,,,,subunit span 510-857 on parent,True,SUBUNIT_SLICE,AYM47111.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,AMQ63183.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 510-861 on parent,True,SUBUNIT_SLICE,AMQ63183.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,UBW85202.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 507-858 on parent,True,SUBUNIT_SLICE,"UBW85202.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,UBW87448.1,353,,,N/A,sliced from HIV_Env,,,,subunit span 506-858 on parent,True,SUBUNIT_SLICE,"UBW87448.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_gp41,WDY92899.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 523-874 on parent,True,SUBUNIT_SLICE,WDY92899.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,AIS43912.1,352,,,N/A,sliced from HIV_Env,,,,subunit span 512-863 on parent,True,SUBUNIT_SLICE,AIS43912.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_gp41,QGV14251.1,348,,,N/A,sliced from HIV_Env,,,,subunit span 501-848 on parent,True,SUBUNIT_SLICE,QGV14251.1 envelope glycoprotein [Human immunodeficiency virus 1]
+HIV_Gag,YFN08105.1,493,1,,ABSENT,P04591,84.99,P04591,84.99,P04591:85.0%,True,ACCEPTED,YFN08105.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,YFN07631.1,499,1,,ABSENT,P04591,83.77,P04591,83.77,P04591:83.8%,True,ACCEPTED,YFN07631.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,YFN07346.1,507,1,,ABSENT,P04591,84.6,P04591,84.6,P04591:84.6%,True,ACCEPTED,YFN07346.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,WVT29333.1,499,1,,ABSENT,P04591,84.97,P04591,84.97,P04591:85.0%,True,ACCEPTED,WVT29333.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,XWN58004.1,312,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(312 not in 470-520),"XWN58004.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,XWN57916.1,313,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(313 not in 470-520),"XWN57916.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,XWN57796.1,304,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"XWN57796.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,XFC51684.1,500,1,,ABSENT,P04591,83.6,P04591,83.6,P04591:83.6%,True,ACCEPTED,XFC51684.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,XPO04964.1,503,1,,ABSENT,P04591,90.0,P04591,90.0,P04591:90.0%,True,ACCEPTED,XPO04964.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,XPO03656.1,492,1,,ABSENT,P04591,84.55,P04591,84.55,P04591:84.6%,True,ACCEPTED,XPO03656.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,WYV76937.1,510,1,,ABSENT,P04591,84.6,P04591,84.6,P04591:84.6%,True,ACCEPTED,WYV76937.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,WMD30065.1,499,1,,ABSENT,P04591,83.97,P04591,83.97,P04591:84.0%,True,ACCEPTED,WMD30065.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,WDY32054.1,301,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(301 not in 470-520),"WDY32054.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,WDY31932.1,315,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(315 not in 470-520),"WDY31932.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,WDY31880.1,314,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(314 not in 470-520),"WDY31880.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,WDY31781.1,304,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"WDY31781.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,URX38534.1,122,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(122 not in 470-520),"URX38534.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,WEU84008.1,499,1,,ABSENT,P04591,82.36,P04591,82.36,P04591:82.4%,True,ACCEPTED,WEU84008.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UVF23956.1,495,1,,ABSENT,P04591,84.65,P04591,84.65,P04591:84.6%,True,ACCEPTED,UVF23956.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UVF23765.1,498,1,,ABSENT,P04591,85.34,P04591,85.34,P04591:85.3%,True,ACCEPTED,UVF23765.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UMQ72036.2,495,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),UMQ72036.2 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UMQ71244.2,496,1,,ABSENT,P04591,84.88,P04591,84.88,P04591:84.9%,True,ACCEPTED,UMQ71244.2 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UMQ69966.2,498,1,,ABSENT,P04591,83.94,P04591,83.94,P04591:83.9%,True,ACCEPTED,UMQ69966.2 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UPQ45239.1,293,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"UPQ45239.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,UPQ45087.1,300,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(300 not in 470-520),"UPQ45087.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,UPQ44941.1,295,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(JX),"UPQ44941.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AXN71350.1,302,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AXN71350.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AXN71199.1,302,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(302 not in 470-520),"AXN71199.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AXN70997.1,302,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(JX),"AXN70997.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,UDP23344.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(BX),UDP23344.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UDP23202.1,494,1,,ABSENT,P04591,83.81,P04591,83.81,P04591:83.8%,True,ACCEPTED,UDP23202.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,UDP22692.1,501,1,,ABSENT,P04591,91.0,P04591,91.0,P04591:91.0%,True,ACCEPTED,UDP22692.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QQN95666.1,493,1,,ABSENT,P04591,85.19,P04591,85.19,P04591:85.2%,True,ACCEPTED,QQN95666.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QNG98205.1,498,1,,ABSENT,P04591,84.14,P04591,84.14,P04591:84.1%,True,ACCEPTED,QNG98205.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QRX75436.1,497,1,,ABSENT,P04591,84.31,P04591,84.31,P04591:84.3%,True,ACCEPTED,QRX75436.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QKI36190.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 470-520),"QKI36190.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QKI36164.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 470-520),"QKI36164.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QKI36367.1,122,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(122 not in 470-520),"QKI36367.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QKI36341.1,122,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(122 not in 470-520),"QKI36341.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QKI36306.1,122,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(122 not in 470-520),"QKI36306.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AVA00162.1,498,1,,ABSENT,P04591,85.14,P04591,85.14,P04591:85.1%,True,ACCEPTED,AVA00162.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AUZ99915.1,493,1,,ABSENT,P04591,86.0,P04591,86.0,P04591:86.0%,True,ACCEPTED,AUZ99915.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QJE62256.1,498,1,,ABSENT,P04591,83.33,P04591,83.33,P04591:83.3%,True,ACCEPTED,QJE62256.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ABV72429.1,187,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(187 not in 470-520),"ABV72429.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEH21363.1,497,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AEH21363.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEH21336.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(JX),"AEH21336.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QGM77855.1,232,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(232 not in 470-520),"QGM77855.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QGM77798.1,232,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(232 not in 470-520),"QGM77798.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QGM77748.1,232,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(232 not in 470-520),"QGM77748.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QIX07174.1,498,1,,ABSENT,P04591,82.93,P04591,82.93,P04591:82.9%,True,ACCEPTED,QIX07174.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIX06939.1,499,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QIX06939.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIX06702.1,498,1,,ABSENT,P04591,84.54,P04591,84.54,P04591:84.5%,True,ACCEPTED,QIX06702.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIX06459.1,496,1,,ABSENT,P04591,85.69,P04591,85.69,P04591:85.7%,True,ACCEPTED,QIX06459.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QID00904.1,497,1,,ABSENT,P04591,83.9,P04591,83.9,P04591:83.9%,True,ACCEPTED,QID00904.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QID00671.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QID00671.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QID00383.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QID00383.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QID00154.1,496,2,,ABSENT,P04591,84.68,P04591,84.68,P04591:84.7%,True,ACCEPTED,QID00154.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIC99916.1,496,1,,ABSENT,P04591,85.89,P04591,85.89,P04591:85.9%,True,ACCEPTED,QIC99916.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIC99563.1,494,2,,ABSENT,P04591,84.82,P04591,84.82,P04591:84.8%,True,ACCEPTED,QIC99563.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIC96180.1,492,1,,ABSENT,P04591,83.94,P04591,83.94,P04591:83.9%,True,ACCEPTED,QIC96180.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIC95782.1,499,1,,ABSENT,P04591,83.97,P04591,83.97,P04591:84.0%,True,ACCEPTED,QIC95782.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QIC95607.1,498,1,,ABSENT,P04591,83.13,P04591,83.13,P04591:83.1%,True,ACCEPTED,QIC95607.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB38370.1,499,1,,ABSENT,P04591,82.77,P04591,82.77,P04591:82.8%,True,ACCEPTED,QAB38370.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB38290.1,491,1,,ABSENT,P04591,84.52,P04591,84.52,P04591:84.5%,True,ACCEPTED,QAB38290.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB38106.1,503,1,,ABSENT,P04591,83.6,P04591,83.6,P04591:83.6%,True,ACCEPTED,QAB38106.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36905.1,492,1,,ABSENT,P04591,82.52,P04591,82.52,P04591:82.5%,True,ACCEPTED,QAB36905.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36778.1,497,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QAB36778.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36641.1,486,1,,ABSENT,P04591,84.16,P04591,84.16,P04591:84.2%,True,ACCEPTED,QAB36641.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36479.1,485,1,,ABSENT,P04591,84.95,P04591,84.95,P04591:84.9%,True,ACCEPTED,QAB36479.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36255.1,497,1,,ABSENT,P04591,84.51,P04591,84.51,P04591:84.5%,True,ACCEPTED,QAB36255.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB36020.1,500,1,,ABSENT,P04591,83.4,P04591,83.4,P04591:83.4%,True,ACCEPTED,QAB36020.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QAB35722.1,491,1,,ABSENT,P04591,84.32,P04591,84.32,P04591:84.3%,True,ACCEPTED,QAB35722.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QGV15380.1,501,1,,ABSENT,P04591,90.0,P04591,90.0,P04591:90.0%,True,ACCEPTED,QGV15380.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QGV15237.1,485,1,,ABSENT,P04591,85.36,P04591,85.36,P04591:85.4%,True,ACCEPTED,QGV15237.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QGV15002.1,485,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),QGV15002.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,QBR97176.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR97176.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR97134.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR97134.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR97098.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR97098.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR97058.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR97058.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR97024.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR97024.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96989.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96989.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96960.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96960.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96925.1,202,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(202 not in 470-520),"QBR96925.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96897.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96897.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96864.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96864.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96828.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96828.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96789.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96789.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96738.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96738.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96694.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96694.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96661.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96661.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96625.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96625.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96589.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96589.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96552.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96552.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96510.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96510.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96465.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96465.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96435.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96435.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBR96381.1,203,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(203 not in 470-520),"QBR96381.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBC81817.1,213,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(213 not in 470-520),"QBC81817.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBC81790.1,216,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(216 not in 470-520),"QBC81790.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBC81764.1,213,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(213 not in 470-520),"QBC81764.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,QBC81737.1,213,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(213 not in 470-520),"QBC81737.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AXP13915.1,496,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AXP13915.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AXP13673.1,498,1,,ABSENT,P04591,82.73,P04591,82.73,P04591:82.7%,True,ACCEPTED,AXP13673.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AXP13305.1,498,1,,ABSENT,P04591,85.14,P04591,85.14,P04591:85.1%,True,ACCEPTED,AXP13305.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AVX41139.1,307,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AVX41139.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AVX41088.1,310,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(310 not in 470-520),"AVX41088.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AVX41037.1,297,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AVX41037.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AVX40990.1,307,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AVX40990.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AQY46147.1,304,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AQY46147.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AZB80127.1,508,1,,ABSENT,P04591,90.4,P04591,90.4,P04591:90.4%,True,ACCEPTED,AZB80127.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AYC44501.1,126,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(126 not in 470-520),"AYC44501.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AXR99486.1,488,1,,ABSENT,P04591,86.89,P04591,86.89,P04591:86.9%,True,ACCEPTED,AXR99486.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ASR81722.1,498,1,,ABSENT,P04591,82.73,P04591,82.73,P04591:82.7%,True,ACCEPTED,ASR81722.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AVU88403.1,488,1,,ABSENT,P04591,85.86,P04591,85.86,P04591:85.9%,True,ACCEPTED,AVU88403.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AVR93571.1,212,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AVR93571.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AVE00878.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AVE00878.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ASV70753.1,468,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(468 not in 470-520),"ASV70753.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ASM60367.1,488,2,,ABSENT,P04591,86.27,P04591,86.27,P04591:86.3%,True,ACCEPTED,ASM60367.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ASM60068.1,494,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ASM60068.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ASM59598.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ASM59598.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ASM59364.1,498,1,,ABSENT,P04591,83.53,P04591,83.53,P04591:83.5%,True,ACCEPTED,ASM59364.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ASM59127.1,498,1,,ABSENT,P04591,83.73,P04591,83.73,P04591:83.7%,True,ACCEPTED,ASM59127.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ARA72373.1,495,1,,ABSENT,P04591,83.23,P04591,83.23,P04591:83.2%,True,ACCEPTED,ARA72373.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU33927.1,497,1,,ABSENT,P04591,85.71,P04591,85.71,P04591:85.7%,True,ACCEPTED,AFU33927.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU33753.1,499,1,,ABSENT,P04591,84.37,P04591,84.37,P04591:84.4%,True,ACCEPTED,AFU33753.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU33511.1,498,1,,ABSENT,P04591,83.33,P04591,83.33,P04591:83.3%,True,ACCEPTED,AFU33511.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU33193.1,489,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU33193.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU32988.1,498,1,,ABSENT,P04591,85.54,P04591,85.54,P04591:85.5%,True,ACCEPTED,AFU32988.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU32731.1,497,1,,ABSENT,P04591,83.5,P04591,83.5,P04591:83.5%,True,ACCEPTED,AFU32731.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU32525.1,498,1,,ABSENT,P04591,82.73,P04591,82.73,P04591:82.7%,True,ACCEPTED,AFU32525.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU32291.1,498,1,,ABSENT,P04591,83.13,P04591,83.13,P04591:83.1%,True,ACCEPTED,AFU32291.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU32047.1,498,1,,ABSENT,P04591,84.34,P04591,84.34,P04591:84.3%,True,ACCEPTED,AFU32047.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU31631.1,498,1,,ABSENT,P04591,83.94,P04591,83.94,P04591:83.9%,True,ACCEPTED,AFU31631.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU31441.1,496,1,,ABSENT,P04591,84.07,P04591,84.07,P04591:84.1%,True,ACCEPTED,AFU31441.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU31230.1,498,1,,ABSENT,P04591,84.94,P04591,84.94,P04591:84.9%,True,ACCEPTED,AFU31230.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU30950.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU30950.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU30743.1,495,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU30743.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU30498.1,496,1,,ABSENT,P04591,84.88,P04591,84.88,P04591:84.9%,True,ACCEPTED,AFU30498.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU30297.1,492,1,,ABSENT,P04591,84.35,P04591,84.35,P04591:84.3%,True,ACCEPTED,AFU30297.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU30084.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),AFU30084.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU29840.1,498,1,,ABSENT,P04591,83.53,P04591,83.53,P04591:83.5%,True,ACCEPTED,AFU29840.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU29594.1,497,1,,ABSENT,P04591,83.7,P04591,83.7,P04591:83.7%,True,ACCEPTED,AFU29594.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU29402.1,498,1,,ABSENT,P04591,82.93,P04591,82.93,P04591:82.9%,True,ACCEPTED,AFU29402.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU29199.1,493,1,,ABSENT,P04591,85.19,P04591,85.19,P04591:85.2%,True,ACCEPTED,AFU29199.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU28915.1,498,1,,ABSENT,P04591,84.74,P04591,84.74,P04591:84.7%,True,ACCEPTED,AFU28915.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU28675.1,498,1,,ABSENT,P04591,84.14,P04591,84.14,P04591:84.1%,True,ACCEPTED,AFU28675.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU28327.1,497,1,,ABSENT,P04591,83.9,P04591,83.9,P04591:83.9%,True,ACCEPTED,AFU28327.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU28090.1,498,1,,ABSENT,P04591,84.54,P04591,84.54,P04591:84.5%,True,ACCEPTED,AFU28090.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU27899.1,493,1,,ABSENT,P04591,84.38,P04591,84.38,P04591:84.4%,True,ACCEPTED,AFU27899.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU27694.1,498,1,,ABSENT,P04591,83.33,P04591,83.33,P04591:83.3%,True,ACCEPTED,AFU27694.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU27383.1,494,1,,ABSENT,P04591,84.82,P04591,84.82,P04591:84.8%,True,ACCEPTED,AFU27383.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU27153.1,391,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(391 not in 470-520),AFU27153.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU26915.1,499,1,,ABSENT,P04591,84.57,P04591,84.57,P04591:84.6%,True,ACCEPTED,AFU26915.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU26696.1,502,1,,ABSENT,P04591,85.0,P04591,85.0,P04591:85.0%,True,ACCEPTED,AFU26696.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU26313.1,496,1,,ABSENT,P04591,83.47,P04591,83.47,P04591:83.5%,True,ACCEPTED,AFU26313.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU26093.1,498,1,,ABSENT,P04591,83.13,P04591,83.13,P04591:83.1%,True,ACCEPTED,AFU26093.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFU25861.1,498,1,,ABSENT,P04591,85.74,P04591,85.74,P04591:85.7%,True,ACCEPTED,AFU25861.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ANJ15960.1,177,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(177 not in 470-520),"ANJ15960.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ANJ15796.1,177,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(177 not in 470-520),"ANJ15796.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AOZ17721.1,324,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(324 not in 470-520),"AOZ17721.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AOZ16655.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AOZ16655.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AOZ16601.1,459,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(459 not in 470-520),"AOZ16601.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ACH99177.1,494,1,,ABSENT,P04591,86.03,P04591,86.03,P04591:86.0%,True,ACCEPTED,ACH99177.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ABD04289.1,504,1,,ABSENT,P04591,93.0,P04591,93.0,P04591:93.0%,True,ACCEPTED,"ABD04289.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AAY25639.1,494,1,,ABSENT,P04591,85.83,P04591,85.83,P04591:85.8%,True,ACCEPTED,"AAY25639.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AAS59333.1,498,1,,ABSENT,P04591,84.34,P04591,84.34,P04591:84.3%,True,ACCEPTED,"AAS59333.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ADZ17318.1,497,1,,ABSENT,P04591,82.7,P04591,82.7,P04591:82.7%,True,ACCEPTED,"ADZ17318.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AAO61827.1,122,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(122 not in 470-520),"AAO61827.1 envelope glycoprotein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ACT76561.1,166,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(166 not in 470-520),"ACT76561.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ACT76498.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ACT76498.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ACT76428.1,498,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),ACT76428.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ACN74760.1,498,1,,ABSENT,P04591,84.94,P04591,84.94,P04591:84.9%,True,ACCEPTED,ACN74760.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ABM73131.1,157,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(157 not in 470-520),"ABM73131.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,BAT33730.1,500,1,,ABSENT,P04591,88.8,P04591,88.8,P04591:88.8%,True,ACCEPTED,BAT33730.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AMX27269.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AMX27269.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AMX27217.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AMX27217.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AMX27163.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AMX27163.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AMX27111.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AMX27111.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AMX27057.1,467,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(467 not in 470-520),"AMX27057.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKN89917.1,491,1,,ABSENT,P04591,84.93,P04591,84.93,P04591:84.9%,True,ACCEPTED,AKN89917.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AKR71679.1,233,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(233 not in 470-520),"AKR71679.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15488.1,192,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AKR15488.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15462.1,191,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AKR15462.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15435.1,192,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AKR15435.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15409.1,191,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(191 not in 470-520),"AKR15409.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15382.1,192,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(JX),"AKR15382.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKR15356.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AKR15356.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70921.1,299,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(299 not in 470-520),"AII70921.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70858.1,299,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(299 not in 470-520),"AII70858.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70807.1,300,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(300 not in 470-520),"AII70807.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70755.1,199,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(199 not in 470-520),"AII70755.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70705.1,199,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(199 not in 470-520),"AII70705.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AII70646.1,199,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(199 not in 470-520),"AII70646.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AKP18476.1,498,1,,ABSENT,P04591,84.14,P04591,84.14,P04591:84.1%,True,ACCEPTED,AKP18476.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AKA59670.1,314,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(JX),"AKA59670.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIY24491.1,472,1,,ABSENT,P04591,83.69,P04591,83.69,P04591:83.7%,True,ACCEPTED,"AIY24491.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIY24437.1,480,1,,ABSENT,P04591,83.75,P04591,83.75,P04591:83.8%,True,ACCEPTED,"AIY24437.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIT40131.1,332,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(332 not in 470-520),"AIT40131.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIT40100.1,341,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(341 not in 470-520),"AIT40100.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIT40056.1,333,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(333 not in 470-520),"AIT40056.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AIF71620.1,493,1,,ABSENT,P04591,84.38,P04591,84.38,P04591:84.4%,True,ACCEPTED,AIF71620.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AHI44427.1,494,1,,ABSENT,P04591,85.83,P04591,85.83,P04591:85.8%,True,ACCEPTED,AHI44427.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AHC29697.1,498,1,,ABSENT,P04591,81.33,P04591,81.33,P04591:81.3%,True,ACCEPTED,AHC29697.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFQ61501.1,498,1,,ABSENT,P04591,83.53,P04591,83.53,P04591:83.5%,True,ACCEPTED,AFQ61501.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AFQ61262.1,497,1,,ABSENT,P04591,83.3,P04591,83.3,P04591:83.3%,True,ACCEPTED,AFQ61262.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AEO17531.1,496,1,,ABSENT,P04591,84.48,P04591,84.48,P04591:84.5%,True,ACCEPTED,AEO17531.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AGL93706.1,179,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(179 not in 470-520),"AGL93706.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AFV34188.1,498,1,,ABSENT,P04591,84.34,P04591,84.34,P04591:84.3%,True,ACCEPTED,AFV34188.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AGF36447.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AGF36447.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF36420.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AGF36420.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF36394.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AGF36394.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF36367.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AGF36367.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF36341.1,192,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(192 not in 470-520),"AGF36341.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF35425.1,225,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(225 not in 470-520),"AGF35425.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF35398.1,235,1,,ABSENT,,,,,,False,NONSTANDARD_RESIDUES(X),"AGF35398.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AGF32969.1,498,1,,ABSENT,P04591,82.13,P04591,82.13,P04591:82.1%,True,ACCEPTED,AGF32969.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AEZ51401.1,485,1,,ABSENT,P04591,83.71,P04591,83.71,P04591:83.7%,True,ACCEPTED,"AEZ51401.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEZ51323.1,483,1,,ABSENT,P04591,85.09,P04591,85.09,P04591:85.1%,True,ACCEPTED,"AEZ51323.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEZ51242.1,489,1,,ABSENT,P04591,82.21,P04591,82.21,P04591:82.2%,True,ACCEPTED,"AEZ51242.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEZ51165.1,493,1,,ABSENT,P04591,85.6,P04591,85.6,P04591:85.6%,True,ACCEPTED,AEZ51165.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AEZ51084.1,491,1,,ABSENT,P04591,83.71,P04591,83.71,P04591:83.7%,True,ACCEPTED,"AEZ51084.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEZ35907.1,498,1,,ABSENT,P04591,83.53,P04591,83.53,P04591:83.5%,True,ACCEPTED,AEZ35907.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AEZ35852.1,492,1,,ABSENT,P04591,84.76,P04591,84.76,P04591:84.8%,True,ACCEPTED,"AEZ35852.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEZ35406.1,488,1,,ABSENT,P04591,85.25,P04591,85.25,P04591:85.2%,True,ACCEPTED,AEZ35406.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AEZ35352.1,483,1,,ABSENT,P04591,83.02,P04591,83.02,P04591:83.0%,True,ACCEPTED,"AEZ35352.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AFN81319.1,491,1,,ABSENT,P04591,86.56,P04591,86.56,P04591:86.6%,True,ACCEPTED,AFN81319.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,AAQ98480.1,496,1,,ABSENT,P04591,85.08,P04591,85.08,P04591:85.1%,True,ACCEPTED,"AAQ98480.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEN55987.1,196,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(196 not in 470-520),"AEN55987.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEN55917.1,196,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(196 not in 470-520),"AEN55917.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,AEN55831.1,196,1,,ABSENT,,,,,,False,LENGTH_OUT_OF_BAND(196 not in 470-520),"AEN55831.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_Gag,ACI45433.1,499,1,,ABSENT,P04591,83.17,P04591,83.17,P04591:83.2%,True,ACCEPTED,ACI45433.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58396.1,499,1,,ABSENT,P04591,84.77,P04591,84.77,P04591:84.8%,True,ACCEPTED,ADJ58396.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58370.1,498,1,,ABSENT,P04591,84.14,P04591,84.14,P04591:84.1%,True,ACCEPTED,ADJ58370.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58343.1,498,1,,ABSENT,P04591,84.94,P04591,84.94,P04591:84.9%,True,ACCEPTED,ADJ58343.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58317.1,498,1,,ABSENT,P04591,83.53,P04591,83.53,P04591:83.5%,True,ACCEPTED,ADJ58317.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58290.1,498,1,,ABSENT,P04591,81.12,P04591,81.12,P04591:81.1%,True,ACCEPTED,ADJ58290.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58263.1,495,1,,ABSENT,P04591,84.65,P04591,84.65,P04591:84.6%,True,ACCEPTED,ADJ58263.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58237.1,498,1,,ABSENT,P04591,84.74,P04591,84.74,P04591:84.7%,True,ACCEPTED,ADJ58237.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58210.1,497,1,,ABSENT,P04591,84.31,P04591,84.31,P04591:84.3%,True,ACCEPTED,ADJ58210.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58184.1,490,1,,ABSENT,P04591,85.71,P04591,85.71,P04591:85.7%,True,ACCEPTED,ADJ58184.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58157.1,495,1,,ABSENT,P04591,85.05,P04591,85.05,P04591:85.1%,True,ACCEPTED,ADJ58157.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58131.1,498,1,,ABSENT,P04591,85.14,P04591,85.14,P04591:85.1%,True,ACCEPTED,ADJ58131.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58104.1,494,1,,ABSENT,P04591,85.22,P04591,85.22,P04591:85.2%,True,ACCEPTED,ADJ58104.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58078.1,498,1,,ABSENT,P04591,85.54,P04591,85.54,P04591:85.5%,True,ACCEPTED,ADJ58078.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,ADJ58051.1,495,1,,ABSENT,P04591,86.06,P04591,86.06,P04591:86.1%,True,ACCEPTED,ADJ58051.1 gag protein [Human immunodeficiency virus 1]
+HIV_Gag,BAF32471.1,493,1,,ABSENT,P04591,84.18,P04591,84.18,P04591:84.2%,True,ACCEPTED,BAF32471.1 Gag [Human immunodeficiency virus 1]
+HIV_Gag,BAF32228.1,497,1,,ABSENT,P04591,84.1,P04591,84.1,P04591:84.1%,True,ACCEPTED,BAF32228.1 Gag [Human immunodeficiency virus 1]
+HIV_p17,QID00154.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QID00154.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,ACH99177.1,127,,,N/A,sliced from HIV_Gag,,,,subunit span 2-128 on parent,True,SUBUNIT_SLICE,ACH99177.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QGV15380.1,132,,,N/A,sliced from HIV_Gag,,,,subunit span 2-133 on parent,True,SUBUNIT_SLICE,QGV15380.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QJE62256.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QJE62256.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,UDP22692.1,130,,,N/A,sliced from HIV_Gag,,,,subunit span 2-131 on parent,True,SUBUNIT_SLICE,UDP22692.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,ASM59364.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,ASM59364.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QIC95607.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QIC95607.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU26093.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU26093.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QIC96180.1,128,,,N/A,sliced from HIV_Gag,,,,subunit span 2-129 on parent,True,SUBUNIT_SLICE,QIC96180.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU32291.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU32291.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AXR99486.1,128,,,N/A,sliced from HIV_Gag,,,,subunit span 2-129 on parent,True,SUBUNIT_SLICE,AXR99486.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFN81319.1,127,,,N/A,sliced from HIV_Gag,,,,subunit span 2-128 on parent,True,SUBUNIT_SLICE,AFN81319.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QIX06459.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QIX06459.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU28327.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU28327.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,ABD04289.1,136,,,N/A,sliced from HIV_Gag,,,,subunit span 1-136 on parent,True,SUBUNIT_SLICE,"ABD04289.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_p17,AEZ35907.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AEZ35907.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QIC99563.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QIC99563.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QIC99916.1,129,,,N/A,sliced from HIV_Gag,,,,subunit span 2-130 on parent,True,SUBUNIT_SLICE,QIC99916.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AXP13305.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AXP13305.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,YFN08105.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,YFN08105.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU32525.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU32525.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AKN89917.1,128,,,N/A,sliced from HIV_Gag,,,,subunit span 2-129 on parent,True,SUBUNIT_SLICE,AKN89917.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QAB36255.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QAB36255.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU33753.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU33753.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,XFC51684.1,133,,,N/A,sliced from HIV_Gag,,,,subunit span 2-134 on parent,True,SUBUNIT_SLICE,XFC51684.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,QAB36020.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,QAB36020.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU28675.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU28675.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,WMD30065.1,134,,,N/A,sliced from HIV_Gag,,,,subunit span 2-135 on parent,True,SUBUNIT_SLICE,WMD30065.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU27899.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU27899.1 gag protein [Human immunodeficiency virus 1]
+HIV_p17,AFU26915.1,131,,,N/A,sliced from HIV_Gag,,,,subunit span 2-132 on parent,True,SUBUNIT_SLICE,AFU26915.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AFU33511.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AFU33511.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AKN89917.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 130-360 on parent,True,SUBUNIT_SLICE,AKN89917.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QJE62256.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,QJE62256.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AZB80127.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 139-369 on parent,True,SUBUNIT_SLICE,AZB80127.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AEZ35406.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 127-357 on parent,True,SUBUNIT_SLICE,AEZ35406.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,XPO04964.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 136-366 on parent,True,SUBUNIT_SLICE,XPO04964.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AFN81319.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 129-359 on parent,True,SUBUNIT_SLICE,AFN81319.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AEZ35352.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 122-352 on parent,True,SUBUNIT_SLICE,"AEZ35352.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_p24,AXR99486.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 130-360 on parent,True,SUBUNIT_SLICE,AXR99486.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,UDP23202.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,UDP23202.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AEZ51323.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 122-352 on parent,True,SUBUNIT_SLICE,"AEZ51323.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_p24,BAT33730.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,BAT33730.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QIC95607.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,QIC95607.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,UDP22692.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 132-362 on parent,True,SUBUNIT_SLICE,UDP22692.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,ASM59127.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,ASM59127.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QAB36905.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,QAB36905.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QAB36479.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 131-361 on parent,True,SUBUNIT_SLICE,QAB36479.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,WVT29333.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 130-360 on parent,True,SUBUNIT_SLICE,WVT29333.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AIY24491.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 115-345 on parent,True,SUBUNIT_SLICE,"AIY24491.1 gag protein, partial [Human immunodeficiency virus 1]"
+HIV_p24,AFU26093.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AFU26093.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AFU29402.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AFU29402.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QNG98205.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,QNG98205.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AXP13305.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AXP13305.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AFU28090.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AFU28090.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AHC29697.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AHC29697.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,ARA72373.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,ARA72373.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QGV15380.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 134-364 on parent,True,SUBUNIT_SLICE,QGV15380.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,UMQ69966.2,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,UMQ69966.2 gag protein [Human immunodeficiency virus 1]
+HIV_p24,AFU30498.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,AFU30498.1 gag protein [Human immunodeficiency virus 1]
+HIV_p24,QIX06459.1,231,,,N/A,sliced from HIV_Gag,,,,subunit span 133-363 on parent,True,SUBUNIT_SLICE,QIX06459.1 gag protein [Human immunodeficiency virus 1]

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "human_swissprot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "UniProt_Human_SwissProt_reviewed",
+  "number-of-letters": 11418104,
+  "number-of-sequences": 20431,
+  "last-updated": "2026-08-26T18:42:00",
+  "number-of-volumes": 1,
+  "bytes-total": 15396831,
+  "bytes-to-cache": 11602104,
+  "files": [
+    "human_swissprot.pdb",
+    "human_swissprot.phr",
+    "human_swissprot.pin",
+    "human_swissprot.pot",
+    "human_swissprot.psq",
+    "human_swissprot.ptf",
+    "human_swissprot.pto"
+  ]
+}

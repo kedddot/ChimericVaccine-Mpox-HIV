@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "toxprot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "toxprot.fasta",
+  "number-of-letters": 1155220,
+  "number-of-sequences": 7916,
+  "last-updated": "2026-08-21T09:59:00",
+  "number-of-volumes": 1,
+  "bytes-total": 2731593,
+  "bytes-to-cache": 1226561,
+  "files": [
+    "toxprot.pdb",
+    "toxprot.phr",
+    "toxprot.pin",
+    "toxprot.pot",
+    "toxprot.psq",
+    "toxprot.ptf",
+    "toxprot.pto"
+  ]
+}

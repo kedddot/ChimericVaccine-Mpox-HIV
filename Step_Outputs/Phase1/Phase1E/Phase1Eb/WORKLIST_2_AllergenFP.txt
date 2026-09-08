@@ -1,0 +1,84 @@
+================================================================================
+WORKLIST 2 of 2  --  AllergenFP v1.0  --  THE 57 16-MERS ONLY
+================================================================================
+TOOL : https://ddg-pharmfac.net/AllergenFP/
+JOB  : 57 peptides, all exactly 16 aa
+       The other 127 peptides are NOT in this list: AllergenFP
+       cannot compute its fingerprint below 16 aa (deviation #6).
+       They are already recorded as N/A and need no submission.
+
+HOW TO FILL THIS IN
+  1. Open the tool in a normal browser tab.
+  2. Paste the peptide (the middle column) into the sequence box and submit.
+  3. Type the answer after the "=" on that line:
+         A  = allergen                (also accepts: ALLERGEN, Y, YES)
+         N  = non-allergen            (also accepts: NON-ALLERGEN, NO)
+  4. Save this file. Leave anything you have not done yet blank.
+  5. Run:  python Phase1Eb_manual_worklist.py --ingest
+
+YOU CAN STOP AND RESUME AT ANY POINT. Blank lines are simply "not done yet".
+Re-running --ingest merges whatever is filled in so far and tells you what is
+left. Nothing is lost by quitting halfway.
+
+DO NOT reorder, delete or retype the peptide column. Answers are matched to
+peptides BY SEQUENCE, so a mistyped sequence is reported as an error rather
+than silently attached to the wrong peptide -- but it still has to be fixed.
+================================================================================
+--- ANSWERS BELOW THIS LINE, ONE PER PEPTIDE ---
+  1  AALNIQTSVNTVVRDF    (16 aa, Pep_0)  = Not
+  2  AATETYSGLTPEQKAY    (16 aa, Pep_1)  = Not
+  3  AIKALMQLTTKATTQI    (16 aa, Pep_2)  = Not
+  4  AMFTAALNIQTSVNTV    (16 aa, Pep_4)  = Is
+  5  ANASAQTKCDIEIGNF    (16 aa, Pep_5)  = Not
+  6  ASAQTKCDIEIGNFYI    (16 aa, Pep_8)  = Is
+  7  ATETYSGLTPEQKAYV    (16 aa, Pep_9)  = Not
+  8  ATLEEMMTACQGVGGP    (16 aa, Pep_11)  = Not
+  9  AYVPAMFTAALNIQTS    (16 aa, Pep_13)  = Not
+ 10  CDIPSLSNGLISGSTF    (16 aa, Pep_14)  = Is
+ 11  CQPLQLEHGSCQPVKE    (16 aa, Pep_15)  = Not
+ 12  CQQKCDIPSLSNGLIS    (16 aa, Pep_16)  = Is
+ 13  CTVPTMNNAKLTSTET    (16 aa, Pep_18)  = Not
+ 14  DHKESCNGLYYQGSCY    (16 aa, Pep_20)  = Not
+ 15  DIPSLSNGLISGSTFS    (16 aa, Pep_21)  = Is
+ 16  DKIQGKNKRKRVIGLC    (16 aa, Pep_23)  = Is
+ 17  DNWRSELYKYKVVQIE    (16 aa, Pep_24)  = Is
+ 18  EDTWGSDGNPITKTTS    (16 aa, Pep_26)  = Not
+ 19  EEMMTACQGVGGPSHK    (16 aa, Pep_27)  = Is
+ 20  EHGSCQPVKEKYSFGE    (16 aa, Pep_28)  = Not
+ 21  EMMTACQGVGGPSHKA    (16 aa, Pep_30)  = Not
+ 22  EQEIESLEATYHIIIM    (16 aa, Pep_32)  = Is
+ 23  EQKAYVPAMFTAALNI    (16 aa, Pep_34)  = Not
+ 24  ESCNGLYYQGSCYILH    (16 aa, Pep_35)  = Is
+ 25  ETYSGLTPEQKAYVPA    (16 aa, Pep_36)  = Not
+ 26  GATLEEMMTACQGVGG    (16 aa, Pep_44)  = Not
+ 27  GGKLDAWEKIRLRPGG    (16 aa, Pep_46)  = Is
+ 28  GIKQLQARVLAVERYL    (16 aa, Pep_49)  = Is
+ 29  GLISGSTFSIGGVIHL    (16 aa, Pep_52)  = Is
+ 30  HGSCQPVKEKYSFGEY    (16 aa, Pep_63)  = Is
+ 31  HKESCNGLYYQGSCYI    (16 aa, Pep_65)  = Is
+ 32  IPSCQQKCDIPSLSNG    (16 aa, Pep_72)  = Is
+ 33  ISLWDQSLKPCVKLTP    (16 aa, Pep_74)  = Is
+ 34  IVQQQSNLLRAIEAQQ    (16 aa, Pep_77)  = Is
+ 35  KESCNGLYYQGSCYIL    (16 aa, Pep_80)  = Not
+ 36  KIQGKNKRKRVIGLCI    (16 aa, Pep_82)  = Not
+ 37  LEEMMTACQGVGGPSH    (16 aa, Pep_93)  = Is
+ 38  LQLTVWGIKQLQARVL    (16 aa, Pep_98)  = Not
+ 39  LTVWGIKQLQARVLAV    (16 aa, Pep_103)  = Not
+ 40  LWDQSLKPCVKLTPLC    (16 aa, Pep_104)  = Is
+ 41  MMTACQGVGGPSHKAR    (16 aa, Pep_107)  = Is
+ 42  MTACQGVGGPSHKARV    (16 aa, Pep_108)  = Not
+ 43  NWRSELYKYKVVQIEP    (16 aa, Pep_116)  = Is
+ 44  QGPKEPFRDYVDRFYK    (16 aa, Pep_124)  = Not
+ 45  QLTVWGIKQLQARVLA    (16 aa, Pep_127)  = Not
+ 46  QSLKPCVKLTPLCVTL    (16 aa, Pep_130)  = Is
+ 47  QYDHKESCNGLYYQGS    (16 aa, Pep_135)  = Not
+ 48  SIVNRVRQGYSPLSFQ    (16 aa, Pep_148)  = Is
+ 49  SSTTQYDHKESCNGLY    (16 aa, Pep_154)  = Is
+ 50  STTQYDHKESCNGLYY    (16 aa, Pep_155)  = Not
+ 51  TACQGVGGPSHKARVL    (16 aa, Pep_157)  = Not
+ 52  TLEEMMTACQGVGGPS    (16 aa, Pep_159)  = Not
+ 53  TVWGIKQLQARVLAVE    (16 aa, Pep_164)  = Not
+ 54  VQQQSNLLRAIEAQQH    (16 aa, Pep_172)  = Not
+ 55  VWGIKQLQARVLAVER    (16 aa, Pep_175)  = Not
+ 56  WDQSLKPCVKLTPLCV    (16 aa, Pep_177)  = Not
+ 57  WGIKQLQARVLAVERY    (16 aa, Pep_178)  = Is

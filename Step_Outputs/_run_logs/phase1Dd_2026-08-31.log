@@ -1,0 +1,13 @@
+
+==========================================================================================
+               PHASE 1Dd: BigMHC IMMUNOGENICITY PRIORITIZATION (MHC-I ONLY)               
+==========================================================================================
+[INFO] 5675 unique (allele, peptide) MHC-I pairs to score.
+[INFO] Running BigMHC IM (7-model ensemble, CPU)...
+[SUCCESS] BigMHC IM scored 5675 pairs.
+
+[INFO] MHC-I immunogenicity -- PRIORITIZED: 280 | DEPRIORITIZED: 3569 | NOT_SCORED: 0
+[INFO] Deprioritized peptides are NOT excluded -- retained per the manuscript's own wording.
+[INFO] Enriched Phase1Db_Elite CSV written to: /Users/nek/Desktop/School/Research/Step_Outputs/Phase1/Phase1D/Phase1Db/Phase1Db_Elite_20260831_0438.csv
+==========================================================================================
+

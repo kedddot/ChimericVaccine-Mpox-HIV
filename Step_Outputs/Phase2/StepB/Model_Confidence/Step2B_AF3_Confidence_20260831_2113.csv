@@ -1,0 +1,23 @@
+Scope,Name,Start,End,Length,Mean_pLDDT,Pct_pLDDT_ge70,Pct_pLDDT_lt50,Max_pLDDT,pTM,iPTM,Fraction_Disordered,Ranking_Score,Has_Clash,Intra_PAE,Inter_PAE,CrossModel_RMSD_Mean,CrossModel_RMSD_Min,CrossModel_RMSD_Max,CrossModel_RMSD_Pairs,Longest_Confident_Run,Longest_Confident_Run_Len,Docking_Readiness,Docking_Ready_Regions,Notes
+WHOLE_MODEL,Vax_Final_4fce119e length=570,1,570,570,34.26,7.89,88.42,94.71,,,,,,29.47,,,,,,1-45,45,,,max PAE 31.7 A
+MODEL,model_0,,,,,,,,0.17,,0.79,0.56,0.0,,,,,,,,,,,
+MODEL,model_1,,,,,,,,0.17,,0.75,0.54,0.0,,,,,,,,,,,
+MODEL,model_2,,,,,,,,0.17,,0.74,0.54,0.0,,,,,,,,,,,
+MODEL,model_3,,,,,,,,0.17,,0.72,0.53,0.0,,,,,,,,,,,
+MODEL,model_4,,,,,,,,0.17,,0.48,0.41,0.0,,,,,,,,,,,
+REGION,Adjuvant_bDefensin3,1,45,45,92.03,100.0,,,,,,,,2.39,,0.13,0.1,0.2,10,,,,,
+REGION,Linker_EAAAK,46,50,5,47.27,0.0,,,,,,,,3.44,,0.91,0.06,2.04,10,,,,,
+REGION,Cassette_MHC_I,51,170,120,31.54,0.0,,,,,,,,19.39,,2.94,1.93,4.37,10,,,,,
+REGION,Cassette_MHC_II,171,390,220,22.88,0.0,,,,,,,,29.12,,34.22,25.07,46.83,10,,,,,
+REGION,Cassette_Bcell,391,570,180,35.2,0.0,,,,,,,,26.73,,25.05,18.83,29.93,10,,,,,
+REGION_PAIR,Adjuvant_bDefensin3 <-> Linker_EAAAK,,,,,,,,,,,,,,13.74,,,,,,,,,
+REGION_PAIR,Adjuvant_bDefensin3 <-> Cassette_MHC_I,,,,,,,,,,,,,,27.78,,,,,,,,,
+REGION_PAIR,Adjuvant_bDefensin3 <-> Cassette_MHC_II,,,,,,,,,,,,,,31.14,,,,,,,,,
+REGION_PAIR,Adjuvant_bDefensin3 <-> Cassette_Bcell,,,,,,,,,,,,,,31.07,,,,,,,,,
+REGION_PAIR,Linker_EAAAK <-> Cassette_MHC_I,,,,,,,,,,,,,,25.55,,,,,,,,,
+REGION_PAIR,Linker_EAAAK <-> Cassette_MHC_II,,,,,,,,,,,,,,31.01,,,,,,,,,
+REGION_PAIR,Linker_EAAAK <-> Cassette_Bcell,,,,,,,,,,,,,,31.04,,,,,,,,,
+REGION_PAIR,Cassette_MHC_I <-> Cassette_MHC_II,,,,,,,,,,,,,,30.5,,,,,,,,,
+REGION_PAIR,Cassette_MHC_I <-> Cassette_Bcell,,,,,,,,,,,,,,31.07,,,,,,,,,
+REGION_PAIR,Cassette_MHC_II <-> Cassette_Bcell,,,,,,,,,,,,,,31.32,,,,,,,,,
+VERDICT,Docking_Readiness,,,,,,,,,,,,,,,,,,,,,DOMAIN_ONLY,1-45,"Adjuvant_bDefensin3 1-45: mean pLDDT 92.0, cross-model RMSD 0.13 A (whole-model pTM 0.17 -- global fold NOT determined)"

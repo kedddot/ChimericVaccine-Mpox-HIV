@@ -1,0 +1,218 @@
+You are continuing a vaccine immunoinformatics pipeline rebuild that is already
+well underway. DO NOT START OVER. Read everything listed below before acting.
+
+================================================================================
+READ THESE FIRST, IN THIS ORDER, IN FULL
+================================================================================
+  1. REBUILD_LOG_2026-08-30.txt      <-- PRIMARY SOURCE OF TRUTH. Every change,
+                                         issue, fix and measurement from this
+                                         rebuild, in order, with reasoning.
+  2. DEVIATION_27_DRAFT.txt              the allergenicity restructure
+  3. SESSION_CONTEXT_2026-08-29.md       the ORIGINAL handoff. Useful for traps
+                                         and tool detail, BUT its environment
+                                         paths are all stale (the external SSD
+                                         is gone; everything was rebuilt on the
+                                         internal disk 2026-08-30) and the
+                                         construct it calls frozen is superseded.
+  4. Methods_Deviations_RRL_Support.txt  26 numbered deviations
+  5. PHASE_I_II_FINDINGS.txt             results of the OLD, defective run
+  6. PAPER_UPDATES_NEEDED.txt            manuscript edits already identified
+  7. SIMPLE_CHANGES_SUMMARY.txt          plain-language version of the above
+  8. Phase_I_II_Methods_Status.csv       per-step status table
+  9. TOOLS_INSTALL.txt                   CORRECTED 2026-08-30, 9 fixes
+ 10. CHIMERIC VACCINE.pdf                the manuscript (27 pages; no poppler
+                                         installed -- extract text with an
+                                         inline python zlib/ToUnicode decoder)
+
+PROJECT ROOT: /Users/nek/Desktop/School/Research
+The folder MUST stay named exactly "Research", with NO SPACES anywhere in the
+path. ~20 scripts locate the project by walking up for a directory of that name,
+and conda entry-point shebangs break on spaces.
+
+================================================================================
+*** HOW TO TALK TO THIS USER -- THE MOST IMPORTANT INSTRUCTION HERE ***
+================================================================================
+THE USER DOES NOT KNOW BIOLOGY. Not "is a bit rusty" -- genuinely does not know
+the field. Technical reporting is worse than useless to them: it looks like
+progress while communicating nothing they can act on.
+
+RULES:
+  - Default to SILENCE on technical detail. Do not narrate what you are doing.
+  - Report only what the user must DECIDE or must PUT IN THE PAPER.
+  - Use everyday words. If a term is unavoidable, define it in one short clause.
+  - Prefer an analogy over an explanation.
+  - Never assume a term is common knowledge: epitope, antigen, conservancy,
+    allele, polyprotein, subunit, pLDDT, percentile rank -- all need translating
+    or avoiding.
+  - Short. A wall of text is not thoroughness, it is a failure to prioritise.
+  - You may keep full technical rigour in the LOG FILE. The log is for you and
+    for a future reviewer. The chat is for the user.
+
+================================================================================
+*** REQUIRED: PAUSE AFTER EVERY SUB-STEP AND REPORT IN THIS EXACT SHAPE ***
+================================================================================
+After EACH sub-step (1Ea, 1Eb, 1Ec, 1F, 1G, 1H, then 2A, 2B, 2C, 2D, then 3A) --
+not after each phase, after each SUB-STEP -- stop and give exactly three things,
+in plain words:
+
+  1. WHAT THE PROBLEM WAS
+     If nothing went wrong, say so in one line. Do not invent a problem.
+  2. HOW IT WAS RESOLVED
+     What you changed, and why that was the right call.
+  3. WHAT MUST CHANGE IN THE MANUSCRIPT
+     The specific claim in the paper that is now wrong, and what it should say
+     instead. If nothing, say "nothing".
+
+Then WAIT for the user before continuing to the next sub-step.
+
+================================================================================
+HOW TO WORK -- NON-NEGOTIABLE
+================================================================================
+  - VERIFY TWO SEPARATE THINGS before advancing any step:
+      (a) TECHNICAL  -- it ran, exit clean, row counts match, no NaNs, no silent
+                        truncation, output timestamp format correct for whatever
+                        reads it next.
+      (b) SCIENTIFIC -- the output is actually CORRECT, not merely well-formed.
+    State both explicitly. A step that fails either is stopped, diagnosed, fixed
+    at the root, and re-run. Never patch around it and continue.
+  - RE-DERIVE INDEPENDENTLY where you can. Do not trust a script's own summary
+    line. Recompute counts from the raw inputs and compare. This rebuild exists
+    because a previous run trusted its own green output.
+  - LOG EVERYTHING to REBUILD_LOG_2026-08-30.txt as you go: [CHANGE] [RUN]
+    [CHECK] [ISSUE] [FIX] [DECIDE] [GATE] [NOTE]. Full technical depth here.
+  - MANUAL WEB GATES: always emit a PASTE-READY plain sequence file (no FASTA
+    header, one line per sequence) ALONGSIDE any FASTA. AlphaFold Server,
+    PSIPRED, NetSurfP, CamSol, AllerTOP and AllergenFP all take a raw sequence
+    typed into a box and will reject or mangle a FASTA file.
+  - ASK only for genuine judgment calls. Not routine confirmations.
+
+================================================================================
+WHY THIS REBUILD EXISTS (one paragraph)
+================================================================================
+The previous vaccine design passed every automated quality check while 12 of its
+32 building blocks came from the WRONG PROTEINS. The retrieval step picked
+proteins by NAME from a public database and never checked it got the right one.
+Two of the three mpox proteins were wrong, and the four HIV targets were really
+two larger proteins counted twice. Nothing caught it because no step before the
+very last one ever needed to know WHAT a protein was, only its letters. This
+rebuild fixes retrieval at the root and validates identity BEFORE anything
+enters the pipeline.
+
+================================================================================
+STATE: WHAT IS DONE AND VERIFIED
+================================================================================
+  Stage 0 environment  COMPLETE. 5 conda envs + Phenix 2.2-6143 rebuilt and
+                       verified BY EXECUTION (not by checking files exist).
+                       TOOLS_INSTALL.txt corrected with 9 fixes -- as written it
+                       would NOT have reproduced a working install.
+  Phase 1A   VERIFIED  194 sequences, every one identity-checked against a
+                       UniProt reference before use. gp120/gp41 and p17/p24 now
+                       share ZERO sequences -- the original bug is measurably
+                       gone. Mpox counts are 23/21/30 rather than 30/30/30
+                       because those are the TRUE diversity ceilings in the
+                       database (measured over all ~26,500 records).
+  Phase 1B   VERIFIED  194/194 carried, 0 dropped for bad residues -- proving
+                       the 1A gate held (the old run dropped 35 here).
+  Phase 1C   VERIFIED  after a fix. 194/194 retained. The classifier was
+                       throwing out 27 of 30 HIV_p17 variants due to a measured
+                       LENGTH BIAS, not biology. EXCLUDE_ON_DISAGREEMENT=False.
+  Phase 1Da  VERIFIED  209,268 candidate pieces; independently recounted.
+  Phase 1Db  VERIFIED  30,268 survivors. First run silently lost 6 of 776 API
+                       responses; found by name, re-run cache-warm, now 0 errors.
+  Phase 1Dc/Dd/De  VERIFIED. CRITICAL ORDERING: they must run 1Dd -> 1De -> 1Dc,
+                       with 1Dc LAST. 1Dd and 1De add columns to the shared pool;
+                       1Dc takes the snapshot that feeds 1Ea onward. Running 1Dc
+                       first silently drops both column sets and 1G treats the
+                       missing columns as blank WITHOUT ERROR. Confirmed done in
+                       the right order by file timestamps.
+  AlphaFold  DONE      all 7 protein 3D models made and checked against what was
+                       submitted. The corrected mpox protein models BETTER than
+                       the wrong one it replaced.
+  SEMA-3D    DONE      all 7 scored and cached -- 1De skips re-running it.
+
+================================================================================
+NEXT STEP: PHASE 1Ea (toxicity screening)
+================================================================================
+Reads Phase1Dc/Filtered_Benchmarks/<tier>. Local and automated. Produces the
+top-10-per-target-per-class shortlist = ~210 candidates.
+
+IMPORTANT: those 210 are exactly what must go to AllerTOP/AllergenFP. A PILOT
+email (8 representative peptides) has ALREADY BEEN SENT to the Doytchinova group
+asking (a) their turnaround, (b) whether ~210 is acceptable as one file, and
+(c) whether either tool is even valid below 16 amino acids. Answer (c) affects
+70 candidates. Draft and attachment are in Step_Outputs/Phase1/Phase1E/Phase1Eb/.
+After 1Ea, emit the real 210-peptide batch file and paste-ready form.
+
+THEN THE PIPELINE STALLS until that reply arrives -- 1Eb needs their results and
+marks peptides UNRESOLVED rather than guessing, so 1Ec, 1F, 1G all sit behind it.
+
+Order after that: 1Ea -> 1Eb -> 1Ec -> 1F -> 1G -> 1H -> 2A -> 2B -> 2C -> 2D
+-> 3A (prepare docking inputs only, do not dock).
+
+================================================================================
+DECISIONS ALREADY MADE -- DO NOT RE-LITIGATE
+================================================================================
+  - Mpox pools: use every distinct sequence that exists, capped at 30. 23/21/30
+    is the real ceiling, not a failure.
+  - Phase 1C is a consistency check, NOT an elimination filter.
+  - Allergenicity is three layers (deviation #27): a local automated
+    known-allergen homology screen on all candidates; AllerTOP + AllergenFP
+    retained on the pool via the emailed batch job; and the DEFINITIVE call at
+    the assembled-vaccine level in Phase 2A. AlgPred 2.0 was tested and REJECTED
+    (AUC 0.611, near-random on short pieces).
+  - HIV subunit slicing happens in Phase 1A, so one file = one mature protein.
+  - 1De IS run with --write-back in this rebuild. The old "never write back"
+    guardrail protected the OLD frozen construct; this rebuild replaces it, so
+    the guardrail has expired. Without write-back the surface-check data never
+    reaches construct assembly.
+
+================================================================================
+TRAPS -- ALL FIXED, DO NOT REINTRODUCE
+================================================================================
+  - Phase 1A now emits MATURE SUBUNITS. Any code that slices HIV targets AGAIN
+    using HIV_SUBUNIT_RANGES cuts a subunit out of a subunit. This bit
+    Phase1De_foldPrep AND Phase1De_conformational. Both now check the result
+    against a canonical length band and RAISE rather than emit a wrong sequence.
+  - subunit_boundaries_by_landmark used "SQNYPIVQ", which is subtype-B only and
+    absent from 100% of this study's own CRF01_AE records. Now anchored on
+    "PIVQ".
+  - Biopython's Entrez sets NO socket timeout; a stalled call hangs forever at
+    0% CPU looking like slow work. socket.setdefaulttimeout(120) is now set.
+  - Phase1Dc_benchmark picks its input by PLAIN STRING SORT, so 1Db output must
+    keep the dash-free %Y%m%d_%H%M timestamp format.
+  - Phase1G_construction reads its two priority columns with .get(col, "") --
+    a MISSING COLUMN IS SILENTLY BLANK, not an error. Verify columns are present
+    AND POPULATED, and that blanks are explained by class.
+  - Phase1G_sensitivity self-checks against the OLD construct and cannot pass
+    here. It stays RETIRED for this run; do not "fix" it.
+  - SEMA: use predict_many (streams checkpoints). load_ensemble needs 12.2 GB on
+    a 16 GB machine.
+  - Keep exactly ONE current CSV per output folder; archive superseded ones.
+
+================================================================================
+MANUSCRIPT CHANGES ALREADY IDENTIFIED (accumulate, do not lose these)
+================================================================================
+  - Table 4's "202 of 210 retrieved" and its "the database holds no more
+    records" explanation are BOTH wrong. The database holds ~8,800 per mpox
+    gene; the real limit is that those sequences are nearly all identical.
+  - "30 non-redundant variants per antigen" is unreachable for two mpox proteins
+    (only 23 and 21 distinct sequences exist anywhere).
+  - Results 1.3's "167/167 antigenic, zero disagreements" was an artifact of
+    scoring the wrong-sized proteins. Real figure: 167 agree, 27 disagree.
+  - Every mpox conservancy figure in the old paper was computed over
+    undeduplicated near-identical copies and measured nothing.
+  - The antigenicity classifier has a LENGTH BIAS and must be reported as a
+    corroborating second method, not an independent arbiter.
+  - BLAST is 2.17.0+, not 2.16.0. Python is 3.11, not 3.14.
+  - Per-peptide allergenicity: see DEVIATION_27_DRAFT.txt in full.
+  - The conservancy tier used by 1Ea sits in a code constant and is not stated
+    in the methods. It must be stated.
+  - In the 100%-conservancy tier, zero B-cell picks have structural support.
+
+================================================================================
+OPEN / WAITING
+================================================================================
+  - AllerTOP + AllergenFP batch request: SENT, awaiting reply. Their answer on
+    minimum sequence length affects 70 candidates.
+  - The full manuscript-changes list was being compiled and got cut off. Finish
+    it early -- it is what the user actually needs for the paper.
