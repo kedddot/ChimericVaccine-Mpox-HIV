@@ -1,0 +1,49 @@
+Key,Value,Source_File
+5C_depot_ka0.15_singledose_Tmax_h,4.57,Phase5C (validation vs fix prompt)
+5C_depot_ka0.15_singledose_Cmax_over_dose,0.2264,Phase5C (validation vs fix prompt)
+5C_depot_ka0.2_singledose_Tmax_h,3.92,Phase5C (validation vs fix prompt)
+5C_depot_ka0.2_singledose_Cmax_over_dose,0.2685,Phase5C (validation vs fix prompt)
+5C_depot_ka0.25_singledose_Tmax_h,3.48,Phase5C (validation vs fix prompt)
+5C_depot_ka0.25_singledose_Cmax_over_dose,0.304,Phase5C (validation vs fix prompt)
+5C_depot_ka0.15_dose1_Cmax_ug_L,0.32346,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose1_Tmax_h,4.567,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose1_AUC_interval,17.70856,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose1_Cmin_trough_ug_L,0.00124,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose2_Cmax_ug_L,0.32466,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose2_Tmax_h,4.567,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose2_AUC_interval,17.9659,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose2_Cmin_trough_ug_L,5e-05,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose3_Cmax_ug_L,0.32351,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose3_Tmax_h,4.567,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose3_AUC_interval,17.8183,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_dose3_Cmin_trough_ug_L,0.00025,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_cumulative_AUC,53.49275,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.15_AUC_pct_diff_vs_ivbolus,0.35553,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose1_Cmax_ug_L,0.38352,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose1_Tmax_h,3.919,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose1_AUC_interval,17.7048,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose1_Cmin_trough_ug_L,0.00122,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose2_Cmax_ug_L,0.38471,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose2_Tmax_h,3.917,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose2_AUC_interval,17.95786,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose2_Cmin_trough_ug_L,5e-05,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose3_Cmax_ug_L,0.38357,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose3_Tmax_h,3.919,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose3_AUC_interval,17.81272,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_dose3_Cmin_trough_ug_L,0.00025,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_cumulative_AUC,53.47537,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.2_AUC_pct_diff_vs_ivbolus,0.3879,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose1_Cmax_ug_L,0.43429,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose1_Tmax_h,3.48,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose1_AUC_interval,17.70014,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose1_Cmin_trough_ug_L,0.00121,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose2_Cmax_ug_L,0.43548,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose2_Tmax_h,3.48,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose2_AUC_interval,17.95071,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose2_Cmin_trough_ug_L,5e-05,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose3_Cmax_ug_L,0.43434,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose3_Tmax_h,3.48,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose3_AUC_interval,17.807,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_dose3_Cmin_trough_ug_L,0.00024,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_cumulative_AUC,53.45785,Phase5C_MultiDose_IMdepot
+5C_depot_ka0.25_AUC_pct_diff_vs_ivbolus,0.42054,Phase5C_MultiDose_IMdepot

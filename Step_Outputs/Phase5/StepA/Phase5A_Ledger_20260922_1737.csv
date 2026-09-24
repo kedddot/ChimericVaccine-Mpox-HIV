@@ -1,0 +1,15 @@
+Key,Value,Source_File
+5A_midpoint_required_serum_ng_mL,312.5,Phase5A (formula check)
+5A_midpoint_injected_dose_lo_ug,1.562,Phase5A (formula check)
+5A_midpoint_injected_dose_hi_ug,3.125,Phase5A (formula check)
+5A_grid_dose_min_ug,0.694,Phase5A_DoseGrid
+5A_grid_dose_median_ug,2.161,Phase5A_DoseGrid
+5A_grid_dose_max_ug,6.25,Phase5A_DoseGrid
+5A_bioavailability_range_lo,0.8,Section III.C line 68 (not executed)
+5A_bioavailability_range_hi,0.9,Section III.C line 68 (not executed)
+5A_proposed_dose_ug,10.0,"Section V spec, Group 2 regimen"
+5A_dose_gap_ratio_vs_grid_min,14.401,Phase5A_DoseGrid
+5A_dose_gap_ratio_vs_grid_max,1.6,Phase5A_DoseGrid
+5A_dose_gap_ratio_vs_grid_median,4.628,Phase5A_DoseGrid
+5A_dose_gap_ratio_median_BA_fixed_080,4.322,"Phase5A (comparison, not written to grid)"
+5A_dose_gap_ratio_median_BA_swept,4.628,Phase5A_DoseGrid

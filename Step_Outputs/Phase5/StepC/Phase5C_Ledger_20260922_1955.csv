@@ -1,0 +1,17 @@
+Key,Value,Source_File
+5C_dose1_Cmax_ug_L,1.42857,Phase5C_MultiDose
+5C_dose1_Tmax_h,0.0,Phase5C_MultiDose
+5C_dose1_AUC_interval,17.77999,Phase5C_MultiDose
+5C_dose1_Cmin_trough_ug_L,0.00116,Phase5C_MultiDose
+5C_dose1_cumulative_AUC,17.77999,Phase5C_MultiDose
+5C_dose2_Cmax_ug_L,1.42975,Phase5C_MultiDose
+5C_dose2_Tmax_h,0.0,Phase5C_MultiDose
+5C_dose2_AUC_interval,18.02091,Phase5C_MultiDose
+5C_dose2_Cmin_trough_ug_L,5e-05,Phase5C_MultiDose
+5C_dose2_cumulative_AUC,35.8009,Phase5C_MultiDose
+5C_dose3_Cmax_ug_L,1.42862,Phase5C_MultiDose
+5C_dose3_Tmax_h,0.0,Phase5C_MultiDose
+5C_dose3_AUC_interval,17.88271,Phase5C_MultiDose
+5C_dose3_Cmin_trough_ug_L,0.00024,Phase5C_MultiDose
+5C_dose3_cumulative_AUC,53.68361,Phase5C_MultiDose
+5C_Cmax_growth_dose1_to_dose3_pct,0.0035,Phase5C_MultiDose

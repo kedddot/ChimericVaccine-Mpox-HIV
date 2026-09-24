@@ -1,0 +1,15 @@
+Key,Value,Source_File
+5B_t_half_MICRO_ln2_over_kelim_h,8.6643,Phase5B (analytic; NOT the terminal half-life)
+5B_alpha_per_h,0.420487,Phase5B (eigenvalues of system matrix)
+5B_beta_per_h,0.009513,Phase5B (eigenvalues of system matrix)
+5B_t_half_distribution_h,1.6484,"Phase5B (analytic, alpha)"
+5B_t_half_terminal_h,72.8649,"Phase5B (analytic, beta)"
+5B_empirical_terminal_slope_per_h,0.009513,Phase5B_PKCurve (fit)
+5B_empirical_vs_analytic_beta_pct_err,0.0,Phase5B_PKCurve (fit)
+5B_CL_lo_L_per_h,0.48,Phase5B (analytic)
+5B_CL_hi_L_per_h,0.64,Phase5B (analytic)
+5B_AUC_analytic_lo,15.625,Phase5B (analytic)
+5B_AUC_analytic_hi,20.8333,Phase5B (analytic)
+5B_AUC_numeric_ug_h,125.0197,Phase5B_PKCurve
+5B_AUC_analytic_identity_ug_h,125.0,Phase5B (analytic)
+5B_AUC_numeric_vs_analytic_pct_err,0.01578,Phase5B (analytic)

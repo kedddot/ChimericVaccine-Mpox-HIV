@@ -1,0 +1,27 @@
+Key,Value,Source_File
+5D_direction_check_bigmhc_r,-0.2984,Phase4C_DirectionChecks (re-cited)
+5D_direction_check_prime_r,0.9159,Phase4C_DirectionChecks (re-cited)
+5D_zeta_IgG_per_day,0.03301,Phase5D (derived from stated half-life)
+5D_zeta_IgM_per_day,0.13863,Phase5D (derived from stated half-life)
+5D_alpha_1_uniform_HIV,1.0,STEP_5D_PROMPT.md / Phase4G ledger
+5D_alpha_1_uniform_Mpox,1.0,STEP_5D_PROMPT.md / Phase4G ledger
+5D_alpha_2_bigmhc_weighted_HIV,0.3502,STEP_5D_PROMPT.md / Phase4G ledger
+5D_alpha_2_bigmhc_weighted_Mpox,0.3502,STEP_5D_PROMPT.md / Phase4G ledger
+5D_alpha_3_per_pathogen_HIV,0.382,STEP_5D_PROMPT.md / Phase4G ledger
+5D_alpha_3_per_pathogen_Mpox,0.318,STEP_5D_PROMPT.md / Phase4G ledger
+5D_mpox_hiv_ratio_bigmhc,0.8325,"Phase4G ledger (bm_hiv, bm_mpx)"
+5D_mpox_hiv_ratio_prime_inverted,1.5706,"Phase4G ledger (pr_hiv, pr_mpx)"
+5D_n_combinations_simulated,54,Phase5D_Summary
+5D_gc_peak_day_min,11.375,Phase5D_Summary
+5D_gc_peak_day_max,11.5,Phase5D_Summary
+5D_tau_gc_days,7.0,Phase5D (numerically verified against Ag(t))
+5D_1_uniform_Teff_peak_HIV,1.200215,Phase5D_Summary
+5D_1_uniform_Teff_peak_Mpox,1.200215,Phase5D_Summary
+5D_1_uniform_Mpox_HIV_ratio,1.0,Phase5D_Summary
+5D_2_bigmhc_weighted_Teff_peak_HIV,0.420315,Phase5D_Summary
+5D_2_bigmhc_weighted_Teff_peak_Mpox,0.420315,Phase5D_Summary
+5D_2_bigmhc_weighted_Mpox_HIV_ratio,1.0,Phase5D_Summary
+5D_3_per_pathogen_Teff_peak_HIV,0.458482,Phase5D_Summary
+5D_3_per_pathogen_Teff_peak_Mpox,0.381668,Phase5D_Summary
+5D_3_per_pathogen_Mpox_HIV_ratio,0.8325,Phase5D_Summary
+5D_scenario3_Mpox_pct_of_HIV_Teff_peak,83.25,Phase5D_Summary

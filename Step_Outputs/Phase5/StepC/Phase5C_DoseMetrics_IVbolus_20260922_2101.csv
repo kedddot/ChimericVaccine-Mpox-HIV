@@ -1,0 +1,4 @@
+Dose_number,Dose_day,C_max_ug_per_L,T_max_h_post_dose,AUC_this_interval_ug_h_per_L,C_min_trough_ug_per_L,Cumulative_AUC_ug_h_per_L
+1,0.0,1.42857,0.0,17.77999,0.00116,17.77999
+2,21.0,1.42975,0.0,18.02091,5e-05,35.8009
+3,56.0,1.42862,0.0,17.88271,0.00024,53.68361

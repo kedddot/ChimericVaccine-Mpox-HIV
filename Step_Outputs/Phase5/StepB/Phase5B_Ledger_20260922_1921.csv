@@ -1,0 +1,9 @@
+Key,Value,Source_File
+5B_t_half_h,8.6643,Phase5B (analytic)
+5B_CL_lo_L_per_h,0.48,Phase5B (analytic)
+5B_CL_hi_L_per_h,0.64,Phase5B (analytic)
+5B_AUC_analytic_lo,15.625,Phase5B (analytic)
+5B_AUC_analytic_hi,20.8333,Phase5B (analytic)
+5B_AUC_numeric_ug_h,125.0197,Phase5B_PKCurve
+5B_AUC_analytic_identity_ug_h,125.0,Phase5B (analytic)
+5B_AUC_numeric_vs_analytic_pct_err,0.01578,Phase5B (analytic)

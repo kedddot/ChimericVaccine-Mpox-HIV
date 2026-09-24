@@ -1,0 +1,16 @@
+Metric,Value,Unit,Spec_value,Match
+k12,0.3,/h,0.3,YES
+k21,0.05,/h,0.05,YES
+k_elim,0.08,/h,0.08,YES
+t_half_MICRO_ln2_over_kelim,8.6643,h,8.7,"matches spec's number, but this is NOT the terminal half-life (see below)"
+alpha_macro_constant,0.420487,/h,n/a (not in spec),n/a
+beta_macro_constant,0.009513,/h,n/a (not in spec),n/a
+t_half_distribution_alpha,1.6484,h,n/a,n/a
+t_half_TERMINAL_beta,72.8649,h,"8.7 (spec, WRONG)","NO -- spec's 8.7h is the micro-constant, not this terminal value"
+empirical_terminal_slope,0.009513,/h,n/a,matches analytic beta to 0.000%
+CL_lo,0.48,L/h,0.48,YES
+CL_hi,0.64,L/h,0.64,YES
+AUC_lo,15.625,ug*h/L,15.6,YES
+AUC_hi,20.8333,ug*h/L,20.8,YES
+AUC_numeric_vs_analytic_pct_err,0.01578,%,<1,YES
+Dose_reference,10.0,ug,10,YES

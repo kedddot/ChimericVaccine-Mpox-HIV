@@ -1,0 +1,11 @@
+Metric,Value,Unit,Spec_value,Match
+k12,0.3,/h,0.3,YES
+k21,0.05,/h,0.05,YES
+k_elim,0.08,/h,0.08,YES
+t_half,8.6643,h,8.7,YES (8.66 rounds to 8.7)
+CL_lo,0.48,L/h,0.48,YES
+CL_hi,0.64,L/h,0.64,YES
+AUC_lo,15.625,ug*h/L,15.6,YES
+AUC_hi,20.8333,ug*h/L,20.8,YES
+AUC_numeric_vs_analytic_pct_err,0.01578,%,<1,YES
+Dose_reference,10.0,ug,10,YES

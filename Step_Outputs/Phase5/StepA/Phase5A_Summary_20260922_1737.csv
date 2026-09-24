@@ -1,0 +1,15 @@
+Metric,Value,Unit
+Midpoint_required_serum,312.5,ng/mL
+Midpoint_injected_dose_lo,1.562,ug
+Midpoint_injected_dose_hi,3.125,ug
+Grid_dose_min,0.694,ug
+Grid_dose_median,2.161,ug
+Grid_dose_max,6.25,ug
+Proposed_regimen_dose,10.0,ug
+Gap_ratio_vs_grid_min,14.401,x
+Gap_ratio_vs_grid_max,1.6,x
+Gap_ratio_vs_grid_median,4.628,x
+Bioavailability_range_lo,0.8,fraction
+Bioavailability_range_hi,0.9,fraction
+Gap_ratio_median_BA_fixed_0.80_superseded,4.322,x
+Gap_ratio_median_BA_swept_0.80-0.90,4.628,x
