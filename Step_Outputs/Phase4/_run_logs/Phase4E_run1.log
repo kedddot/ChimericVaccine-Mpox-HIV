@@ -1,0 +1,98 @@
+
+==========================================================================================
+          PHASE 4E -- POPULATION COVERAGE + FREQUENCY-WEIGHTED JUNCTION ANALYSIS          
+==========================================================================================
+[INFO] ALLELE_FREQ loci (each grouped separately by compute_overall_coverage): {'A': 22, 'B': 33, 'C': 19, 'DRB1': 18, 'DQB1': 7, 'DPB1': 8} (107 alleles).
+[INFO] NOTE: the table carries DRB1/DQB1/DPB1 (beta chains) only -- DQA1 and DPA1 do not exist in ALLELE_FREQ, so they cannot be grouped separately; class II coverage is on DRB1/DQB1/DPB1.
+
+------------------------------------------------------------------------------------------
+LEVEL 1 -- per-epitope coverage; HARD REGRESSION GATE vs Phase 1F Overall_Coverage_Pct (Phase 1F allele sets)
+[INFO] reproduced 31/31 (n=31: 21 MHC-restricted numeric + 10 B-cell NOT_APPLICABLE).
+[SUCCESS] Level-1 regression gate PASSED: all 31 reproduce Phase 1F (B-cell = NOT_APPLICABLE, never 0.0).
+
+------------------------------------------------------------------------------------------
+LEVELS 2 & 3 -- cumulative coverage (union of binding alleles; B-cell excluded, not counted as zero)
+  scope                             Phase1F universe    Phase4B universe   (n alleles in union 1F/4B)
+  CONSTRUCT (21 MHC epitopes)               100.000%            100.000%   (96/76)
+  MHC-I only (10)                            99.995%             98.743%   (65/43)
+  MHC-II only (11)                           99.996%             99.998%   (31/33)
+  HIV (10: 5 I + 5 II)                      100.000%             99.979%   (88/53)
+  Mpox (11: 5 I + 6 II)                      99.636%             99.999%   (49/55)
+  HIV MHC-I (5)                              99.963%             97.524%   (57/37)
+  HIV MHC-II (5)                             99.996%             99.136%   (31/16)
+  Mpox MHC-I (5)                             94.953%             83.867%   (35/23)
+  Mpox MHC-II (6)                            92.790%             99.996%   (14/32)
+  per-locus (Phase 4B universe), CONSTRUCT: A:60.31;B:89.37;C:70.19;DPB1:86.97;DQB1:96.00;DRB1:99.54
+  per-locus (Phase 1F universe), CONSTRUCT: A:75.99;B:98.96;C:98.18;DPB1:84.08;DQB1:95.25;DRB1:99.54
+
+==========================================================================================
+PART 2 -- FREQUENCY-WEIGHTED JUNCTION ANALYSIS
+
+2d/2a -- flags and the population weight of the alleles carrying them
+  MHC-I  UNFILTERED      flag rows n=  126 on   32 windows | beats-ALL rows n=  103 across 20 alleles ->  86.92% of the population carries >=1 such allele (all MHC-I alleles in panel: 100.00%)
+  MHC-I  LIBERATED       flag rows n=  120 on   30 windows | beats-ALL rows n=  101 across 19 alleles ->  86.28% of the population carries >=1 such allele (all MHC-I alleles in panel: 100.00%)
+  MHC-I  LIBERATED+CORE  flag rows n=  120 on   30 windows | beats-ALL rows n=  101 across 19 alleles ->  86.28% of the population carries >=1 such allele (all MHC-I alleles in panel: 100.00%)
+  MHC-II UNFILTERED      flag rows n= 4022 on 1117 windows | beats-ALL rows n= 1757 across 32 alleles -> 100.00% of the population carries >=1 such allele (all MHC-II alleles in panel: 100.00%)
+  MHC-II LIBERATED       flag rows n= 2092 on  542 windows | beats-ALL rows n=  905 across 29 alleles ->  99.98% of the population carries >=1 such allele (all MHC-II alleles in panel: 100.00%)
+  MHC-II LIBERATED+CORE  flag rows n= 1534 on  435 windows | beats-ALL rows n=  717 across 28 alleles ->  99.98% of the population carries >=1 such allele (all MHC-II alleles in panel: 100.00%)
+
+2b -- per-epitope contested coverage (Phase 4B allele universe; LIBERATED = headline)
+  peptide           class  path    epi cov  contested(lib)  fraction  contested(unfilt)  fraction  n contested alleles lib/unf
+  QTSVFSATVY        MHC-I  Mpox     24.59%          24.59%      1.00             24.59%      1.00  3/3 of 3
+  EQEIESLEATYHIII   MHC-II Mpox     60.31%          60.31%      1.00             60.31%      1.00  4/4 of 4
+  GIVQQQSNLLRAIEA   MHC-II HIV      32.25%          32.25%      1.00             32.25%      1.00  3/3 of 3
+  HNVWATHACVPTDPN   MHC-II HIV      60.69%          60.69%      1.00             60.69%      1.00  2/2 of 2
+  IFGFLGAAGSTMGAA   MHC-II HIV      25.70%          25.70%      1.00             25.70%      1.00  3/3 of 3
+  SNGLISGSTFSIGGV   MHC-II Mpox     81.24%          81.24%      1.00             81.24%      1.00  6/6 of 6
+  SSTTQYDHKESCNGL   MHC-II Mpox      8.99%           8.99%      1.00              8.99%      1.00  1/1 of 1
+  TPEQKAYVPAMFTAA   MHC-II Mpox     86.97%          86.97%      1.00             86.97%      1.00  8/8 of 8
+  YKRWIILGLNKIVRM   MHC-II HIV      41.07%          41.07%      1.00             41.07%      1.00  6/6 of 6
+  NDKIKLILANKENVH   MHC-II Mpox     99.96%          99.94%      1.00             99.95%      1.00  27/28 of 29
+  GNPITKTTSDYQDSD   MHC-II Mpox     83.33%          82.33%      0.99             83.33%      1.00  9/10 of 10
+  QCTHGIKPVVSTQLL   MHC-II HIV      94.77%          90.57%      0.96             94.77%      1.00  8/9 of 9
+  GPKEPFRDY         MHC-I  HIV      70.13%          63.75%      0.91             69.17%      0.99  14/15 of 16
+  SEGATPQDL         MHC-I  HIV      32.43%          23.96%      0.74             23.96%      0.74  3/3 of 5
+  APGSPTNLEF        MHC-I  Mpox     65.08%          47.73%      0.73             47.73%      0.73  8/8 of 14
+  HHFNCRGEF         MHC-I  HIV      45.27%          27.33%      0.60             27.33%      0.60  2/2 of 5
+  RFALNPGLL         MHC-I  HIV      43.75%          17.69%      0.40             17.69%      0.40  3/3 of 6
+  VYSTCTVPTM        MHC-I  Mpox     43.75%          17.69%      0.40             17.69%      0.40  3/3 of 6
+  TMGAASITL         MHC-I  HIV      34.21%          10.51%      0.31             10.51%      0.31  1/1 of 7
+  NKRKRVIGL         MHC-I  Mpox      4.72%           1.00%      0.21              4.72%      1.00  1/2 of 2
+  HWTTYMDTF         MHC-I  Mpox     43.75%           9.18%      0.21              9.18%      0.21  1/1 of 6
+
+2c -- construct coverage: RAW vs UNCONTESTED (only (epitope, allele) pairs no junction out-scores)
+  CONSTRUCT (21 MHC epitopes)   UNFILTERED      raw  100.000% | uncontested   81.334% | gap  18.666 pp | union alleles 76 -> 24
+  CONSTRUCT (21 MHC epitopes)   LIBERATED       raw  100.000% | uncontested   85.918% | gap  14.082 pp | union alleles 76 -> 28
+  CONSTRUCT (21 MHC epitopes)   LIBERATED+CORE  raw  100.000% | uncontested   86.198% | gap  13.802 pp | union alleles 76 -> 29
+  MHC-I only (10)               UNFILTERED      raw   98.743% | uncontested   80.994% | gap  17.749 pp | union alleles 43 -> 23
+  MHC-I only (10)               LIBERATED       raw   98.743% | uncontested   81.931% | gap  16.812 pp | union alleles 43 -> 24
+  MHC-I only (10)               LIBERATED+CORE  raw   98.743% | uncontested   81.931% | gap  16.812 pp | union alleles 43 -> 24
+  MHC-II only (11)              UNFILTERED      raw   99.998% | uncontested    1.792% | gap  98.206 pp | union alleles 33 -> 1
+  MHC-II only (11)              LIBERATED       raw   99.998% | uncontested   22.063% | gap  77.934 pp | union alleles 33 -> 4
+  MHC-II only (11)              LIBERATED+CORE  raw   99.998% | uncontested   23.616% | gap  76.382 pp | union alleles 33 -> 5
+  HIV (10: 5 I + 5 II)          UNFILTERED      raw   99.979% | uncontested   67.088% | gap  32.890 pp | union alleles 53 -> 15
+  HIV (10: 5 I + 5 II)          LIBERATED       raw   99.979% | uncontested   72.325% | gap  27.653 pp | union alleles 53 -> 16
+  HIV (10: 5 I + 5 II)          LIBERATED+CORE  raw   99.979% | uncontested   72.325% | gap  27.653 pp | union alleles 53 -> 16
+  Mpox (11: 5 I + 6 II)         UNFILTERED      raw   99.999% | uncontested   57.681% | gap  42.318 pp | union alleles 55 -> 12
+  Mpox (11: 5 I + 6 II)         LIBERATED       raw   99.999% | uncontested   61.644% | gap  38.355 pp | union alleles 55 -> 15
+  Mpox (11: 5 I + 6 II)         LIBERATED+CORE  raw   99.999% | uncontested   62.344% | gap  37.655 pp | union alleles 55 -> 16
+  per-locus construct [LIBERATED] raw A:60.31;B:89.37;C:70.19;DPB1:86.97;DQB1:96.00;DRB1:99.54  ->  uncontested A:53.49;B:29.44;C:44.94;DQB1:3.57;DRB1:19.18
+      MHC-I only (10) per-locus raw A:60.31;B:89.37;C:70.19 -> uncontested A:53.49;B:29.44;C:44.94
+      MHC-II only (11) per-locus raw DPB1:86.97;DQB1:96.00;DRB1:99.54 -> uncontested DQB1:3.57;DRB1:19.18
+  per-locus construct [UNFILTERED] raw A:60.31;B:89.37;C:70.19;DPB1:86.97;DQB1:96.00;DRB1:99.54  ->  uncontested A:53.49;B:29.44;C:42.09;DRB1:1.79
+      MHC-I only (10) per-locus raw A:60.31;B:89.37;C:70.19 -> uncontested A:53.49;B:29.44;C:42.09
+      MHC-II only (11) per-locus raw DPB1:86.97;DQB1:96.00;DRB1:99.54 -> uncontested DRB1:1.79
+
+------------------------------------------------------------------------------------------
+ESCALATION CHECKS (Opus: uncontested <~70% or gap >~15 pp; trigger 7 HIV/Mpox divergence)
+  fired:
+   - CONSTRUCT (21 MHC epitopes) [UNFILTERED] LITERAL (combined): uncontested 81.33% (raw 100.00%, gap 18.67 pp)
+   - MHC-I only (10) [LIBERATED] informative layer (per class): uncontested 81.93% (raw 98.74%, gap 16.81 pp)
+   - MHC-I only (10) [UNFILTERED] informative layer (per class): uncontested 80.99% (raw 98.74%, gap 17.75 pp)
+   - MHC-II only (11) [LIBERATED] informative layer (per class): uncontested 22.06% (raw 100.00%, gap 77.93 pp)
+   - MHC-II only (11) [UNFILTERED] informative layer (per class): uncontested 1.79% (raw 100.00%, gap 98.21 pp)
+[SUCCESS] Phase4E_EpitopeCoverage_20260921_1858.csv: 31 rows
+[SUCCESS] Phase4E_ConstructCoverage_20260921_1858.csv: 51 rows
+[SUCCESS] Phase4E_ContestedAlleles_20260921_1858.csv: 58 rows
+[ACTION REQUIRED] Branch 'Phase4E_contested_coverage' halted -- trigger #3: Step 5 escalation condition from the Opus ruling was met
+[ACTION REQUIRED] Details written to: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/HALT-FOR-OPUS.md

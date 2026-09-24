@@ -1,0 +1,156 @@
+Key,Value,Source_File
+n_mhci,10,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+n_mhcii,11,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+n_bcell,10,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+n_hiv,14,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+n_mpox,17,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+gap_freq_HLA-C*08:01,0.187,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-A*11:01,0.177,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-A*24:07,0.157,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-C*04:01,0.122,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-C*07:03,0.112,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-A*33:03,0.109,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-B*18:01,0.099,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-C*04:03,0.098,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-B*15:02,0.084,Phase4E_CoverageGaps_20260921_1949.csv
+gap_freq_HLA-C*07:04,0.084,Phase4E_CoverageGaps_20260921_1949.csv
+f_a1101,0.177,Phase4E_CoverageGaps_20260921_1949.csv
+f_a3303,0.109,Phase4E_CoverageGaps_20260921_1949.csv
+gapA_two,0.286,Phase4E_CoverageGaps_20260921_1949.csv
+gapA_two_pct,35.04901960784312,Phase4E_CoverageGaps_20260921_1949.csv
+gapA_mass_both,0.306,Phase4E_CoverageGaps_20260921_1949.csv
+pool_a1101,0,Phase4B_BindingAffinity_20260920_1954.csv
+pool_mhci_n,37,Phase4B_BindingAffinity_20260920_1954.csv
+pool_a3303,0,Phase4B_BindingAffinity_20260920_1954.csv
+pool_c0801,5,Phase4B_BindingAffinity_20260920_1954.csv
+gapmass_el_A,0.446,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_A,0.306,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_el_B,0.224,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_B,0.000,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_el_C,0.491,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_C,0.080,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_el_DRB1,0.000,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_DRB1,0.000,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_el_DQB1,0.000,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_DQB1,0.018,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_el_DPB1,0.000,Phase4E_CoverageGaps_20260921_1949.csv
+gapmass_mf_DPB1,0.038,Phase4E_CoverageGaps_20260921_1949.csv
+spread_A,15.68 pp,Phase4E_MethodDivergence_20260921_1949.csv
+spread_B,9.59 pp,Phase4E_MethodDivergence_20260921_1949.csv
+spread_C,27.99 pp,Phase4E_MethodDivergence_20260921_1949.csv
+spread_DRB1,0.00 pp,Phase4E_MethodDivergence_20260921_1949.csv
+spread_DQB1,0.75 pp,Phase4E_MethodDivergence_20260921_1949.csv
+spread_DPB1,2.89 pp,Phase4E_MethodDivergence_20260921_1949.csv
+breadth_median_Pool MHC-I (n=37),7,Phase4B_BindingAffinity_20260920_1954.csv
+breadth_median_Pool MHC-II (n=29),6,Phase4B_BindingAffinity_20260920_1954.csv
+breadth_median_Construct MHC-I (n=10),6,Phase4B_BindingAffinity_20260920_1954.csv
+breadth_median_Construct MHC-II (n=11),6,Phase4B_BindingAffinity_20260920_1954.csv
+br_hiv_i,6,Phase4B_BindingAffinity_20260920_1954.csv
+br_mpx_i,6,Phase4B_BindingAffinity_20260920_1954.csv
+br_hiv_ii,3,Phase4B_BindingAffinity_20260920_1954.csv
+br_mpx_ii,7,Phase4B_BindingAffinity_20260920_1954.csv
+n_dI,37,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+dI_mean,-0.05783783783783784,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+dI_out,0,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+dII_mean,-0.024827586206896544,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+dII_out,3,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+dC_out,2,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+n_flip_pool,66,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+n_flips,0,"Phase1F_Elite_Vaccine_Candidates_20260831_1742.csv (Phase 1, frozen, read-only)"
+ic50_i,37,Phase4B_BindingAffinity_20260920_1954.csv
+ic50_ii,26,Phase4B_BindingAffinity_20260920_1954.csv
+verd_MHC-I_PASS_STRICT_FAIL,10,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+verd_MHC-II_PASS_STRICT_FAIL,1,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+verd_MHC-II_PASS_STRICT_PASS,10,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+verd_B-cell_PASS_DEPRIORITIZED_STRICT_FAIL,3,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+verd_B-cell_PASS_PRIORITIZED_STRICT_FAIL,3,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+verd_B-cell_PASS_PRIORITIZED_STRICT_PASS,4,Phase4G_Immunogenicity_Dossier_20260921_2022.csv
+bm07_b,0,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+ic500_n,6,Phase4B_BindingAffinity_20260920_1954.csv
+ic1000_n,10,Phase4B_BindingAffinity_20260920_1954.csv
+dc_BigMHC-IM best score vs ,-0.2984,Phase4C_DirectionChecks_20260921_1949.csv
+dc_PRIME %Rank vs Phase4B E,0.9159,Phase4C_DirectionChecks_20260921_1949.csv
+dc_Calis score (exploratory,0.0969,Phase4C_DirectionChecks_20260921_1949.csv
+dc_BigMHC-IM re-scored on P,1.0,Phase4C_DirectionChecks_20260921_1949.csv
+dc_BigMHC-IM vs PRIME chose,3,Phase4C_DirectionChecks_20260921_1949.csv
+dc_Fresh exact-8mer screen ,31,Phase4C_DirectionChecks_20260921_1949.csv
+bm05,3,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+bm07,0,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+bm_hiv,0.382,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+bm_mpx,0.318,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+pr_hiv,0.278,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+pr_mpx,0.177,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+exact8,0,Phase4C_CrossReactivity_AllConstruct_20260921_1949.csv
+xr_agree,31,Phase4C_CrossReactivity_AllConstruct_20260921_1949.csv
+cov4b_HIV MHC-I (5),97.52%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_HIV MHC-I (5),99.96%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov4b_Mpox MHC-I (5),83.87%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_Mpox MHC-I (5),94.95%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov4b_HIV MHC-II (5),99.14%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_HIV MHC-II (5),>99.99%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov4b_Mpox MHC-II (6),>99.99%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_Mpox MHC-II (6),92.79%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov4b_HIV (10: 5 I + 5 II),99.98%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_HIV (10: 5 I + 5 II),>99.99%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov4b_Mpox (11: 5 I + 6 II),>99.99%,Phase4E_ConstructCoverage_20260921_1949.csv
+cov1f_Mpox (11: 5 I + 6 II),99.64%,Phase4E_ConstructCoverage_20260921_1949.csv
+nk_bm,0.0344,Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+nk_br,2,Phase4B_BindingAffinity_20260920_1954.csv
+nk_el,0.85,Phase4B_BindingAffinity_20260920_1954.csv
+nk_drop,0.0000,Phase4E_EpitopeCoverage_20260921_1949.csv
+nk_drop_i,0.089,Phase4E_EpitopeCoverage_20260921_1949.csv
+sp_proc,0.4676,Phase4D_Summary_20260921_1949.csv
+n_lib,10,Phase4D_EpitopeProcessing_20260921_1949.csv
+n_int,5,Phase4D_EpitopeProcessing_20260921_1949.csv
+n_int_aay,4,Phase4E_JunctionCalibration_20260921_1949.csv
+pairs_I_1x,50,Phase4E_ContestedAlleles_20260921_1949.csv
+unc_I_1x,59.89%,Phase4E_ConstructCoverage_20260921_1949.csv
+unc_C_1x,69.36%,Phase4E_ConstructCoverage_20260921_1949.csv
+pairs_I_2x,40,Phase4E_ContestedAlleles_20260921_1949.csv
+unc_I_2x,68.30%,Phase4E_ConstructCoverage_20260921_1949.csv
+unc_C_2x,83.91%,Phase4E_ConstructCoverage_20260921_1949.csv
+pairs_I_5x,28,Phase4E_ContestedAlleles_20260921_1949.csv
+unc_I_5x,88.70%,Phase4E_ConstructCoverage_20260921_1949.csv
+unc_C_5x,99.88%,Phase4E_ConstructCoverage_20260921_1949.csv
+pairs_I_10x,24,Phase4E_ContestedAlleles_20260921_1949.csv
+unc_I_10x,89.11%,Phase4E_ConstructCoverage_20260921_1949.csv
+unc_C_10x,99.98%,Phase4E_ConstructCoverage_20260921_1949.csv
+pl5_A,57.8%,Phase4E_ConstructCoverage_20260921_1949.csv
+pl5_B,32.6%,Phase4E_ConstructCoverage_20260921_1949.csv
+pl5_C,60.3%,Phase4E_ConstructCoverage_20260921_1949.csv
+nq,31,Phase4E_JunctionCalibration_20260921_1949.csv
+naay,21,Phase4E_JunctionCalibration_20260921_1949.csv
+ninv,29,Phase4E_JunctionCalibration_20260921_1949.csv
+rate_all,0.753,Phase4E_JunctionCalibration_20260921_1949.csv
+rate_nat,0.41700000000000004,Phase4E_JunctionCalibration_20260921_1949.csv
+enrich,1.81,Phase4E_JunctionCalibration_20260921_1949.csv
+n_ii_pairs,82203,Phase4E_JunctionCalibration_20260921_1949.csv
+ii_le10,7.175,Phase4E_JunctionCalibration_20260921_1949.csv
+ii_le1,0.763,Phase4E_JunctionCalibration_20260921_1949.csv
+gpgpg_rows,0,Phase4E_JunctionCalibration_20260921_1949.csv
+dpb1_nreal,2-4,Phase4E_ContestedAlleles_20260921_1949.csv
+dpb1_rows,26-134,Phase4D_JunctionNeoepitopes_MHCII_20260921_1949.csv
+dpb1_fold,0.55-1.75,Phase4D_JunctionNeoepitopes_MHCII_20260921_1949.csv
+unc5_hiv_i,80.9%,Phase4E_ConstructCoverage_20260921_1949.csv
+unc5_mpx_i,62.0%,Phase4E_ConstructCoverage_20260921_1949.csv
+t_high,1,Phase4F_BcellDossier_20260921_1949.csv
+t_med,6,Phase4F_BcellDossier_20260921_1949.csv
+t_dep,3,Phase4F_BcellDossier_20260921_1949.csv
+t_meth,4,Phase4F_BcellDossier_20260921_1949.csv
+sema_no,10,Phase4F_BcellDossier_20260921_1949.csv
+sema_uns,0,Phase4F_BcellDossier_20260921_1949.csv
+rsa_hiv,0.37,Phase4F_BcellDossier_20260921_1949.csv
+rsa_mpx,0.34,Phase4F_BcellDossier_20260921_1949.csv
+rho_bep,0.1123,Phase4F_Summary_20260921_1949.csv
+cons_ge70,0.0,Phase4F_Summary_20260921_1949.csv
+n_det,5,Phase4F_BcellDossier_20260921_1949.csv
+n_und,5,Phase4F_BcellDossier_20260921_1949.csv
+gate_HIV_gp120,4.54%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_HIV_gp41,5.69%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_HIV_p17,4.67%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_HIV_p24,9.97%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_Mpox_A35R,37.8%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_Mpox_B5R,45.02%,Phase4F_ConservancyGate_20260921_1949.csv
+gate_Mpox_L1R,60.61%,Phase4F_ConservancyGate_20260921_1949.csv
+cons_hiv,75.5,Phase4F_Conservancy_20260921_1949.csv
+cons_mpx,99.7,Phase4F_Conservancy_20260921_1949.csv

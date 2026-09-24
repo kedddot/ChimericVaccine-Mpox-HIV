@@ -1,0 +1,15 @@
+
+==========================================================================================
+             PHASE 4G -- INTEGRATED REPORT (synthesis; every number ledgered)             
+==========================================================================================
+[SUCCESS] Phase4G_Immunogenicity_Dossier_20260921_2020.csv: 31 rows x 153 columns
+[SUCCESS] PHASE_IV_REPORT.md (74 blocks), MANUSCRIPT_CORRECTIONS_PHASE4.md (24 blocks), ledger 143 numbers
+
+------------------------------------------------------------------------------------------
+FINAL GATES
+  superseded figures absent: OK
+  dossier: 31 rows; UNRESOLVED cells 0; blank cells 0 (N/A used for not-applicable) -> OK
+  ledger: 143 numbers, 0 without a source -> OK
+  Primary_Gate / Secondary_Stratum both present for all rows: OK
+  Rule 1 (SHA-256): baseline 1810 files, changed/missing 0 -> OK
+[SUCCESS] all final gates passed.

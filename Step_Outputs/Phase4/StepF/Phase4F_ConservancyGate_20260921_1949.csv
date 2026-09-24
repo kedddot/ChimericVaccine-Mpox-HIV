@@ -1,0 +1,8 @@
+Target,Pathogen,N_Candidates,Published_Mean_Pct,Reproduced_Mean_Pct,Match,Within_Brief_Range,Max_Pct,Pct_At_100
+HIV_gp120,HIV,13251,4.54,4.54,YES,YES,90.0,0.0
+HIV_gp41,HIV,7783,5.69,5.69,YES,YES,96.67,0.0
+HIV_p17,HIV,3982,4.67,4.67,YES,YES,76.67,0.0
+HIV_p24,HIV,3141,9.97,9.97,YES,YES,96.67,0.0
+Mpox_A35R,Mpox,657,37.8,37.8,YES,YES,100.0,4.9
+Mpox_B5R,Mpox,931,45.02,45.02,YES,YES,100.0,10.4
+Mpox_L1R,Mpox,523,60.61,60.61,YES,YES,100.0,22.4

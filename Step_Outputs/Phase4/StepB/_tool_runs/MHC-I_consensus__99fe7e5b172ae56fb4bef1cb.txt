@@ -1,0 +1,10 @@
+allele	seq_num	start	end	length	peptide	consensus_percentile_rank	ann_ic50	ann_rank	smm_ic50	smm_rank	comblib_sidney2008_score	comblib_sidney2008_rank
+HLA-B*46:01	8	1	10	10	VYSTCTVPTM	4.30	13507.6	4.3	-	-	-	-
+HLA-B*46:01	5	1	10	10	QTSVFSATVY	6.70	17354.6	6.7	-	-	-	-
+HLA-B*46:01	9	1	10	10	APGSPTNLEF	17.00	24196.3	17	-	-	-	-
+HLA-B*46:01	7	1	10	10	NGLYYQGSCY	50.00	32483.6	50	-	-	-	-
+HLA-B*46:01	3	1	10	10	GPKEPFRDYV	51.00	32652.8	51	-	-	-	-
+HLA-B*46:01	6	1	10	10	LYYQGSCYIL	52.00	32765.3	52	-	-	-	-
+HLA-B*46:01	1	1	10	10	KPVVSTQLLL	60.00	33821.4	60	-	-	-	-
+HLA-B*46:01	2	1	10	10	KLDAWEKIRL	66.00	34699.1	66	-	-	-	-
+HLA-B*46:01	4	1	10	10	GGPSHKARVL	73.00	35523.1	73	-	-	-	-

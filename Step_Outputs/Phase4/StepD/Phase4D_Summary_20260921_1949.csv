@@ -1,0 +1,22 @@
+Metric,Value
+Construct residues,570
+Segments,63
+Junctions,62
+MHC-I alleles scanned (processing endpoint),74
+"MHC-I (allele,length) tables",296
+Max proteasome_score deviation across alleles/lengths,0.0
+Comparisons for that check,165641
+Max processing_score deviation across alleles,0.0
+C-terminal residues by cleavage score (high->low),WLFYMAIRDHCVSNTEQKPG
+Spearman rho: Step 2 per-allele EL rank vs endpoint IC50,0.4676
+... p-value,4.468207655696094e-05
+... n pairs (from 10 epitopes; not independent),70
+MHC-I epitopes liberated (C-term percentile >= 50),10
+MHC-I epitopes tested,10
+MHC-I epitopes NOT liberated,0
+Epitopes with internal cleavage site > C-terminal,5
+... which,GPKEPFRDY;HHFNCRGEF;HWTTYMDTF;RFALNPGLL;VYSTCTVPTM
+MHC-I windows crossing a boundary (8-11 aa),1475
+... deep (>=3 residues each side),526
+MHC-II windows crossing a boundary (12-20 aa),4465
+... deep,2491

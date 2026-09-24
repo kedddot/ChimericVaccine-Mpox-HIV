@@ -1,0 +1,4 @@
+Invalid allele name DQA1*04:01-DQB1*03:02 found.
+
+* Please go to the link below for usage info:
+http://tools.iedb.org/main/html/tools_api.html

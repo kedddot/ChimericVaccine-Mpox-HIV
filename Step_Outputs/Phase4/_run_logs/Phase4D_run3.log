@@ -1,0 +1,69 @@
+
+==========================================================================================
+                PHASE 4D -- PROTEASOMAL PROCESSING (full 570-aa construct)                
+==========================================================================================
+[INFO] Construct Vax_Final_4fce119e: 570 aa, 63 segments, 62 junctions (Phase1G_FinalConstruct_2026-08-31_1908.csv).
+[INFO] 31 construct epitopes located in the sequence by position (10 MHC-I, 11 MHC-II, 10 B-cell).
+[PROCESS] processing endpoint 20/296
+[PROCESS] processing endpoint 40/296
+[PROCESS] processing endpoint 60/296
+[PROCESS] processing endpoint 80/296
+[PROCESS] processing endpoint 100/296
+[PROCESS] processing endpoint 120/296
+[PROCESS] processing endpoint 140/296
+[PROCESS] processing endpoint 160/296
+[PROCESS] processing endpoint 180/296
+[PROCESS] processing endpoint 200/296
+[PROCESS] processing endpoint 220/296
+[PROCESS] processing endpoint 240/296
+[PROCESS] processing endpoint 260/296
+[PROCESS] processing endpoint 280/296
+[PROCESS] processing endpoint 296/296
+[INFO] processing endpoint: 74/74 MHC-I alleles usable; 296 (allele,length) tables.
+[INFO] invariance: max |proteasome_score| deviation across alleles/lengths at the same end position = 0.0000 (165641 comparisons); max |processing_score| deviation across alleles for the same window = 0.0000.
+[INFO] direction check -- C-terminal residues by mean cleavage score (high->low): WLFYMAIRDHCVSNTEQKPG
+[INFO] direction/consistency vs Step 2: at the epitope-allele pairs Step 2 called binders (EL rank <=1), 18/70 have processing-endpoint IC50 <= 500 nM.
+[INFO] MHC-I liberation (pre-registered: C-terminal cleavage percentile >= 50): 10/10 liberated; NOT liberated: none
+[INFO] MHC-I epitopes with an internal cleavage site stronger than the C-terminal one: ['GPKEPFRDY', 'HHFNCRGEF', 'HWTTYMDTF', 'RFALNPGLL', 'VYSTCTVPTM']
+[INFO] MHC-I junction windows: 1475 spanning >=1 boundary, 526 'deep' (>= 3 residues each side).
+[INFO] MHC-I neoepitope flags (deep, IC50<=500nM, beats >=1 real epitope binding that allele): 126 (window,allele) rows across 32 distinct deep-junction windows; 103 beat ALL real epitopes at that allele. Shallow (shifted-copy) flags excluded from trigger: 138.
+[INFO] MHC-II junction windows (12-20 aa): 4465 spanning >=1 boundary; scanning 33 alleles that have >=1 real MHC-II epitope comparator.
+[PROCESS] MHC-II junction scan 10/297
+[PROCESS] MHC-II junction scan 20/297
+[PROCESS] MHC-II junction scan 30/297
+[PROCESS] MHC-II junction scan 40/297
+[PROCESS] MHC-II junction scan 50/297
+[PROCESS] MHC-II junction scan 60/297
+[PROCESS] MHC-II junction scan 70/297
+[PROCESS] MHC-II junction scan 80/297
+[PROCESS] MHC-II junction scan 90/297
+[PROCESS] MHC-II junction scan 100/297
+[PROCESS] MHC-II junction scan 110/297
+[WARNING] IEDB mhcii_el HTTP 500 (attempt 1/6) -- allele=HLA-DQA1*01:03/DQB1*05:03
+[WARNING] IEDB mhcii_el HTTP 500 (attempt 1/6) -- allele=HLA-DQA1*01:03/DQB1*05:03
+[PROCESS] MHC-II junction scan 120/297
+[PROCESS] MHC-II junction scan 130/297
+[PROCESS] MHC-II junction scan 140/297
+[PROCESS] MHC-II junction scan 150/297
+[PROCESS] MHC-II junction scan 160/297
+[PROCESS] MHC-II junction scan 170/297
+[PROCESS] MHC-II junction scan 180/297
+[PROCESS] MHC-II junction scan 190/297
+[PROCESS] MHC-II junction scan 200/297
+[PROCESS] MHC-II junction scan 210/297
+[PROCESS] MHC-II junction scan 220/297
+[PROCESS] MHC-II junction scan 230/297
+[PROCESS] MHC-II junction scan 240/297
+[PROCESS] MHC-II junction scan 250/297
+[PROCESS] MHC-II junction scan 260/297
+[PROCESS] MHC-II junction scan 270/297
+[PROCESS] MHC-II junction scan 280/297
+[PROCESS] MHC-II junction scan 290/297
+[PROCESS] MHC-II junction scan 297/297
+[INFO] MHC-II neoepitope flags (deep, EL rank<=10, beats >=1 real epitope binding that allele): 4022 rows across 1117 windows; 3033 have the binding core spanning the junction; 1757 beat ALL real epitopes at that allele. Shallow flags excluded: 4052.
+[SUCCESS] Phase4D_EpitopeProcessing_20260921_1842.csv: 31 rows
+[SUCCESS] Phase4D_CleavageProfile_20260921_1842.csv: 563 rows
+[SUCCESS] Phase4D_JunctionNeoepitopes_MHCI_20260921_1842.csv: 126 rows
+[SUCCESS] Phase4D_JunctionNeoepitopes_MHCII_20260921_1842.csv: 4022 rows
+[ACTION REQUIRED] Branch 'Phase4D_proteasomalProcessing (interpretation of liberation + neoepitope findings)' halted -- trigger #3: Step 4 found a junction neoepitope out-scoring a real epitope and/or an epitope predicted not liberated
+[ACTION REQUIRED] Details written to: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/HALT-FOR-OPUS.md

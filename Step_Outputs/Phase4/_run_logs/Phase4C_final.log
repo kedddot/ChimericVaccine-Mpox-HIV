@@ -1,0 +1,36 @@
+
+==========================================================================================
+              PHASE 4C -- TCR RECOGNITION (BigMHC-IM / PRIME / Calis ladder)              
+==========================================================================================
+[INFO] Dossier: Phase4A_EpitopeDossier_20260920_1855.csv
+[INFO] Binding affinity: Phase4B_BindingAffinity_20260920_1954.csv
+[INFO] 10 MHC-I construct epitopes (TCR-recognition ladder scope).
+[INFO] Reusing cached BigMHC-IM output: bigmhc_im_output__ea8d621e1a8bae4281ea00f4.csv
+[INFO] BigMHC-IM scored 10/10 epitopes (70 (peptide,allele) predictions).
+[INFO] PRIME + MixMHCpred available -- 19376 alleles in its reference panel.
+[INFO] PRIME scored 10/10 epitopes.
+[INFO] Reusing cached BigMHC-IM output: bigmhc_im_output__0c6f5f08590389fcb11374a1.csv
+
+------------------------------------------------------------------------------------------
+DIRECTION CHECKS (each tool's score vs Phase4B MHC-I percentile rank -- lower rank = better binder)
+  BigMHC-IM  (0-1, higher=more immunogenic) vs rank: r=-0.298 p=0.402 n=10 -- expect NEGATIVE; NOT distinguishable from zero at this n
+  PRIME %Rank (lower=better)                vs rank: r=+0.916 p=0.0002 n=10 -- expect POSITIVE
+  Calis score (higher=more immunogenic)     vs rank: r=+0.097 p=0.790 n=10 -- exploratory only, no prior
+  SAME-ALLELE determinism vs Phase1Db BigMHC_IM_Score (re-scored on Phase 1's own alleles): r=+1.0000 n=10 max|diff|=3.97e-07
+[SUCCESS] Observed signs match expectation for both trusted-direction tools.
+[INFO] BigMHC-IM and PRIME chose the SAME best allele for 3/10 epitopes -- their 'best' columns are not allele-matched.
+[WARNING] FLAG: NKRKRVIGL is the construct's worst on 4/4 signals: ['PRIME_PctRank', 'BigMHC_IM', 'Binding_Breadth', 'EL_Rank']
+
+------------------------------------------------------------------------------------------
+CROSS-REACTIVITY -- both layers, all 31 construct epitopes (disagreement #7)
+[INFO] Fresh exact-8mer screen vs Phase1Ec's own exact-match column: 31/31 agree.
+
+[SUCCESS] TCR recognition table written: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/StepC/Phase4C_TCRRecognition_MHCI_20260921_1949.csv
+[SUCCESS] Cross-reactivity table written: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/StepC/Phase4C_CrossReactivity_AllConstruct_20260921_1949.csv
+[SUCCESS] Direction-check table written: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/StepC/Phase4C_DirectionChecks_20260921_1949.csv
+[INFO] Methodology note written: /Volumes/Extended SSD/ChimericVaccine/Research/Step_Outputs/Phase4/StepC/METHODOLOGY_NOTE.md
+
+==========================================================================================
+[SUCCESS] Phase 4C complete.
+==========================================================================================
+

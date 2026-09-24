@@ -1,0 +1,26 @@
+Metric,Value
+Construct model residues,570
+Construct model pTM,0.17
+Adjuvant (first 45) mean pLDDT,87.2
+Adjuvant % residues pLDDT>=70,97.8
+Non-adjuvant residues,525
+Non-adjuvant mean pLDDT,27.2
+Non-adjuvant % residues pLDDT>=70,0.0
+Mean RSA charged/polar KREDQN (all 7 native folds),0.472
+Mean RSA buried-prone LIVFWC,0.296
+Spearman BepiPred mean vs native RSA (unique pool B-cell),0.1123
+... p-value,0.496
+... n,39
+Pool B-cell candidates,39
+Bcell_Tier recomputed matches,39
+"SEMA overlap recomputed matches (locatable, incl. construct duplicates)",49
+SEMA overlap mismatches,0
+Construct epitopes conservancy recompute matches,31
+Construct epitopes tested,31
+Native fold HIV_gp120: verdict / pTM / mean pLDDT / residues,DETERMINED / 0.89 / 84.7 / 470
+Native fold HIV_gp41: verdict / pTM / mean pLDDT / residues,UNDETERMINED / 0.39 / 66.1 / 352
+Native fold HIV_p17: verdict / pTM / mean pLDDT / residues,DETERMINED / 0.74 / 81.0 / 131
+Native fold HIV_p24: verdict / pTM / mean pLDDT / residues,DETERMINED / 0.69 / 86.9 / 231
+Native fold Mpox_A35R: verdict / pTM / mean pLDDT / residues,UNDETERMINED / 0.47 / 69.4 / 181
+Native fold Mpox_B5R: verdict / pTM / mean pLDDT / residues,UNDETERMINED / 0.43 / 75.5 / 317
+Native fold Mpox_L1R: verdict / pTM / mean pLDDT / residues,DETERMINED / 0.68 / 78.9 / 250

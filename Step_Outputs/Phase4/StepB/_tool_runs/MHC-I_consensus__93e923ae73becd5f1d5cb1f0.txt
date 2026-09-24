@@ -1,0 +1,4 @@
+Invalid allele name HLA-B*13:02 found.
+
+* Please go to the link below for more usage info:
+http://tools.iedb.org/main/html/tools_api.html

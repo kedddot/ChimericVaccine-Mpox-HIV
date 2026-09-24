@@ -1,0 +1,7 @@
+Check,Statistic,Value,P_Value,N,Interpretation
+BigMHC-IM best score vs Phase4B EL rank,Pearson r,-0.2984,0.4024,10,"expected negative; right sign, NOT distinguishable from zero"
+PRIME %Rank vs Phase4B EL rank,Pearson r,0.9159,0.0002,10,expected positive; meaningful
+Calis score (exploratory) vs Phase4B EL rank,Pearson r,0.0969,0.7899,10,no prior; exploratory only
+BigMHC-IM re-scored on Phase 1's own alleles vs Phase1Db stored,Pearson r,1.0,,10,same-allele determinism; max abs diff 3.97e-07
+BigMHC-IM vs PRIME chose the same best allele,count,3,,10,best-allele columns are NOT allele-matched
+Fresh exact-8mer screen vs Phase1Ec,agreement,31,,31,both cross-reactivity layers reproduce

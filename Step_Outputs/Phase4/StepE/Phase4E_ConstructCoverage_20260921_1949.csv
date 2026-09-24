@@ -1,0 +1,107 @@
+Level,Scope,Allele_Universe,Variant,Margin,N_Union_Alleles,Coverage_Pct,Per_Locus_Pct,Gap_vs_Raw_pp
+2/3 raw,CONSTRUCT (21 MHC epitopes),Phase1F,RAW,,96,100.0,A:75.99;B:98.96;C:98.18;DPB1:84.08;DQB1:95.25;DRB1:99.54,
+2/3 raw,CONSTRUCT (21 MHC epitopes),Phase4B,RAW,,76,100.0,A:60.31;B:89.37;C:70.19;DPB1:86.97;DQB1:96.00;DRB1:99.54,
+2/3 raw,MHC-I only (10),Phase1F,RAW,,65,99.9954,A:75.99;B:98.96;C:98.18,
+2/3 raw,MHC-I only (10),Phase4B,RAW,,43,98.7425,A:60.31;B:89.37;C:70.19,
+2/3 raw,MHC-II only (11),Phase1F,RAW,,31,99.9965,DPB1:84.08;DQB1:95.25;DRB1:99.54,
+2/3 raw,MHC-II only (11),Phase4B,RAW,,33,99.9976,DPB1:86.97;DQB1:96.00;DRB1:99.54,
+2/3 raw,HIV (10: 5 I + 5 II),Phase1F,RAW,,88,100.0,A:63.76;B:96.50;C:97.04;DPB1:84.08;DQB1:95.25;DRB1:99.54,
+2/3 raw,HIV (10: 5 I + 5 II),Phase4B,RAW,,53,99.9786,A:56.18;B:88.03;C:52.80;DPB1:31.28;DQB1:67.28;DRB1:96.16,
+2/3 raw,Mpox (11: 5 I + 6 II),Phase1F,RAW,,49,99.6361,A:54.44;B:76.19;C:53.49;DPB1:51.84;DQB1:75.89;DRB1:37.91,
+2/3 raw,Mpox (11: 5 I + 6 II),Phase4B,RAW,,55,99.9994,A:45.98;B:54.71;C:34.07;DPB1:86.97;DQB1:93.50;DRB1:99.54,
+2/3 raw,HIV MHC-I (5),Phase1F,RAW,,57,99.9625,A:63.76;B:96.50;C:97.04,
+2/3 raw,HIV MHC-I (5),Phase4B,RAW,,37,97.5238,A:56.18;B:88.03;C:52.80,
+2/3 raw,HIV MHC-II (5),Phase1F,RAW,,31,99.9965,DPB1:84.08;DQB1:95.25;DRB1:99.54,
+2/3 raw,HIV MHC-II (5),Phase4B,RAW,,16,99.1362,DPB1:31.28;DQB1:67.28;DRB1:96.16,
+2/3 raw,Mpox MHC-I (5),Phase1F,RAW,,35,94.9532,A:54.44;B:76.19;C:53.49,
+2/3 raw,Mpox MHC-I (5),Phase4B,RAW,,23,83.8669,A:45.98;B:54.71;C:34.07,
+2/3 raw,Mpox MHC-II (6),Phase1F,RAW,,14,92.79,DPB1:51.84;DQB1:75.89;DRB1:37.91,
+2/3 raw,Mpox MHC-II (6),Phase4B,RAW,,32,99.9961,DPB1:86.97;DQB1:93.50;DRB1:99.54,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,primary (Opus definition),1x,16,69.3616,A:43.00;B:9.75;C:22.03;DQB1:3.57;DRB1:20.79,30.6384
+2c uncontested (margin curve),MHC-I only (10),Phase4B,primary (Opus definition),1x,11,59.8891,A:43.00;B:9.75;C:22.03,38.8534
+2c uncontested (margin curve),MHC-II only (11),Phase4B,primary (Opus definition),1x,5,23.6159,DQB1:3.57;DRB1:20.79,76.3817
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,primary (Opus definition),1x,14,68.1098,A:43.00;B:9.75;C:22.03;DQB1:3.57;DRB1:17.55,31.8688
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,primary (Opus definition),1x,9,52.2079,A:37.43;DQB1:3.57;DRB1:20.79,47.7915
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,primary (Opus definition),1x,11,59.8891,A:43.00;B:9.75;C:22.03,37.6347
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,primary (Opus definition),1x,3,20.495,DQB1:3.57;DRB1:17.55,78.6412
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,primary (Opus definition),1x,4,37.4319,A:37.43,46.435
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,primary (Opus definition),1x,5,23.6159,DQB1:3.57;DRB1:20.79,76.3802
+2a population carrying >=1 contested allele,MHC-I,Phase4B,primary (Opus definition),1x,32,95.2421,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,primary (Opus definition),1x,28,99.9804,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,primary (Opus definition),2x,25,83.9113,A:53.49;B:12.58;C:22.03;DQB1:23.79;DRB1:33.41,16.0887
+2c uncontested (margin curve),MHC-I only (10),Phase4B,primary (Opus definition),2x,17,68.296,A:53.49;B:12.58;C:22.03,30.4465
+2c uncontested (margin curve),MHC-II only (11),Phase4B,primary (Opus definition),2x,8,49.2532,DQB1:23.79;DRB1:33.41,50.7444
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,primary (Opus definition),2x,20,76.0705,A:53.49;B:11.64;C:22.03;DQB1:3.57;DRB1:22.56,23.9081
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,primary (Opus definition),2x,16,69.5049,A:38.06;B:2.98;DQB1:23.79;DRB1:33.41,30.4945
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,primary (Opus definition),2x,16,67.9561,A:53.49;B:11.64;C:22.03,29.5677
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,primary (Opus definition),2x,4,25.3227,DQB1:3.57;DRB1:22.56,73.8135
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,primary (Opus definition),2x,8,39.9073,A:38.06;B:2.98,43.9596
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,primary (Opus definition),2x,8,49.2532,DQB1:23.79;DRB1:33.41,50.7429
+2a population carrying >=1 contested allele,MHC-I,Phase4B,primary (Opus definition),2x,26,93.9606,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,primary (Opus definition),2x,25,99.9115,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,primary (Opus definition),5x,42,99.8796,A:57.75;B:32.60;C:60.31;DQB1:91.00;DRB1:88.17,0.1204
+2c uncontested (margin curve),MHC-I only (10),Phase4B,primary (Opus definition),5x,27,88.697,A:57.75;B:32.60;C:60.31,10.0455
+2c uncontested (margin curve),MHC-II only (11),Phase4B,primary (Opus definition),5x,15,98.935,DQB1:91.00;DRB1:88.17,1.0626
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,primary (Opus definition),5x,31,98.9601,A:53.49;B:30.94;C:40.56;DQB1:67.28;DRB1:83.35,1.0185
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,primary (Opus definition),5x,28,99.4339,A:43.00;B:9.75;C:26.21;DQB1:87.40;DRB1:88.17,0.5655
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,primary (Opus definition),5x,22,80.9068,A:53.49;B:30.94;C:40.56,16.617
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,primary (Opus definition),5x,9,94.5536,DQB1:67.28;DRB1:83.35,4.5826
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,primary (Opus definition),5x,14,62.0399,A:43.00;B:9.75;C:26.21,21.827
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,primary (Opus definition),5x,14,98.5087,DQB1:87.40;DRB1:88.17,1.4874
+2a population carrying >=1 contested allele,MHC-I,Phase4B,primary (Opus definition),5x,16,79.4493,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,primary (Opus definition),5x,18,94.4668,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,primary (Opus definition),10x,51,99.9828,A:57.75;B:35.04;C:60.31;DPB1:62.91;DQB1:96.00;DRB1:89.37,0.0172
+2c uncontested (margin curve),MHC-I only (10),Phase4B,primary (Opus definition),10x,29,89.1062,A:57.75;B:35.04;C:60.31,9.6363
+2c uncontested (margin curve),MHC-II only (11),Phase4B,primary (Opus definition),10x,22,99.8423,DPB1:62.91;DQB1:96.00;DRB1:89.37,0.1553
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,primary (Opus definition),10x,34,99.0612,A:53.49;B:31.77;C:40.56;DQB1:67.28;DRB1:84.79,0.9174
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,primary (Opus definition),10x,37,99.9058,A:43.00;B:12.58;C:26.21;DPB1:62.91;DQB1:93.50;DRB1:89.37,0.0936
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,primary (Opus definition),10x,23,81.1358,A:53.49;B:31.77;C:40.56,16.388
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,primary (Opus definition),10x,11,95.0235,DQB1:67.28;DRB1:84.79,4.1127
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,primary (Opus definition),10x,16,63.2292,A:43.00;B:12.58;C:26.21,20.6377
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,primary (Opus definition),10x,21,99.7437,DPB1:62.91;DQB1:93.50;DRB1:89.37,0.2524
+2a population carrying >=1 contested allele,MHC-I,Phase4B,primary (Opus definition),10x,14,78.2104,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,primary (Opus definition),10x,11,68.8654,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,class I also requires IC50<=500nM,1x,25,82.0473,A:43.60;B:24.31;C:44.94;DQB1:3.57;DRB1:20.79,17.9527
+2c uncontested (margin curve),MHC-I only (10),Phase4B,class I also requires IC50<=500nM,1x,20,76.4968,A:43.60;B:24.31;C:44.94,22.2457
+2c uncontested (margin curve),MHC-II only (11),Phase4B,class I also requires IC50<=500nM,1x,5,23.6159,DQB1:3.57;DRB1:20.79,76.3817
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,class I also requires IC50<=500nM,1x,18,72.3066,A:43.60;B:20.79;C:22.03;DQB1:3.57;DRB1:17.55,27.672
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,class I also requires IC50<=500nM,1x,15,66.4733,A:38.06;B:3.96;C:26.21;DQB1:3.57;DRB1:20.79,33.5261
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,class I also requires IC50<=500nM,1x,15,65.1678,A:43.60;B:20.79;C:22.03,32.356
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,class I also requires IC50<=500nM,1x,3,20.495,DQB1:3.57;DRB1:17.55,78.6412
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,class I also requires IC50<=500nM,1x,10,56.1077,A:38.06;B:3.96;C:26.21,27.7592
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,class I also requires IC50<=500nM,1x,5,23.6159,DQB1:3.57;DRB1:20.79,76.3802
+2a population carrying >=1 contested allele,MHC-I,Phase4B,class I also requires IC50<=500nM,1x,23,89.6147,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,class I also requires IC50<=500nM,1x,28,99.9804,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,class I also requires IC50<=500nM,2x,32,90.3887,A:53.49;B:26.04;C:44.94;DQB1:23.79;DRB1:33.41,9.6113
+2c uncontested (margin curve),MHC-I only (10),Phase4B,class I also requires IC50<=500nM,2x,24,81.0603,A:53.49;B:26.04;C:44.94,17.6822
+2c uncontested (margin curve),MHC-II only (11),Phase4B,class I also requires IC50<=500nM,2x,8,49.2532,DQB1:23.79;DRB1:33.41,50.7444
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,class I also requires IC50<=500nM,2x,23,79.0278,A:53.49;B:22.56;C:22.03;DQB1:3.57;DRB1:22.56,20.9508
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,class I also requires IC50<=500nM,2x,20,78.1783,A:38.06;B:5.91;C:26.21;DQB1:23.79;DRB1:33.41,21.8211
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,class I also requires IC50<=500nM,2x,19,71.9162,A:53.49;B:22.56;C:22.03,25.6076
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,class I also requires IC50<=500nM,2x,4,25.3227,DQB1:3.57;DRB1:22.56,73.8135
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,class I also requires IC50<=500nM,2x,12,56.9989,A:38.06;B:5.91;C:26.21,26.868
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,class I also requires IC50<=500nM,2x,8,49.2532,DQB1:23.79;DRB1:33.41,50.7429
+2a population carrying >=1 contested allele,MHC-I,Phase4B,class I also requires IC50<=500nM,2x,19,87.3846,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,class I also requires IC50<=500nM,2x,25,99.9115,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,class I also requires IC50<=500nM,5x,44,99.8938,A:57.75;B:40.56;C:60.31;DQB1:91.00;DRB1:88.17,0.1062
+2c uncontested (margin curve),MHC-I only (10),Phase4B,class I also requires IC50<=500nM,5x,29,90.0318,A:57.75;B:40.56;C:60.31,8.7107
+2c uncontested (margin curve),MHC-II only (11),Phase4B,class I also requires IC50<=500nM,5x,15,98.935,DQB1:91.00;DRB1:88.17,1.0626
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,class I also requires IC50<=500nM,5x,32,99.0578,A:53.49;B:37.43;C:40.56;DQB1:67.28;DRB1:83.35,0.9208
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,class I also requires IC50<=500nM,5x,29,99.4457,A:43.00;B:11.64;C:26.21;DQB1:87.40;DRB1:88.17,0.5537
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,class I also requires IC50<=500nM,5x,23,82.7006,A:53.49;B:37.43;C:40.56,14.8232
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,class I also requires IC50<=500nM,5x,9,94.5536,DQB1:67.28;DRB1:83.35,4.5826
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,class I also requires IC50<=500nM,5x,15,62.8348,A:43.00;B:11.64;C:26.21,21.0321
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,class I also requires IC50<=500nM,5x,14,98.5087,DQB1:87.40;DRB1:88.17,1.4874
+2a population carrying >=1 contested allele,MHC-I,Phase4B,class I also requires IC50<=500nM,5x,14,75.1784,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,class I also requires IC50<=500nM,5x,18,94.4668,,
+2c uncontested (margin curve),CONSTRUCT (21 MHC epitopes),Phase4B,class I also requires IC50<=500nM,10x,52,99.9845,A:57.75;B:41.32;C:60.31;DPB1:62.91;DQB1:96.00;DRB1:89.37,0.0155
+2c uncontested (margin curve),MHC-I only (10),Phase4B,class I also requires IC50<=500nM,10x,30,90.1607,A:57.75;B:41.32;C:60.31,8.5818
+2c uncontested (margin curve),MHC-II only (11),Phase4B,class I also requires IC50<=500nM,10x,22,99.8423,DPB1:62.91;DQB1:96.00;DRB1:89.37,0.1553
+2c uncontested (margin curve),HIV (10: 5 I + 5 II),Phase4B,class I also requires IC50<=500nM,10x,35,99.15,A:53.49;B:38.22;C:40.56;DQB1:67.28;DRB1:84.79,0.8286
+2c uncontested (margin curve),Mpox (11: 5 I + 6 II),Phase4B,class I also requires IC50<=500nM,10x,37,99.9058,A:43.00;B:12.58;C:26.21;DPB1:62.91;DQB1:93.50;DRB1:89.37,0.0936
+2c uncontested (margin curve),HIV MHC-I (5),Phase4B,class I also requires IC50<=500nM,10x,24,82.9186,A:53.49;B:38.22;C:40.56,14.6052
+2c uncontested (margin curve),HIV MHC-II (5),Phase4B,class I also requires IC50<=500nM,10x,11,95.0235,DQB1:67.28;DRB1:84.79,4.1127
+2c uncontested (margin curve),Mpox MHC-I (5),Phase4B,class I also requires IC50<=500nM,10x,16,63.2292,A:43.00;B:12.58;C:26.21,20.6377
+2c uncontested (margin curve),Mpox MHC-II (6),Phase4B,class I also requires IC50<=500nM,10x,21,99.7437,DPB1:62.91;DQB1:93.50;DRB1:89.37,0.2524
+2a population carrying >=1 contested allele,MHC-I,Phase4B,class I also requires IC50<=500nM,10x,13,74.7292,,
+2a population carrying >=1 contested allele,MHC-II,Phase4B,class I also requires IC50<=500nM,10x,11,68.8654,,

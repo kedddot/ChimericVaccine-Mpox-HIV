@@ -1,0 +1,13 @@
+####################
+# Output from PRIME (v2.1)
+# Alleles: A2601, B0702, B0705, B1502, B1513, B1521, B1803, B3501, B3505, B3517, B4202, B5501, B5602, B5604, C0701, C1202
+# Affinity predictions: MixMHCpred (/Users/nek/mpoxhiv_ssd/ChimericVaccine/Research/external_tools/mixmhcpred/MixMHCpred)
+# Input file: /Users/nek/.mpoxhiv_phase4c_prime_io/prime_input__5855a4ea38d999d48ece92ab.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.1, please refer to:
+# Gfeller et al. Improved predictions of antigen presentation and TCR recognition with MixMHCpred2.2 and PRIME2.0 reveal potent SARS-CoV-2 CD8+ T-cell epitopes , Cell Systems (2023).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A2601	Score_A2601	%RankBinding_A2601	%Rank_B0702	Score_B0702	%RankBinding_B0702	%Rank_B0705	Score_B0705	%RankBinding_B0705	%Rank_B1502	Score_B1502	%RankBinding_B1502	%Rank_B1513	Score_B1513	%RankBinding_B1513	%Rank_B1521	Score_B1521	%RankBinding_B1521	%Rank_B1803	Score_B1803	%RankBinding_B1803	%Rank_B3501	Score_B3501	%RankBinding_B3501	%Rank_B3505	Score_B3505	%RankBinding_B3505	%Rank_B3517	Score_B3517	%RankBinding_B3517	%Rank_B4202	Score_B4202	%RankBinding_B4202	%Rank_B5501	Score_B5501	%RankBinding_B5501	%Rank_B5602	Score_B5602	%RankBinding_B5602	%Rank_B5604	Score_B5604	%RankBinding_B5604	%Rank_C0701	Score_C0701	%RankBinding_C0701	%Rank_C1202	Score_C1202	%RankBinding_C1202
+GPKEPFRDY	0.193	0.084734	0.178	B3505	13.915	0.004082	4.586	0.862	0.027491	1.220	0.683	0.032006	0.984	0.537	0.046153	0.562	5.360	0.007270	6.332	0.644	0.042343	0.645	16.574	0.002812	22.595	0.732	0.037130	0.790	0.193	0.084734	0.178	0.302	0.066554	0.294	1.693	0.018088	2.119	1.655	0.017967	2.137	1.837	0.018158	2.108	1.174	0.024739	1.408	4.839	0.008786	5.074	4.778	0.008584	5.214

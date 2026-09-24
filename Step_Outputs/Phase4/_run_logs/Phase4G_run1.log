@@ -1,0 +1,13 @@
+
+==========================================================================================
+             PHASE 4G -- INTEGRATED REPORT (synthesis; every number ledgered)             
+==========================================================================================
+[SUCCESS] Phase4G_Immunogenicity_Dossier_20260921_2019.csv: 31 rows x 153 columns
+Traceback (most recent call last):
+  File "/Volumes/Extended SSD/ChimericVaccine/Research/Phase 4/STEP G/Phase4G_integratedReport.py", line 630, in <module>
+    sys.exit(0 if main() else 1)
+                  ^^^^^^
+  File "/Volumes/Extended SSD/ChimericVaccine/Research/Phase 4/STEP G/Phase4G_integratedReport.py", line 487, in main
+    W(f"**Native-fold overlay.** The construct's own AlphaFold model is undetermined outside the adjuvant (pTM {fs['Construct model pTM']}; the {fs['Non-adjuvant residues']} non-adjuvant residues have mean pLDDT {fs['Non-adjuvant mean pLDDT']} "
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: not enough arguments for format string

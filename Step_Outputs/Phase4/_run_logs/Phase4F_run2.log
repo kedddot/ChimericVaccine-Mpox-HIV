@@ -1,0 +1,66 @@
+
+==========================================================================================
+                PHASE 4F -- B-CELL + CONSERVANCY (reuse; regression-gated)                
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+CONSERVANCY GATE -- per-target mean over ALL 30,268 candidates (Phase1Dc Raw_Full) vs published
+[INFO] The brief names Min_50pct, but that file holds only the >=50% survivors (1,238 rows) and cannot reproduce the published means; the gate is therefore run on Raw_Full, which is the full pool the published means describe.
+  HIV_gp120  n= 13251  published   4.54%  reproduced   4.54%  OK  (brief range 4.54-9.97%: in)
+  HIV_gp41   n=  7783  published   5.69%  reproduced   5.69%  OK  (brief range 4.54-9.97%: in)
+  HIV_p17    n=  3982  published   4.67%  reproduced   4.67%  OK  (brief range 4.54-9.97%: in)
+  HIV_p24    n=  3141  published   9.97%  reproduced   9.97%  OK  (brief range 4.54-9.97%: in)
+  Mpox_A35R  n=   657  published  37.80%  reproduced  37.80%  OK  (brief range 37.8-60.61%: in)
+  Mpox_B5R   n=   931  published  45.02%  reproduced  45.02%  OK  (brief range 37.8-60.61%: in)
+  Mpox_L1R   n=   523  published  60.61%  reproduced  60.61%  OK  (brief range 37.8-60.61%: in)
+  HIV per-target means span 4.54-9.97% (brief 4.54-9.97); Mpox 37.8-60.61% (brief 37.80-60.61).
+[SUCCESS] Conservancy gate PASSED: all 7 published per-target means reproduce exactly.
+[INFO] independent conservancy recompute (Phase 1C variant pools, exact substring): 31/31 of the 31 construct epitopes reproduce the stored value AND hit ratio.
+
+CONSERVANCY -- construct epitopes by pathogen (n stated; pool sizes are small, so values are coarse):
+  HIV   n=14  mean  75.48%  min  53.33%  max  96.67%  (variant pool sizes [30]; target-pool mean over all candidates 5.48%)
+  Mpox  n=17  mean  99.74%  min  95.65%  max 100.00%  (variant pool sizes [21, 23, 30]; target-pool mean over all candidates 46.63%)
+
+------------------------------------------------------------------------------------------
+B-CELL -- BepiPred (Phase I tiers, disagreement #3); tier recomputed with the imported classify_bcell_tier
+[INFO] Bcell_Tier recomputed for all 39 pool B-cell candidates: 39/39 match Phase 1Db.
+
+------------------------------------------------------------------------------------------
+SEMA-3D (reused, not re-run) + native-fold overlay (Phase 1De per-antigen folds)
+  sanity -- mean pLDDT from B-factors vs Phase 1De stored Mean_pLDDT (must agree; B-factor holds pLDDT):
+    HIV_gp120   84.7 vs  84.7  OK  (470 residues, 1 chain(s))
+    HIV_gp41    66.1 vs  66.1  OK  (352 residues, 1 chain(s))
+    HIV_p17     81.0 vs  81.0  OK  (131 residues, 1 chain(s))
+    HIV_p24     86.9 vs  86.9  OK  (231 residues, 1 chain(s))
+    Mpox_A35R   69.4 vs  69.4  OK  (181 residues, 1 chain(s))
+    Mpox_B5R    75.5 vs  75.5  OK  (317 residues, 1 chain(s))
+    Mpox_L1R    78.9 vs  78.9  OK  (250 residues, 1 chain(s))
+  sanity -- mean RSA: charged/polar (KREDQN) 0.47 vs buried-prone hydrophobic (LIVFWC) 0.30 (must be polar > hydrophobic): OK
+  construct model: 570 residues, pTM 0.17; adjuvant (first 45) mean pLDDT 87.2 (98% >=70); non-adjuvant mean pLDDT 27.2, 0.0% of 525 residues >=70
+[INFO] SEMA overlap recomputed from Phase 1De per-residue scores (cut ln4=1.3863): 49 locatable epitopes match, 0 mismatch (construct 10: 10/10 match).
+
+CONSTRUCT B-cell epitopes (n=10) -- HIV vs Mpox:
+  HIV   n= 4 | tiers {'Medium': 3, 'Deprioritized': 1} | methodology-High 1/4 | mean BepiPred 0.524 | SEMA {'NO': 4} | native fold located 4/4; mean RSA 0.37; mean native pLDDT 79.6; conservancy 66.7%
+  Mpox  n= 6 | tiers {'Deprioritized': 2, 'Medium': 3, 'High': 1} | methodology-High 3/6 | mean BepiPred 0.530 | SEMA {'NO': 6} | native fold located 6/6; mean RSA 0.34; mean native pLDDT 87.3; conservancy 100.0%
+
+POOL B-cell candidates (n=39, comparison) -- HIV vs Mpox:
+  HIV   n=16 | tiers {'Deprioritized': 2, 'Medium': 14} | methodology-High 3/16 | mean BepiPred 0.518 | SEMA {'NO': 16} | native fold located 16/16; mean RSA 0.39; mean native pLDDT 75.4; conservancy 73.8%
+  Mpox  n=23 | tiers {'Deprioritized': 12, 'High': 1, 'Medium': 10} | methodology-High 7/23 | mean BepiPred 0.517 | SEMA {'NO': 23} | native fold located 23/23; mean RSA 0.38; mean native pLDDT 82.2; conservancy 100.0%
+
+Per construct B-cell epitope (native-fold overlay; construct-model pLDDT shown for contrast):
+  peptide           target    tier           BepiPred SEMA% SEMA    RSA exp.frac nat.pLDDT constr.pLDDT  fold verdict
+  AATETYSGLTPEQKAY  Mpox_L1R  Deprioritized     0.470   6.2 NO     0.31     0.56      92.5         49.8  DETERMINED
+  ANASAQTKCDIEIGNF  Mpox_L1R  Medium            0.506   0.0 NO     0.35     0.56      90.6         37.1  DETERMINED
+  CQPLQLEHGSCQPVKE  Mpox_B5R  Medium            0.549   0.0 NO     0.37     0.69      87.4         23.3  UNDETERMINED
+  DHKESCNGLYYQGSCY  Mpox_A35R Deprioritized     0.507   0.0 NO     0.40     0.69      80.5         20.8  UNDETERMINED
+  EDTWGSDGNPITKTTS  Mpox_A35R High              0.607   6.2 NO     0.26     0.56      86.5         39.3  UNDETERMINED
+  EHGSCQPVKEKYSFGE  Mpox_B5R  Medium            0.542   0.0 NO     0.35     0.62      86.1         22.5  UNDETERMINED
+  EMMTACQGVGGPSHKA  HIV_p24   Medium            0.521  12.5 NO     0.35     0.69      72.8         21.9  DETERMINED
+  GGKLDAWEKIRLRPGG  HIV_p17   Medium            0.568  12.5 NO     0.37     0.69      89.5         40.1  DETERMINED
+  VWGIKQLQARVLAVER  HIV_gp41  Medium            0.519   0.0 NO     0.46     0.94      70.7         41.1  UNDETERMINED
+  WDQSLKPCVKLTPLCV  HIV_gp120 Deprioritized     0.488   0.0 NO     0.28     0.50      85.4         31.8  DETERMINED
+[SUCCESS] Phase4F_BcellDossier_20260921_1931.csv: 10 rows
+[SUCCESS] Phase4F_BcellPool_20260921_1931.csv: 39 rows
+[SUCCESS] Phase4F_Conservancy_20260921_1931.csv: 31 rows
+[SUCCESS] Phase4F_ConservancyGate_20260921_1931.csv: 7 rows
+[INFO] Methodology note written.

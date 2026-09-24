@@ -1,0 +1,13 @@
+####################
+# Output from PRIME (v2.1)
+# Alleles: A0201, A0207, A0211, A0224, A0236, B1301, C0102
+# Affinity predictions: MixMHCpred (/Users/nek/mpoxhiv_ssd/ChimericVaccine/Research/external_tools/mixmhcpred/MixMHCpred)
+# Input file: /Users/nek/.mpoxhiv_phase4c_prime_io/prime_input__6c91e304cbc21ec21e8d241f.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.1, please refer to:
+# Gfeller et al. Improved predictions of antigen presentation and TCR recognition with MixMHCpred2.2 and PRIME2.0 reveal potent SARS-CoV-2 CD8+ T-cell epitopes , Cell Systems (2023).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A0201	Score_A0201	%RankBinding_A0201	%Rank_A0207	Score_A0207	%RankBinding_A0207	%Rank_A0211	Score_A0211	%RankBinding_A0211	%Rank_A0224	Score_A0224	%RankBinding_A0224	%Rank_A0236	Score_A0236	%RankBinding_A0236	%Rank_B1301	Score_B1301	%RankBinding_B1301	%Rank_C0102	Score_C0102	%RankBinding_C0102
+TMGAASITL	0.278	0.073797	0.522	A0201	0.278	0.073797	0.522	1.052	0.035597	1.791	1.246	0.026427	2.720	0.645	0.040026	1.504	0.480	0.049536	1.074	1.770	0.018304	3.390	0.433	0.054127	0.511

@@ -1,0 +1,13 @@
+####################
+# Output from PRIME (v2.1)
+# Alleles: A2402, A2406, A2407, A2408, A2410, C1402
+# Affinity predictions: MixMHCpred (/Users/nek/mpoxhiv_ssd/ChimericVaccine/Research/external_tools/mixmhcpred/MixMHCpred)
+# Input file: /Users/nek/.mpoxhiv_phase4c_prime_io/prime_input__77f551cf798e1477911ad05a.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.1, please refer to:
+# Gfeller et al. Improved predictions of antigen presentation and TCR recognition with MixMHCpred2.2 and PRIME2.0 reveal potent SARS-CoV-2 CD8+ T-cell epitopes , Cell Systems (2023).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A2402	Score_A2402	%RankBinding_A2402	%Rank_A2406	Score_A2406	%RankBinding_A2406	%Rank_A2407	Score_A2407	%RankBinding_A2407	%Rank_A2408	Score_A2408	%RankBinding_A2408	%Rank_A2410	Score_A2410	%RankBinding_A2410	%Rank_C1402	Score_C1402	%RankBinding_C1402
+RFALNPGLL	0.282	0.073588	0.290	A2407	0.504	0.055282	0.498	0.587	0.048648	0.619	0.282	0.073588	0.290	1.184	0.030090	1.293	1.468	0.026472	1.545	1.476	0.023330	1.832
